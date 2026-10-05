@@ -46,7 +46,9 @@
 
   function render() {
     var query = (search.value || '').trim().toLowerCase();
-    var maxPower = data.entries.reduce(function (m, e) { return Math.max(m, e.power); }, 0) || 1;
+    // Full bar = the payload's barMax (hardest boss's difficulty); falls back
+    // to the top equipped value for older snapshots.
+    var barMax = data.barMax || data.entries.reduce(function (m, e) { return Math.max(m, e.equippedValue); }, 0) || 1;
     var bossName = {};
     data.bosses.forEach(function (b) { bossName[b.key] = b.name; });
 
@@ -56,7 +58,7 @@
     if (shown.length === 0) {
       var row = el('tr');
       var cell = el('td', 'muted', data.entries.length ? 'No players match that search.' : 'No one has defeated a boss or collected any materia yet - keep watching!');
-      cell.colSpan = 5;
+      cell.colSpan = 4;
       row.appendChild(cell);
       body.appendChild(row);
       return;
@@ -88,16 +90,14 @@
       progressCell.appendChild(progress);
       tr.appendChild(progressCell);
 
-      tr.appendChild(el('td', 'num', String(e.equippedValue)));
-
       var powerCell = el('td');
       var power = el('div', 'power');
       var bar = el('span', 'bar');
       var fill = el('span', 'fill');
-      fill.style.width = Math.max(2, Math.round((e.power / maxPower) * 100)) + '%';
+      fill.style.width = Math.min(100, Math.round((e.equippedValue / barMax) * 100)) + '%';
       bar.appendChild(fill);
       power.appendChild(bar);
-      power.appendChild(el('span', 'n', String(e.power)));
+      power.appendChild(el('span', 'n', String(e.equippedValue)));
       powerCell.appendChild(power);
       tr.appendChild(powerCell);
 
@@ -127,7 +127,7 @@
       body.textContent = '';
       var row = el('tr');
       var cell = el('td', 'muted', 'Could not load the standings right now. Try again in a minute.');
-      cell.colSpan = 5;
+      cell.colSpan = 4;
       row.appendChild(cell);
       body.appendChild(row);
     });

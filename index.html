@@ -4,144 +4,75 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nevdi's Materia Game</title>
-  <meta name="description" content="A Twitch chat game: earn XP by watching, roll Final Fantasy VII materia, and beat the bosses.">
+  <meta name="description" content="Just by watching the stream you earn XP. Spend it rolling for Final Fantasy VII materia, equip your best, and fight your way through the bosses — in order.">
   <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0a1a6e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap">
   <link rel="stylesheet" href="assets/style.css">
 </head>
-<body class="page-home">
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a class="brand" href="index.html"><span class="brand-orb" aria-hidden="true"></span>Nevdi's Materia Game</a>
-      <nav class="tabs" aria-label="Main">
-        <a href="index.html" class="active" aria-current="page">Overview</a>
-        <a href="readme.html">Readme</a>
-        <a href="hiscores.html">Hiscores</a>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <h1>Nevdi's Materia Game</h1>
+      <p class="lead">Just by watching the stream you earn XP. Spend it rolling for Final Fantasy VII materia, equip your best, and fight your way through the bosses — in order.</p>
+      <nav class="tabs" role="tablist" aria-label="Sections">
+        <a href="#overview" role="tab" id="tab-overview" aria-controls="panel-overview" aria-selected="true" data-tab="overview">Overview</a>
+        <a href="#guide" role="tab" id="tab-guide" aria-controls="panel-guide" aria-selected="false" data-tab="guide">Read the Guide</a>
+        <a href="#hiscores" role="tab" id="tab-hiscores" aria-controls="panel-hiscores" aria-selected="false" data-tab="hiscores">See the Hiscores</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="wrap">
-        <p class="eyebrow">A Twitch chat game</p>
-        <h1>Nevdi's Materia Game</h1>
-        <p class="lead">Just by watching the stream you earn XP. Spend it rolling for Final Fantasy VII materia, equip your best, and fight your way through the bosses &mdash; in order.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="readme.html">Read the guide</a>
-          <a class="button" href="hiscores.html">See the hiscores</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="wrap section">
+  <main class="wrap">
+  <section class="panel" id="panel-overview" role="tabpanel" aria-labelledby="tab-overview" data-panel="overview">
+    <section class="section">
       <h2>How it works</h2>
       <ol class="steps">
         <li><strong>Watch.</strong> Every minute you're in chat while the stream is live, you earn 1 XP. No typing needed.</li>
-        <li><strong>Roll.</strong> Spend XP in chat with <code>!rollmateria &lt;colour&gt;</code> to gamble for materia.</li>
+        <li><strong>Roll.</strong> Spend XP in chat with <code>!rollmateria &lt;colour&gt;</code> to roll for materia.</li>
         <li><strong>Equip.</strong> <code>!equip</code> your best materia into your weapon and armour slots. <code>!materia</code> shows your screen, ending with your Equipped Materia Value.</li>
         <li><strong>Upgrade.</strong> Merge 5 of a materia into its next tier with <code>!upgrade</code>, or <code>!salvage</code> spares back into XP.</li>
-        <li><strong>Fight.</strong> When the streamer opens a boss window, <code>!fight &lt;boss&gt;</code>. Your equipped value against the boss's difficulty is your chance to win.</li>
+        <li><strong>Fight.</strong> Players can open a boss window with 10,000 Channel Points or 500 Bits. When this window opens, <code>!fight &lt;boss&gt;</code>.</li>
       </ol>
     </section>
 
-    <section class="wrap section">
+    <section class="section">
       <h2>Four colours of materia</h2>
       <div class="grid four">
-      <div class="card color-card purple">
-        <div class="gem" aria-hidden="true"></div>
-        <h3>Purple <span class="muted">Independent</span></h3>
-        <p class="price">10 XP <span class="muted">per roll</span></p>
-        <p>Passive stat boosters and the odd surprise. The cheap way to start.</p>
-        <code>!rollmateria purple</code>
-      </div>
-      <div class="card color-card yellow">
-        <div class="gem" aria-hidden="true"></div>
-        <h3>Yellow <span class="muted">Command</span></h3>
-        <p class="price">30 XP <span class="muted">per roll</span></p>
-        <p>Special attacks and abilities for your weapon.</p>
-        <code>!rollmateria yellow</code>
-      </div>
-      <div class="card color-card green">
-        <div class="gem" aria-hidden="true"></div>
-        <h3>Green <span class="muted">Magic</span></h3>
-        <p class="price">40 XP <span class="muted">per roll</span></p>
-        <p>Spells that grow through upgrades - Fire, Ice, Bolt and beyond.</p>
-        <code>!rollmateria green</code>
-      </div>
-      <div class="card color-card red">
-        <div class="gem" aria-hidden="true"></div>
-        <h3>Red <span class="muted">Summon</span></h3>
-        <p class="price">100 XP <span class="muted">per roll</span></p>
-        <p>The big gambles. Somewhere in here is Knights of the Round.</p>
-        <code>!rollmateria red</code>
-      </div>
+        <div class="card color-card purple">
+          <div class="gem" aria-hidden="true"></div>
+          <h3>Purple <span class="muted">Independent</span></h3>
+          <p class="price">10 XP <span class="muted">per roll</span></p>
+          <p>Passive stat boosters and the odd surprise. The cheap way to start.</p>
+          <code>!rollmateria purple</code>
+        </div>
+        <div class="card color-card yellow">
+          <div class="gem" aria-hidden="true"></div>
+          <h3>Yellow <span class="muted">Command</span></h3>
+          <p class="price">30 XP <span class="muted">per roll</span></p>
+          <p>Special attacks and abilities for your weapon.</p>
+          <code>!rollmateria yellow</code>
+        </div>
+        <div class="card color-card green">
+          <div class="gem" aria-hidden="true"></div>
+          <h3>Green <span class="muted">Magic</span></h3>
+          <p class="price">40 XP <span class="muted">per roll</span></p>
+          <p>Spells that grow through upgrades - Fire, Ice, Bolt and beyond.</p>
+          <code>!rollmateria green</code>
+        </div>
+        <div class="card color-card red">
+          <div class="gem" aria-hidden="true"></div>
+          <h3>Red <span class="muted">Summon</span></h3>
+          <p class="price">100 XP <span class="muted">per roll</span></p>
+          <p>The big rolls. Somewhere in here is Knights of the Round.</p>
+          <code>!rollmateria red</code>
+        </div>
       </div>
     </section>
 
-    <section class="wrap section">
-      <h2>The bosses</h2>
-      <p class="muted">You must beat them in order. First wins pay XP equal to the boss's difficulty; replays pay a tenth.</p>
-      <ol class="boss-list">
-      <li class="card boss-card">
-        <span class="boss-num">1</span>
-        <div>
-          <h3>Guard Scorpion</h3>
-          <p class="muted">First win <strong>60 XP</strong> &middot; replays 6 XP</p>
-        </div>
-      </li>
-      <li class="card boss-card">
-        <span class="boss-num">2</span>
-        <div>
-          <h3>Air Buster</h3>
-          <p class="muted">First win <strong>90 XP</strong> &middot; replays 9 XP</p>
-        </div>
-      </li>
-      <li class="card boss-card">
-        <span class="boss-num">3</span>
-        <div>
-          <h3>Aps</h3>
-          <p class="muted">First win <strong>120 XP</strong> &middot; replays 12 XP &middot; drops <strong>Titan Bangle</strong></p>
-        </div>
-      </li>
-      <li class="card boss-card">
-        <span class="boss-num">4</span>
-        <div>
-          <h3>Reno</h3>
-          <p class="muted">First win <strong>275 XP</strong> &middot; replays 27 XP</p>
-        </div>
-      </li>
-      <li class="card boss-card">
-        <span class="boss-num">5</span>
-        <div>
-          <h3>Sample H0512</h3>
-          <p class="muted">First win <strong>315 XP</strong> &middot; replays 31 XP &middot; drops <strong>Carbon Bangle</strong></p>
-        </div>
-      </li>
-      <li class="card boss-card">
-        <span class="boss-num">6</span>
-        <div>
-          <h3>Gunner</h3>
-          <p class="muted">First win <strong>340 XP</strong> &middot; replays 34 XP</p>
-        </div>
-      </li>
-      <li class="card boss-card">
-        <span class="boss-num">7</span>
-        <div>
-          <h3>Rufus</h3>
-          <p class="muted">First win <strong>365 XP</strong> &middot; replays 36 XP</p>
-        </div>
-      </li>
-      <li class="card boss-card">
-        <span class="boss-num">8</span>
-        <div>
-          <h3>Motor Ball</h3>
-          <p class="muted">First win <strong>400 XP</strong> &middot; replays 40 XP &middot; drops <strong>Mythril Saber</strong></p>
-        </div>
-      </li>
-      </ol>
-    </section>
-
-    <section class="wrap section">
+    <section class="section">
       <h2>Chat commands at a glance</h2>
       <div class="table-wrap"><table>
         <thead><tr><th>Command</th><th>What it does</th></tr></thead>
@@ -152,14 +83,230 @@
           <tr><td><code>!equip</code> / <code>!unequip</code></td><td>Manage your slots</td></tr>
           <tr><td><code>!upgrade</code> / <code>!salvage</code></td><td>Merge 5 into the next tier, or break a spare down for XP</td></tr>
           <tr><td><code>!fight &lt;boss&gt;</code></td><td>Battle a boss when a fight window is open</td></tr>
-          <tr><td><code>!rank</code></td><td>Top of the leaderboard (full table on the <a href="hiscores.html">Hiscores</a> page)</td></tr>
+          <tr><td><code>!rank</code></td><td>Top of the leaderboard (full table on <a href="#hiscores" data-tab="hiscores">See the Hiscores</a>)</td></tr>
         </tbody>
       </table></div>
-      <p class="muted">Everything else, including the exact odds and values of every materia, is in the <a href="readme.html">Readme</a>.</p>
+      <p class="muted">The exact values of every materia, upgrades and bosses are in <a href="#guide" data-tab="guide">Read the Guide</a>.</p>
     </section>
+  </section>
+
+  <section class="panel" id="panel-guide" role="tabpanel" aria-labelledby="tab-guide" data-panel="guide">
+    <nav class="chips" aria-label="Jump to a section">
+        <button type="button" class="chip" data-scroll="g-materia">Materia</button>
+        <button type="button" class="chip" data-scroll="g-upgrade">Upgrading</button>
+        <button type="button" class="chip" data-scroll="g-salvage">Salvaging</button>
+        <button type="button" class="chip" data-scroll="g-equip">Equipping</button>
+        <button type="button" class="chip" data-scroll="g-pets">Pets</button>
+        <button type="button" class="chip" data-scroll="g-bosses">Boss fights</button>
+    </nav>
+    <section class="guide-section" id="g-materia">
+      <h2>Materia</h2>
+      <p class="muted">Roll with <code>!rollmateria &lt;colour&gt;</code>. <strong>Value</strong> is what a materia adds toward beating a boss; <strong>rarity</strong> is how hard it is to roll.</p>
+      <div class="materia-group purple">
+        <h3><span class="gem" aria-hidden="true"></span>Purple (Independent) - 10 XP per roll</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Materia</th><th>Rarity</th><th class="num">Value</th></tr></thead>
+          <tbody>
+<tr><td>Chocobo Lure</td><td>Rare</td><td class="num">35</td></tr>
+<tr><td>HP Plus</td><td>Common</td><td class="num">10</td></tr>
+<tr><td>Luck Plus</td><td>Uncommon</td><td class="num">20</td></tr>
+<tr><td>MP Plus</td><td>Uncommon</td><td class="num">20</td></tr>
+<tr><td>Speed Plus</td><td>Uncommon</td><td class="num">20</td></tr>
+<tr><td>Counter Attack</td><td>Uncommon</td><td class="num">20</td></tr>
+<tr><td>Cover</td><td>Common</td><td class="num">10</td></tr>
+<tr><td>Long Range</td><td>Common</td><td class="num">10</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+      <div class="materia-group yellow">
+        <h3><span class="gem" aria-hidden="true"></span>Yellow (Command) - 30 XP per roll</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Materia</th><th>Rarity</th><th class="num">Value</th></tr></thead>
+          <tbody>
+<tr><td>Sense</td><td>Common</td><td class="num">10</td></tr>
+<tr><td>Steal</td><td>Common</td><td class="num">10</td></tr>
+<tr><td>Deathblow</td><td>Uncommon</td><td class="num">20</td></tr>
+<tr><td>Enemy Skill</td><td>Epic</td><td class="num">55</td></tr>
+<tr><td>Double Cut</td><td>Epic</td><td class="num">55</td></tr>
+<tr><td>Master Command</td><td>Legendary</td><td class="num">80</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+      <div class="materia-group green">
+        <h3><span class="gem" aria-hidden="true"></span>Green (Magic) - 40 XP per roll</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Materia</th><th>Rarity</th><th class="num">Value</th></tr></thead>
+          <tbody>
+<tr><td>Fire</td><td>Common</td><td class="num">10</td></tr>
+<tr><td>Ice</td><td>Common</td><td class="num">10</td></tr>
+<tr><td>Bolt</td><td>Common</td><td class="num">10</td></tr>
+<tr><td>Earth</td><td>Uncommon</td><td class="num">20</td></tr>
+<tr><td>Comet</td><td>Rare</td><td class="num">35</td></tr>
+<tr><td>Gravity</td><td>Uncommon</td><td class="num">20</td></tr>
+<tr><td>Bio</td><td>Uncommon</td><td class="num">20</td></tr>
+<tr><td>Ultima</td><td>Legendary</td><td class="num">80</td></tr>
+<tr><td>Master Magic</td><td>Legendary</td><td class="num">80</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+      <div class="materia-group red">
+        <h3><span class="gem" aria-hidden="true"></span>Red (Summon) - 100 XP per roll</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Materia</th><th>Rarity</th><th class="num">Value</th></tr></thead>
+          <tbody>
+<tr><td>Choco/Mog</td><td>Uncommon</td><td class="num">20</td></tr>
+<tr><td>Shiva</td><td>Rare</td><td class="num">35</td></tr>
+<tr><td>Ifrit</td><td>Rare</td><td class="num">35</td></tr>
+<tr><td>Ramuh</td><td>Epic</td><td class="num">55</td></tr>
+<tr><td>Titan</td><td>Epic</td><td class="num">55</td></tr>
+<tr><td>Odin</td><td>Legendary</td><td class="num">80</td></tr>
+<tr><td>Bahamut</td><td>Legendary</td><td class="num">80</td></tr>
+<tr><td>Knights of the Round</td><td>Insane</td><td class="num">120</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </section>
+    <section class="guide-section" id="g-upgrade">
+      <h2>Upgrading materia</h2>
+      <p><code>!upgrade &lt;materia&gt;</code> merges 5 copies of a materia into one copy of its next tier. The upgraded tiers can't be rolled directly - merging is the only way to get them. Each step needs 5 of the tier before it, so reaching a third tier like Fire3 takes 25 Fire in total.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Upgrade path</th><th class="num">Start value</th><th class="num">Middle value</th><th class="num">End value</th></tr></thead>
+        <tbody>
+<tr><td>Fire → Fire2 → Fire3</td><td class="num">10</td><td class="num">50</td><td class="num">70</td></tr>
+<tr><td>Ice → Ice2 → Ice3</td><td class="num">10</td><td class="num">50</td><td class="num">70</td></tr>
+<tr><td>Bolt → Bolt2 → Bolt3</td><td class="num">10</td><td class="num">50</td><td class="num">70</td></tr>
+<tr><td>Gravity → Gravity2 → Gravity3</td><td class="num">20</td><td class="num">50</td><td class="num">70</td></tr>
+<tr><td>Bio → Bio2 → Bio3</td><td class="num">20</td><td class="num">50</td><td class="num">70</td></tr>
+<tr><td>Steal → Mug</td><td class="num">10</td><td class="num">-</td><td class="num">35</td></tr>
+<tr><td>Double Cut → 4x Cut</td><td class="num">55</td><td class="num">-</td><td class="num">80</td></tr>
+<tr><td>HP Plus → HP Max</td><td class="num">10</td><td class="num">-</td><td class="num">55</td></tr>
+<tr><td>Luck Plus → Luck Max</td><td class="num">20</td><td class="num">-</td><td class="num">55</td></tr>
+<tr><td>MP Plus → MP Max</td><td class="num">20</td><td class="num">-</td><td class="num">55</td></tr>
+<tr><td>Speed Plus → Speed Max</td><td class="num">20</td><td class="num">-</td><td class="num">55</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+    <section class="guide-section prose" id="g-salvage">
+      <h2>Salvaging materia</h2>
+<p><code>!salvage &lt;materia&gt;</code> breaks down <strong>one spare copy</strong> of a materia for XP, for clearing out duplicates you don't need. You get <strong>1/3 of its XP value, rounded down</strong>. A materia's XP value is what its color costs to roll:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Color</th><th>Roll cost</th><th>Salvage returns</th></tr></thead>
+<tbody>
+<tr><td>Purple</td><td>10 XP</td><td>3 XP</td></tr>
+<tr><td>Yellow</td><td>30 XP</td><td>10 XP</td></tr>
+<tr><td>Green</td><td>40 XP</td><td>13 XP</td></tr>
+<tr><td>Red</td><td>100 XP</td><td>33 XP</td></tr>
+</tbody>
+</table></div>
+<p>So <code>!salvage Ifrit</code> (Red) returns 33 XP. An upgrade-only tier (Fire2, HP Max, Mug, ...) is worth 5× the tier it's merged from - since that's what it took to make - so Fire2 returns 66 XP and Fire3 returns 333. Only copies that aren't in a loadout slot can be salvaged; it never un-equips anything (<code>!unequip</code> first if you want to break down an equipped one). One copy per command.</p>
+    </section>
+    <section class="guide-section prose" id="g-equip">
+      <h2>Equipping materia</h2>
+<p>Materia aren't consumed when equipped — same as the actual game, they're just slotted in. Each slot holds one materia; if you own 3x Fire, you can equip Fire into up to 3 different slots (any more and the bot will tell you you're out).</p>
+<p><code>!equip</code> fills the next open slot automatically — you don't pick a slot number, the bot does, in equipment order (weapon first, then bangle). You can equip several at once by separating names with commas:</p>
+<pre><code>!equip Fire, Ice, Knights of the Round</code></pre>
+<p>Each name is processed left to right, so this fills up to three empty slots in one command. If a name isn't something you currently have a spare copy of, you'll get back:</p>
+<pre><code>Error - You don't have that materia to equip.</code></pre>
+<p>Equipping multiple items in one command and only one fails still equips the rest — the reply lists each item's outcome. If your loadout is already full, <code>!unequip &lt;slot|materia&gt;</code> frees a slot first.</p>
+    </section>
+    <section class="guide-section prose" id="g-pets">
+      <h2>Pets</h2>
+<p>Chocobo Lure (Purple, Rare) isn't just a stat stick: while it's equipped, every time you receive XP from watching, you get a hidden 1-in-5000 roll at a <strong>Baby Chocobo</strong> pet. There's no sign of the roll in chat unless it hits, at which point the bot announces <code>&lt;user&gt; feels like they're being followed. Received Baby Chocobo!</code>. You can only own one, so once you have it the rolls stop. It shows up at the end of your <code>!materia</code> screen as <code>Pet: Baby Chocobo - Ultra Rare</code>. (Only passive watch-time XP counts - an admin <code>!give xp</code> doesn't roll.) At the default 1 XP per minute that's about 5000 minutes (~83 hours) of watching with the Lure equipped, on average.</p>
+    </section>
+    <section class="guide-section" id="g-bosses">
+      <h2>Boss fights</h2>
+      <p><code>!fight &lt;boss&gt;</code> &mdash; the bosses go from easiest to hardest, and you fight them in that order.</p>
+      <ol class="boss-grid">
+        <li class="card boss-card">
+          <span class="boss-num">1</span>
+          <img src="assets/bosses/guard-scorpion.webp" alt="Guard Scorpion" loading="lazy">
+          <h3>Guard Scorpion</h3>
+          <p class="muted">First win: <strong>60 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">2</span>
+          <img src="assets/bosses/air-buster.webp" alt="Air Buster" loading="lazy">
+          <h3>Air Buster</h3>
+          <p class="muted">First win: <strong>90 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">3</span>
+          <img src="assets/bosses/aps.webp" alt="Aps" loading="lazy">
+          <h3>Aps</h3>
+          <p class="muted">First win: <strong>120 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">4</span>
+          <img src="assets/bosses/reno.webp" alt="Reno" loading="lazy">
+          <h3>Reno</h3>
+          <p class="muted">First win: <strong>275 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">5</span>
+          <img src="assets/bosses/sample-h0512.webp" alt="Sample H0512" loading="lazy">
+          <h3>Sample H0512</h3>
+          <p class="muted">First win: <strong>315 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">6</span>
+          <img src="assets/bosses/gunner.webp" alt="Gunner" loading="lazy">
+          <h3>Gunner</h3>
+          <p class="muted">First win: <strong>340 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">7</span>
+          <img src="assets/bosses/rufus.webp" alt="Rufus" loading="lazy">
+          <h3>Rufus</h3>
+          <p class="muted">First win: <strong>365 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">8</span>
+          <img src="assets/bosses/motor-ball.webp" alt="Motor Ball" loading="lazy">
+          <h3>Motor Ball</h3>
+          <p class="muted">First win: <strong>400 XP</strong></p>
+        </li>
+      </ol>
+    </section>
+  </section>
+
+  <section class="panel" id="panel-hiscores" role="tabpanel" aria-labelledby="tab-hiscores" data-panel="hiscores">
+    <section class="section">
+      <h2>Hiscores</h2>
+      <p class="muted">Ranked by bosses defeated &mdash; a third boss kill always outranks better materia. Players on the same number of bosses are ordered by the strength of their collection.</p>
+
+      <div id="hs-banner" class="banner" hidden></div>
+      <div id="hs-stats" class="stat-row" aria-live="polite"></div>
+
+      <div class="toolbar">
+        <label class="search"><span class="sr-only">Find a player</span>
+          <input id="hs-search" type="search" placeholder="Find a player..." autocomplete="off">
+        </label>
+        <span id="hs-updated" class="muted"></span>
+      </div>
+
+      <div class="table-wrap">
+        <table class="hiscores" id="hs-table">
+          <thead>
+            <tr>
+              <th class="num">#</th>
+              <th>Player</th>
+              <th>Bosses defeated</th>
+              <th>Equipped Materia Power</th>
+            </tr>
+          </thead>
+          <tbody id="hs-body"><tr><td colspan="5" class="muted">Loading...</td></tr></tbody>
+        </table>
+      </div>
+      <p class="muted small">Equipped Materia Power is the combined value of the materia a player has equipped. A full bar is enough to beat any boss.</p>
+    </section>
+  </section>
   </main>
+
   <footer class="site-footer">
     <div class="wrap">Nevdi's Materia Game &middot; a Twitch chat game. Not affiliated with Square Enix; Final Fantasy VII is theirs.</div>
   </footer>
+
+  <script src="assets/site.js"></script>
+  <script src="assets/hiscores.js"></script>
 </body>
 </html>

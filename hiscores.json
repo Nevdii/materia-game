@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-10-05T02:03:39.487Z",
+  "updatedAt": "2026-10-05T02:26:27.830Z",
+  "barMax": 400,
   "bosses": [
     {
       "key": "guard-scorpion",
