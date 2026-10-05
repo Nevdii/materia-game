@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T03:35:36.364Z",
+  "updatedAt": "2026-10-05T03:45:36.359Z",
   "barMax": 400,
   "bosses": [
     {
@@ -204,8 +204,8 @@
       "name": "itslemountain",
       "bossesDefeated": 0,
       "defeated": [],
-      "power": 8,
-      "materiaCount": 5,
+      "power": 9,
+      "materiaCount": 6,
       "equippedValue": 55,
       "pets": []
     },
