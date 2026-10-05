@@ -7,6 +7,7 @@
   <meta name="description" content="Just by watching the stream you earn XP. Spend it rolling for Final Fantasy VII materia, equip your best, and fight your way through the bosses — in order.">
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#0a1a6e">
+  <meta name="robots" content="noindex, nofollow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap">
@@ -72,6 +73,61 @@
       </div>
     </section>
 
+    <section class="section" id="o-bosses">
+      <h2>Boss fights</h2>
+      <p><code>!fight &lt;boss&gt;</code> &mdash; the bosses go from easiest to hardest, and you fight them in that order.</p>
+      <ol class="boss-grid">
+        <li class="card boss-card">
+          <span class="boss-num">1</span>
+          <img src="assets/bosses/guard-scorpion.webp" alt="Guard Scorpion" loading="lazy">
+          <h3>Guard Scorpion</h3>
+          <p class="muted">First win: <strong>60 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">2</span>
+          <img src="assets/bosses/air-buster.webp" alt="Air Buster" loading="lazy">
+          <h3>Air Buster</h3>
+          <p class="muted">First win: <strong>90 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">3</span>
+          <img src="assets/bosses/aps.webp" alt="Aps" loading="lazy">
+          <h3>Aps</h3>
+          <p class="muted">First win: <strong>120 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">4</span>
+          <img src="assets/bosses/reno.webp" alt="Reno" loading="lazy">
+          <h3>Reno</h3>
+          <p class="muted">First win: <strong>275 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">5</span>
+          <img src="assets/bosses/sample-h0512.webp" alt="Sample H0512" loading="lazy">
+          <h3>Sample H0512</h3>
+          <p class="muted">First win: <strong>315 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">6</span>
+          <img src="assets/bosses/gunner.webp" alt="Gunner" loading="lazy">
+          <h3>Gunner</h3>
+          <p class="muted">First win: <strong>340 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">7</span>
+          <img src="assets/bosses/rufus.webp" alt="Rufus" loading="lazy">
+          <h3>Rufus</h3>
+          <p class="muted">First win: <strong>365 XP</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">8</span>
+          <img src="assets/bosses/motor-ball.webp" alt="Motor Ball" loading="lazy">
+          <h3>Motor Ball</h3>
+          <p class="muted">First win: <strong>400 XP</strong></p>
+        </li>
+      </ol>
+    </section>
+
     <section class="section">
       <h2>Chat commands at a glance</h2>
       <div class="table-wrap"><table>
@@ -83,6 +139,7 @@
           <tr><td><code>!equip</code> / <code>!unequip</code></td><td>Manage your slots</td></tr>
           <tr><td><code>!upgrade</code> / <code>!salvage</code></td><td>Merge 5 into the next tier, or break a spare down for XP</td></tr>
           <tr><td><code>!fight &lt;boss&gt;</code></td><td>Battle a boss when a fight window is open</td></tr>
+          <tr><td><code>!hide</code> / <code>!unhide</code></td><td>Leave the leaderboard and hiscores page, or come back</td></tr>
           <tr><td><code>!rank</code></td><td>Top of the leaderboard (full table on <a href="#hiscores" data-tab="hiscores">See the Hiscores</a>)</td></tr>
         </tbody>
       </table></div>
@@ -272,7 +329,7 @@
   <section class="panel" id="panel-hiscores" role="tabpanel" aria-labelledby="tab-hiscores" data-panel="hiscores">
     <section class="section">
       <h2>Hiscores</h2>
-      <p class="muted">Ranked by bosses defeated &mdash; a third boss kill always outranks better materia. Players on the same number of bosses are ordered by the strength of their collection.</p>
+      <p class="muted">Ranked by bosses defeated &mdash; a third boss kill always outranks better materia. Players on the same number of bosses are ordered by the strength of their collection. You appear here once you've equipped a materia.</p>
 
       <div id="hs-banner" class="banner" hidden></div>
       <div id="hs-stats" class="stat-row" aria-live="polite"></div>
@@ -303,7 +360,15 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">Nevdi's Materia Game &middot; a Twitch chat game. Not affiliated with Square Enix; Final Fantasy VII is theirs.</div>
+    <div class="wrap">
+      <details class="privacy">
+        <summary>Privacy</summary>
+        <p>The hiscores show your Twitch username, how many bosses you've defeated, the value of your equipped materia, and any pet you own. The bot also stores your Twitch username and ID, your XP, your materia and your fight results so the game can work.</p>
+        <p>You can leave the leaderboard and this page at any time by typing <code>!hide</code> in chat (<code>!unhide</code> brings you back). To have your data deleted, ask Nevdi in chat or on Twitch.</p>
+      </details>
+      <p>Nevdi's Materia Game is a fan-made Twitch chat game, not affiliated with or endorsed by Square Enix. Final Fantasy VII and its characters and artwork belong to Square Enix.</p>
+      <p class="credit">© SQUARE ENIX / CHARACTER DESIGN: TETSUYA NOMURA / LOGO ILLUSTRATION: © YOSHITAKA AMANO</p>
+    </div>
   </footer>
 
   <script src="assets/site.js"></script>

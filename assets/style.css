@@ -107,6 +107,12 @@ pre code { background: none; border: 0; padding: 0; font-size: .85rem; overflow-
 }
 .tabs a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 
+.site-footer p { margin: 8px auto; max-width: 720px; }
+.site-footer .credit { font-size: .75rem; letter-spacing: .02em; }
+.privacy { max-width: 720px; margin: 0 auto 14px; text-align: left; }
+.privacy summary { cursor: pointer; text-align: center; color: var(--label); font-weight: 700; }
+.privacy summary:hover { color: #fff; }
+.privacy p { margin: 10px 0; text-align: left; }
 .site-footer { margin-top: 64px; padding: 28px 0; border-top: 2px solid rgba(223, 231, 255, .35); color: var(--muted); font-size: .85rem; text-align: center; }
 
 /* ---------- sections / cards ---------- */

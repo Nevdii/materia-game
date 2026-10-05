@@ -57,7 +57,7 @@
 
     if (shown.length === 0) {
       var row = el('tr');
-      var cell = el('td', 'muted', data.entries.length ? 'No players match that search.' : 'No one has defeated a boss or collected any materia yet - keep watching!');
+      var cell = el('td', 'muted', data.entries.length ? 'No players match that search.' : 'No one is on the board yet - equip a materia with !equip to appear here!');
       cell.colSpan = 4;
       row.appendChild(cell);
       body.appendChild(row);

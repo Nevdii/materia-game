@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T02:26:27.830Z",
+  "updatedAt": "2026-10-05T02:34:38.733Z",
   "barMax": 400,
   "bosses": [
     {
@@ -201,16 +201,6 @@
     },
     {
       "rank": 13,
-      "name": "namjies",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "power": 15,
-      "materiaCount": 8,
-      "equippedValue": 0,
-      "pets": []
-    },
-    {
-      "rank": 14,
       "name": "itslemountain",
       "bossesDefeated": 0,
       "defeated": [],
@@ -220,7 +210,7 @@
       "pets": []
     },
     {
-      "rank": 15,
+      "rank": 14,
       "name": "nito_sm",
       "bossesDefeated": 0,
       "defeated": [],
@@ -230,23 +220,13 @@
       "pets": []
     },
     {
-      "rank": 16,
+      "rank": 15,
       "name": "tgderp",
       "bossesDefeated": 0,
       "defeated": [],
       "power": 1,
       "materiaCount": 1,
       "equippedValue": 10,
-      "pets": []
-    },
-    {
-      "rank": 17,
-      "name": "drockylizard",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "power": 1,
-      "materiaCount": 1,
-      "equippedValue": 0,
       "pets": []
     }
   ]
