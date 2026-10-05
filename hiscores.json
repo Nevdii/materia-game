@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T04:15:36.352Z",
+  "updatedAt": "2026-10-05T04:55:36.337Z",
   "barMax": 400,
   "bosses": [
     {
@@ -47,8 +47,8 @@
         "reno",
         "sample-h0512"
       ],
-      "power": 39,
-      "materiaCount": 25,
+      "power": 36,
+      "materiaCount": 22,
       "equippedValue": 135,
       "pets": []
     },
@@ -113,6 +113,19 @@
     },
     {
       "rank": 6,
+      "name": "uwuqueue",
+      "bossesDefeated": 2,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster"
+      ],
+      "power": 14,
+      "materiaCount": 8,
+      "equippedValue": 90,
+      "pets": []
+    },
+    {
+      "rank": 7,
       "name": "supersponge253",
       "bossesDefeated": 2,
       "defeated": [
@@ -122,19 +135,6 @@
       "power": 13,
       "materiaCount": 7,
       "equippedValue": 80,
-      "pets": []
-    },
-    {
-      "rank": 7,
-      "name": "uwuqueue",
-      "bossesDefeated": 2,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster"
-      ],
-      "power": 8,
-      "materiaCount": 3,
-      "equippedValue": 90,
       "pets": []
     },
     {
@@ -201,6 +201,16 @@
     },
     {
       "rank": 13,
+      "name": "namjies",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "power": 19,
+      "materiaCount": 9,
+      "equippedValue": 110,
+      "pets": []
+    },
+    {
+      "rank": 14,
       "name": "itslemountain",
       "bossesDefeated": 0,
       "defeated": [],
@@ -210,7 +220,7 @@
       "pets": []
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "lukefonfabre1",
       "bossesDefeated": 0,
       "defeated": [],
@@ -220,17 +230,17 @@
       "pets": []
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "dj_webb32",
       "bossesDefeated": 0,
       "defeated": [],
-      "power": 6,
-      "materiaCount": 2,
-      "equippedValue": 75,
+      "power": 7,
+      "materiaCount": 3,
+      "equippedValue": 85,
       "pets": []
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "kanzeon",
       "bossesDefeated": 0,
       "defeated": [],
@@ -240,17 +250,17 @@
       "pets": []
     },
     {
-      "rank": 17,
+      "rank": 18,
       "name": "nito_sm",
       "bossesDefeated": 0,
       "defeated": [],
-      "power": 2,
-      "materiaCount": 2,
-      "equippedValue": 10,
+      "power": 3,
+      "materiaCount": 3,
+      "equippedValue": 20,
       "pets": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "name": "tgderp",
       "bossesDefeated": 0,
       "defeated": [],
