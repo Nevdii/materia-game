@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T03:45:36.359Z",
+  "updatedAt": "2026-10-05T03:55:36.353Z",
   "barMax": 400,
   "bosses": [
     {
@@ -62,9 +62,9 @@
         "aps",
         "reno"
       ],
-      "power": 9,
-      "materiaCount": 4,
-      "equippedValue": 110,
+      "power": 12,
+      "materiaCount": 5,
+      "equippedValue": 135,
       "pets": []
     },
     {
@@ -211,6 +211,16 @@
     },
     {
       "rank": 14,
+      "name": "dj_webb32",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "power": 6,
+      "materiaCount": 2,
+      "equippedValue": 75,
+      "pets": []
+    },
+    {
+      "rank": 15,
       "name": "lukefonfabre1",
       "bossesDefeated": 0,
       "defeated": [],
@@ -220,7 +230,7 @@
       "pets": []
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "kanzeon",
       "bossesDefeated": 0,
       "defeated": [],
@@ -230,23 +240,13 @@
       "pets": []
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "nito_sm",
       "bossesDefeated": 0,
       "defeated": [],
       "power": 2,
       "materiaCount": 2,
       "equippedValue": 10,
-      "pets": []
-    },
-    {
-      "rank": 17,
-      "name": "dj_webb32",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "power": 2,
-      "materiaCount": 1,
-      "equippedValue": 20,
       "pets": []
     },
     {
