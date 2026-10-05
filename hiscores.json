@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T05:25:36.321Z",
+  "updatedAt": "2026-10-05T05:35:36.316Z",
   "barMax": 400,
   "bosses": [
     {
@@ -67,8 +67,8 @@
         "gunner",
         "rufus"
       ],
-      "power": 37,
-      "materiaCount": 17,
+      "power": 38,
+      "materiaCount": 18,
       "equippedValue": 280,
       "pets": []
     },
@@ -157,9 +157,9 @@
         "air-buster",
         "aps"
       ],
-      "power": 15,
-      "materiaCount": 5,
-      "equippedValue": 190,
+      "power": 18,
+      "materiaCount": 6,
+      "equippedValue": 205,
       "pets": []
     },
     {
@@ -209,8 +209,8 @@
         "guard-scorpion",
         "air-buster"
       ],
-      "power": 11,
-      "materiaCount": 6,
+      "power": 12,
+      "materiaCount": 7,
       "equippedValue": 95,
       "pets": []
     },
@@ -259,8 +259,8 @@
       "defeated": [
         "guard-scorpion"
       ],
-      "power": 6,
-      "materiaCount": 3,
+      "power": 8,
+      "materiaCount": 4,
       "equippedValue": 75,
       "pets": []
     },
