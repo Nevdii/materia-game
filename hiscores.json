@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T02:34:38.733Z",
+  "updatedAt": "2026-10-05T03:25:36.361Z",
   "barMax": 400,
   "bosses": [
     {
@@ -204,9 +204,9 @@
       "name": "itslemountain",
       "bossesDefeated": 0,
       "defeated": [],
-      "power": 5,
-      "materiaCount": 4,
-      "equippedValue": 40,
+      "power": 8,
+      "materiaCount": 5,
+      "equippedValue": 55,
       "pets": []
     },
     {
@@ -221,6 +221,16 @@
     },
     {
       "rank": 15,
+      "name": "dj_webb32",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "power": 2,
+      "materiaCount": 1,
+      "equippedValue": 20,
+      "pets": []
+    },
+    {
+      "rank": 16,
       "name": "tgderp",
       "bossesDefeated": 0,
       "defeated": [],
