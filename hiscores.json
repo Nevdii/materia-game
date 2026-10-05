@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T05:15:36.327Z",
+  "updatedAt": "2026-10-05T05:25:36.321Z",
   "barMax": 400,
   "bosses": [
     {
@@ -39,14 +39,15 @@
     {
       "rank": 1,
       "name": "jmop95",
-      "bossesDefeated": 6,
+      "bossesDefeated": 7,
       "defeated": [
         "guard-scorpion",
         "air-buster",
         "aps",
         "reno",
         "sample-h0512",
-        "gunner"
+        "gunner",
+        "rufus"
       ],
       "power": 48,
       "materiaCount": 26,
@@ -56,6 +57,24 @@
     {
       "rank": 2,
       "name": "cemorocks",
+      "bossesDefeated": 7,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus"
+      ],
+      "power": 37,
+      "materiaCount": 17,
+      "equippedValue": 280,
+      "pets": []
+    },
+    {
+      "rank": 3,
+      "name": "uwuqueue",
       "bossesDefeated": 6,
       "defeated": [
         "guard-scorpion",
@@ -65,24 +84,8 @@
         "sample-h0512",
         "gunner"
       ],
-      "power": 28,
-      "materiaCount": 9,
-      "equippedValue": 280,
-      "pets": []
-    },
-    {
-      "rank": 3,
-      "name": "uwuqueue",
-      "bossesDefeated": 5,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512"
-      ],
-      "power": 23,
-      "materiaCount": 6,
+      "power": 19,
+      "materiaCount": 5,
       "equippedValue": 255,
       "pets": []
     },
@@ -142,7 +145,7 @@
       ],
       "power": 34,
       "materiaCount": 16,
-      "equippedValue": 165,
+      "equippedValue": 200,
       "pets": []
     },
     {
@@ -161,6 +164,32 @@
     },
     {
       "rank": 9,
+      "name": "supersponge253",
+      "bossesDefeated": 2,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster"
+      ],
+      "power": 16,
+      "materiaCount": 8,
+      "equippedValue": 80,
+      "pets": []
+    },
+    {
+      "rank": 10,
+      "name": "9names",
+      "bossesDefeated": 2,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster"
+      ],
+      "power": 15,
+      "materiaCount": 7,
+      "equippedValue": 80,
+      "pets": []
+    },
+    {
+      "rank": 11,
       "name": "lukefonfabre1",
       "bossesDefeated": 2,
       "defeated": [
@@ -170,32 +199,6 @@
       "power": 14,
       "materiaCount": 4,
       "equippedValue": 170,
-      "pets": []
-    },
-    {
-      "rank": 10,
-      "name": "supersponge253",
-      "bossesDefeated": 2,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster"
-      ],
-      "power": 13,
-      "materiaCount": 7,
-      "equippedValue": 80,
-      "pets": []
-    },
-    {
-      "rank": 11,
-      "name": "9names",
-      "bossesDefeated": 2,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster"
-      ],
-      "power": 12,
-      "materiaCount": 6,
-      "equippedValue": 80,
       "pets": []
     },
     {
@@ -239,6 +242,30 @@
     },
     {
       "rank": 15,
+      "name": "itslemountain",
+      "bossesDefeated": 1,
+      "defeated": [
+        "guard-scorpion"
+      ],
+      "power": 15,
+      "materiaCount": 8,
+      "equippedValue": 65,
+      "pets": []
+    },
+    {
+      "rank": 16,
+      "name": "cipherdetective",
+      "bossesDefeated": 1,
+      "defeated": [
+        "guard-scorpion"
+      ],
+      "power": 6,
+      "materiaCount": 3,
+      "equippedValue": 75,
+      "pets": []
+    },
+    {
+      "rank": 17,
       "name": "dukasmink",
       "bossesDefeated": 1,
       "defeated": [
@@ -250,45 +277,25 @@
       "pets": []
     },
     {
-      "rank": 16,
+      "rank": 18,
       "name": "nito_sm",
       "bossesDefeated": 1,
       "defeated": [
         "guard-scorpion"
       ],
-      "power": 4,
-      "materiaCount": 4,
+      "power": 5,
+      "materiaCount": 5,
       "equippedValue": 20,
       "pets": []
     },
     {
-      "rank": 17,
-      "name": "itslemountain",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "power": 9,
-      "materiaCount": 6,
-      "equippedValue": 55,
-      "pets": []
-    },
-    {
-      "rank": 18,
+      "rank": 19,
       "name": "kanzeon",
       "bossesDefeated": 0,
       "defeated": [],
       "power": 5,
       "materiaCount": 1,
       "equippedValue": 80,
-      "pets": []
-    },
-    {
-      "rank": 19,
-      "name": "cipherdetective",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "power": 4,
-      "materiaCount": 1,
-      "equippedValue": 55,
       "pets": []
     },
     {
