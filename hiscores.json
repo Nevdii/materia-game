@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T03:25:36.361Z",
+  "updatedAt": "2026-10-05T03:35:36.364Z",
   "barMax": 400,
   "bosses": [
     {
@@ -211,6 +211,26 @@
     },
     {
       "rank": 14,
+      "name": "lukefonfabre1",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "power": 5,
+      "materiaCount": 1,
+      "equippedValue": 80,
+      "pets": []
+    },
+    {
+      "rank": 15,
+      "name": "kanzeon",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "power": 5,
+      "materiaCount": 1,
+      "equippedValue": 80,
+      "pets": []
+    },
+    {
+      "rank": 16,
       "name": "nito_sm",
       "bossesDefeated": 0,
       "defeated": [],
@@ -220,7 +240,7 @@
       "pets": []
     },
     {
-      "rank": 15,
+      "rank": 17,
       "name": "dj_webb32",
       "bossesDefeated": 0,
       "defeated": [],
@@ -230,7 +250,7 @@
       "pets": []
     },
     {
-      "rank": 16,
+      "rank": 18,
       "name": "tgderp",
       "bossesDefeated": 0,
       "defeated": [],
