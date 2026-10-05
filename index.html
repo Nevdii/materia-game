@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nevdi's Materia Game</title>
+  <meta name="description" content="A Twitch chat game: earn XP by watching, roll Final Fantasy VII materia, and beat the bosses.">
+  <meta name="color-scheme" content="dark">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="page-home">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html"><span class="brand-orb" aria-hidden="true"></span>Nevdi's Materia Game</a>
+      <nav class="tabs" aria-label="Main">
+        <a href="index.html" class="active" aria-current="page">Overview</a>
+        <a href="readme.html">Readme</a>
+        <a href="hiscores.html">Hiscores</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">A Twitch chat game</p>
+        <h1>Nevdi's Materia Game</h1>
+        <p class="lead">Just by watching the stream you earn XP. Spend it rolling for Final Fantasy VII materia, equip your best, and fight your way through the bosses &mdash; in order.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="readme.html">Read the guide</a>
+          <a class="button" href="hiscores.html">See the hiscores</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li><strong>Watch.</strong> Every minute you're in chat while the stream is live, you earn 1 XP. No typing needed.</li>
+        <li><strong>Roll.</strong> Spend XP in chat with <code>!rollmateria &lt;colour&gt;</code> to gamble for materia.</li>
+        <li><strong>Equip.</strong> <code>!equip</code> your best materia into your weapon and armour slots. <code>!materia</code> shows your screen, ending with your Equipped Materia Value.</li>
+        <li><strong>Upgrade.</strong> Merge 5 of a materia into its next tier with <code>!upgrade</code>, or <code>!salvage</code> spares back into XP.</li>
+        <li><strong>Fight.</strong> When the streamer opens a boss window, <code>!fight &lt;boss&gt;</code>. Your equipped value against the boss's difficulty is your chance to win.</li>
+      </ol>
+    </section>
+
+    <section class="wrap section">
+      <h2>Four colours of materia</h2>
+      <div class="grid four">
+      <div class="card color-card purple">
+        <div class="gem" aria-hidden="true"></div>
+        <h3>Purple <span class="muted">Independent</span></h3>
+        <p class="price">10 XP <span class="muted">per roll</span></p>
+        <p>Passive stat boosters and the odd surprise. The cheap way to start.</p>
+        <code>!rollmateria purple</code>
+      </div>
+      <div class="card color-card yellow">
+        <div class="gem" aria-hidden="true"></div>
+        <h3>Yellow <span class="muted">Command</span></h3>
+        <p class="price">30 XP <span class="muted">per roll</span></p>
+        <p>Special attacks and abilities for your weapon.</p>
+        <code>!rollmateria yellow</code>
+      </div>
+      <div class="card color-card green">
+        <div class="gem" aria-hidden="true"></div>
+        <h3>Green <span class="muted">Magic</span></h3>
+        <p class="price">40 XP <span class="muted">per roll</span></p>
+        <p>Spells that grow through upgrades - Fire, Ice, Bolt and beyond.</p>
+        <code>!rollmateria green</code>
+      </div>
+      <div class="card color-card red">
+        <div class="gem" aria-hidden="true"></div>
+        <h3>Red <span class="muted">Summon</span></h3>
+        <p class="price">100 XP <span class="muted">per roll</span></p>
+        <p>The big gambles. Somewhere in here is Knights of the Round.</p>
+        <code>!rollmateria red</code>
+      </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <h2>The bosses</h2>
+      <p class="muted">You must beat them in order. First wins pay XP equal to the boss's difficulty; replays pay a tenth.</p>
+      <ol class="boss-list">
+      <li class="card boss-card">
+        <span class="boss-num">1</span>
+        <div>
+          <h3>Guard Scorpion</h3>
+          <p class="muted">First win <strong>60 XP</strong> &middot; replays 6 XP</p>
+        </div>
+      </li>
+      <li class="card boss-card">
+        <span class="boss-num">2</span>
+        <div>
+          <h3>Air Buster</h3>
+          <p class="muted">First win <strong>90 XP</strong> &middot; replays 9 XP</p>
+        </div>
+      </li>
+      <li class="card boss-card">
+        <span class="boss-num">3</span>
+        <div>
+          <h3>Aps</h3>
+          <p class="muted">First win <strong>120 XP</strong> &middot; replays 12 XP &middot; drops <strong>Titan Bangle</strong></p>
+        </div>
+      </li>
+      <li class="card boss-card">
+        <span class="boss-num">4</span>
+        <div>
+          <h3>Reno</h3>
+          <p class="muted">First win <strong>275 XP</strong> &middot; replays 27 XP</p>
+        </div>
+      </li>
+      <li class="card boss-card">
+        <span class="boss-num">5</span>
+        <div>
+          <h3>Sample H0512</h3>
+          <p class="muted">First win <strong>315 XP</strong> &middot; replays 31 XP &middot; drops <strong>Carbon Bangle</strong></p>
+        </div>
+      </li>
+      <li class="card boss-card">
+        <span class="boss-num">6</span>
+        <div>
+          <h3>Gunner</h3>
+          <p class="muted">First win <strong>340 XP</strong> &middot; replays 34 XP</p>
+        </div>
+      </li>
+      <li class="card boss-card">
+        <span class="boss-num">7</span>
+        <div>
+          <h3>Rufus</h3>
+          <p class="muted">First win <strong>365 XP</strong> &middot; replays 36 XP</p>
+        </div>
+      </li>
+      <li class="card boss-card">
+        <span class="boss-num">8</span>
+        <div>
+          <h3>Motor Ball</h3>
+          <p class="muted">First win <strong>400 XP</strong> &middot; replays 40 XP &middot; drops <strong>Mythril Saber</strong></p>
+        </div>
+      </li>
+      </ol>
+    </section>
+
+    <section class="wrap section">
+      <h2>Chat commands at a glance</h2>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Command</th><th>What it does</th></tr></thead>
+        <tbody>
+          <tr><td><code>!xp</code></td><td>Your XP and what each colour costs to roll</td></tr>
+          <tr><td><code>!rollmateria &lt;colour&gt;</code></td><td>Roll purple, yellow, green or red</td></tr>
+          <tr><td><code>!materia</code></td><td>Your full screen: equipment, spare materia, Equipped Materia Value, pets</td></tr>
+          <tr><td><code>!equip</code> / <code>!unequip</code></td><td>Manage your slots</td></tr>
+          <tr><td><code>!upgrade</code> / <code>!salvage</code></td><td>Merge 5 into the next tier, or break a spare down for XP</td></tr>
+          <tr><td><code>!fight &lt;boss&gt;</code></td><td>Battle a boss when a fight window is open</td></tr>
+          <tr><td><code>!rank</code></td><td>Top of the leaderboard (full table on the <a href="hiscores.html">Hiscores</a> page)</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">Everything else, including the exact odds and values of every materia, is in the <a href="readme.html">Readme</a>.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">Nevdi's Materia Game &middot; a Twitch chat game. Not affiliated with Square Enix; Final Fantasy VII is theirs.</div>
+  </footer>
+</body>
+</html>

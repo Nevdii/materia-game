@@ -1,0 +1,128 @@
+{
+  "updatedAt": "2026-10-05T01:44:20.618Z",
+  "bosses": [
+    {
+      "key": "guard-scorpion",
+      "name": "Guard Scorpion"
+    },
+    {
+      "key": "air-buster",
+      "name": "Air Buster"
+    },
+    {
+      "key": "aps",
+      "name": "Aps"
+    },
+    {
+      "key": "reno",
+      "name": "Reno"
+    },
+    {
+      "key": "sample-h0512",
+      "name": "Sample H0512"
+    },
+    {
+      "key": "gunner",
+      "name": "Gunner"
+    },
+    {
+      "key": "rufus",
+      "name": "Rufus"
+    },
+    {
+      "key": "motor-ball",
+      "name": "Motor Ball"
+    }
+  ],
+  "entries": [
+    {
+      "rank": 1,
+      "name": "SampleCloud",
+      "bossesDefeated": 6,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner"
+      ],
+      "power": 412,
+      "materiaCount": 137,
+      "equippedValue": 320,
+      "pets": [
+        "Baby Chocobo"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "SampleTifa",
+      "bossesDefeated": 5,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512"
+      ],
+      "power": 388,
+      "materiaCount": 129,
+      "equippedValue": 285,
+      "pets": []
+    },
+    {
+      "rank": 3,
+      "name": "SampleBarret",
+      "bossesDefeated": 5,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512"
+      ],
+      "power": 301,
+      "materiaCount": 100,
+      "equippedValue": 240,
+      "pets": []
+    },
+    {
+      "rank": 4,
+      "name": "SampleAerith",
+      "bossesDefeated": 3,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps"
+      ],
+      "power": 260,
+      "materiaCount": 87,
+      "equippedValue": 150,
+      "pets": []
+    },
+    {
+      "rank": 5,
+      "name": "SampleCid",
+      "bossesDefeated": 2,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster"
+      ],
+      "power": 120,
+      "materiaCount": 40,
+      "equippedValue": 60,
+      "pets": []
+    },
+    {
+      "rank": 6,
+      "name": "SampleVincent",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "power": 48,
+      "materiaCount": 16,
+      "equippedValue": 30,
+      "pets": []
+    }
+  ],
+  "sample": true
+}
