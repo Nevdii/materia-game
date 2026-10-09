@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T04:11:56.925Z",
+  "updatedAt": "2026-10-09T04:21:56.899Z",
   "barMax": 400,
   "bosses": [
     {
@@ -120,8 +120,8 @@
         "reno",
         "sample-h0512"
       ],
-      "power": 45,
-      "materiaCount": 15,
+      "power": 47,
+      "materiaCount": 16,
       "equippedValue": 145,
       "pets": []
     },
