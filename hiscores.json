@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T04:01:56.934Z",
+  "updatedAt": "2026-10-09T04:11:56.925Z",
   "barMax": 400,
   "bosses": [
     {
@@ -207,8 +207,8 @@
         "air-buster",
         "aps"
       ],
-      "power": 12,
-      "materiaCount": 6,
+      "power": 15,
+      "materiaCount": 9,
       "equippedValue": 85,
       "pets": []
     },
@@ -322,6 +322,16 @@
     },
     {
       "rank": 21,
+      "name": "di_zz",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "power": 3,
+      "materiaCount": 2,
+      "equippedValue": 20,
+      "pets": []
+    },
+    {
+      "rank": 22,
       "name": "tgderp",
       "bossesDefeated": 0,
       "defeated": [],
