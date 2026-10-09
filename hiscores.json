@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T03:21:56.954Z",
+  "updatedAt": "2026-10-09T03:31:56.949Z",
   "barMax": 400,
   "bosses": [
     {
@@ -193,8 +193,8 @@
         "air-buster",
         "aps"
       ],
-      "power": 15,
-      "materiaCount": 8,
+      "power": 16,
+      "materiaCount": 9,
       "equippedValue": 95,
       "pets": []
     },
@@ -302,22 +302,22 @@
     },
     {
       "rank": 19,
+      "name": "kanzeon",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "power": 8,
+      "materiaCount": 4,
+      "equippedValue": 80,
+      "pets": []
+    },
+    {
+      "rank": 20,
       "name": "g0rg0nz",
       "bossesDefeated": 0,
       "defeated": [],
       "power": 8,
       "materiaCount": 3,
       "equippedValue": 35,
-      "pets": []
-    },
-    {
-      "rank": 20,
-      "name": "kanzeon",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "power": 5,
-      "materiaCount": 1,
-      "equippedValue": 80,
       "pets": []
     },
     {
