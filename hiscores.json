@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T03:41:56.940Z",
+  "updatedAt": "2026-10-09T03:51:56.941Z",
   "barMax": 400,
   "bosses": [
     {
@@ -88,8 +88,8 @@
         "rufus",
         "motor-ball"
       ],
-      "power": 15,
-      "materiaCount": 4,
+      "power": 16,
+      "materiaCount": 5,
       "equippedValue": 205,
       "pets": []
     },
