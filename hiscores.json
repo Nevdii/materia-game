@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T04:41:56.838Z",
+  "updatedAt": "2026-10-09T05:01:56.794Z",
   "barMax": 400,
   "bosses": [
     {
@@ -166,8 +166,8 @@
         "reno",
         "sample-h0512"
       ],
-      "power": 11,
-      "materiaCount": 7,
+      "power": 12,
+      "materiaCount": 8,
       "equippedValue": 85,
       "pets": []
     },
@@ -325,17 +325,17 @@
     },
     {
       "rank": 21,
-      "name": "drockylizard",
+      "name": "di_zz",
       "bossesDefeated": 0,
       "defeated": [],
-      "power": 3,
-      "materiaCount": 2,
-      "equippedValue": 20,
+      "power": 4,
+      "materiaCount": 3,
+      "equippedValue": 30,
       "pets": []
     },
     {
       "rank": 22,
-      "name": "di_zz",
+      "name": "drockylizard",
       "bossesDefeated": 0,
       "defeated": [],
       "power": 3,
