@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:01:56.794Z",
+  "updatedAt": "2026-10-09T05:31:56.747Z",
   "barMax": 400,
   "bosses": [
     {
@@ -291,18 +291,6 @@
     },
     {
       "rank": 18,
-      "name": "nito_sm",
-      "bossesDefeated": 1,
-      "defeated": [
-        "guard-scorpion"
-      ],
-      "power": 6,
-      "materiaCount": 6,
-      "equippedValue": 20,
-      "pets": []
-    },
-    {
-      "rank": 19,
       "name": "dukasmink",
       "bossesDefeated": 1,
       "defeated": [
@@ -311,6 +299,18 @@
       "power": 5,
       "materiaCount": 2,
       "equippedValue": 55,
+      "pets": []
+    },
+    {
+      "rank": 19,
+      "name": "nito_sm",
+      "bossesDefeated": 1,
+      "defeated": [
+        "guard-scorpion"
+      ],
+      "power": 4,
+      "materiaCount": 3,
+      "equippedValue": 60,
       "pets": []
     },
     {
@@ -328,8 +328,8 @@
       "name": "di_zz",
       "bossesDefeated": 0,
       "defeated": [],
-      "power": 4,
-      "materiaCount": 3,
+      "power": 5,
+      "materiaCount": 4,
       "equippedValue": 30,
       "pets": []
     },
