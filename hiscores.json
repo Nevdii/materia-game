@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:51:56.726Z",
+  "updatedAt": "2026-10-09T06:01:56.715Z",
   "barMax": 400,
   "bosses": [
     {
@@ -50,8 +50,8 @@
         "rufus",
         "motor-ball"
       ],
-      "power": 51,
-      "materiaCount": 20,
+      "power": 53,
+      "materiaCount": 21,
       "equippedValue": 375,
       "pets": []
     },
@@ -166,9 +166,9 @@
         "reno",
         "sample-h0512"
       ],
-      "power": 12,
-      "materiaCount": 8,
-      "equippedValue": 85,
+      "power": 11,
+      "materiaCount": 6,
+      "equippedValue": 125,
       "pets": []
     },
     {
@@ -221,9 +221,9 @@
         "guard-scorpion",
         "air-buster"
       ],
-      "power": 19,
-      "materiaCount": 9,
-      "equippedValue": 55,
+      "power": 23,
+      "materiaCount": 10,
+      "equippedValue": 100,
       "pets": []
     },
     {
@@ -247,8 +247,8 @@
         "guard-scorpion",
         "air-buster"
       ],
-      "power": 6,
-      "materiaCount": 2,
+      "power": 8,
+      "materiaCount": 3,
       "equippedValue": 75,
       "pets": []
     },
@@ -318,9 +318,9 @@
       "name": "g0rg0nz",
       "bossesDefeated": 0,
       "defeated": [],
-      "power": 12,
-      "materiaCount": 4,
-      "equippedValue": 90,
+      "power": 15,
+      "materiaCount": 5,
+      "equippedValue": 125,
       "pets": []
     },
     {
@@ -338,8 +338,8 @@
       "name": "drockylizard",
       "bossesDefeated": 0,
       "defeated": [],
-      "power": 3,
-      "materiaCount": 2,
+      "power": 4,
+      "materiaCount": 3,
       "equippedValue": 20,
       "pets": []
     },
