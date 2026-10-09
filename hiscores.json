@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T05:45:36.310Z",
+  "updatedAt": "2026-10-09T03:11:56.909Z",
   "barMax": 400,
   "bosses": [
     {
@@ -90,7 +90,7 @@
       ],
       "power": 26,
       "materiaCount": 6,
-      "equippedValue": 385,
+      "equippedValue": 170,
       "pets": []
     },
     {
@@ -106,7 +106,7 @@
       ],
       "power": 54,
       "materiaCount": 22,
-      "equippedValue": 245,
+      "equippedValue": 190,
       "pets": []
     },
     {
@@ -122,7 +122,7 @@
       ],
       "power": 45,
       "materiaCount": 15,
-      "equippedValue": 305,
+      "equippedValue": 145,
       "pets": []
     },
     {
@@ -137,7 +137,7 @@
       ],
       "power": 23,
       "materiaCount": 8,
-      "equippedValue": 205,
+      "equippedValue": 170,
       "pets": []
     },
     {
@@ -181,7 +181,7 @@
       ],
       "power": 18,
       "materiaCount": 8,
-      "equippedValue": 115,
+      "equippedValue": 80,
       "pets": []
     },
     {
@@ -222,7 +222,7 @@
       ],
       "power": 16,
       "materiaCount": 8,
-      "equippedValue": 80,
+      "equippedValue": 45,
       "pets": []
     },
     {
@@ -261,7 +261,7 @@
       ],
       "power": 3,
       "materiaCount": 3,
-      "equippedValue": 30,
+      "equippedValue": 10,
       "pets": []
     },
     {
@@ -297,7 +297,7 @@
       ],
       "power": 5,
       "materiaCount": 5,
-      "equippedValue": 20,
+      "equippedValue": 10,
       "pets": []
     },
     {

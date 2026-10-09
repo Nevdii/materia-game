@@ -136,7 +136,7 @@
           <tr><td><code>!xp</code></td><td>Your XP and what each colour costs to roll</td></tr>
           <tr><td><code>!rollmateria &lt;colour&gt;</code></td><td>Roll purple, yellow, green or red</td></tr>
           <tr><td><code>!materia</code></td><td>Your full screen: equipment, spare materia, Equipped Materia Value, pets</td></tr>
-          <tr><td><code>!equip</code> / <code>!unequip</code></td><td>Manage your slots</td></tr>
+          <tr><td><code>!equip</code> / <code>!unequip</code></td><td>Manage your slots (one of each materia can be equipped). <code>!unequip all</code> empties every slot</td></tr>
           <tr><td><code>!upgrade</code> / <code>!salvage</code></td><td>Merge 5 into the next tier, or break a spare down for XP</td></tr>
           <tr><td><code>!fight &lt;boss&gt;</code></td><td>Battle a boss when a fight window is open</td></tr>
           <tr><td><code>!hide</code> / <code>!unhide</code></td><td>Leave the leaderboard and hiscores page, or come back</td></tr>
@@ -259,12 +259,12 @@
     </section>
     <section class="guide-section prose" id="g-equip">
       <h2>Equipping materia</h2>
-<p>Materia aren't consumed when equipped — same as the actual game, they're just slotted in. Each slot holds one materia; if you own 3x Fire, you can equip Fire into up to 3 different slots (any more and the bot will tell you you're out).</p>
+<p>Materia aren't consumed when equipped — same as the actual game, they're just slotted in. Each slot holds one materia, and <strong>only one copy of each materia can be equipped at a time</strong>: you can wear one Bolt, one Bolt2 and one Bolt3 together, or one Ifrit and one Shiva, but never two Ifrits. Spare copies stay in your inventory for upgrading and salvaging. If you try to equip a duplicate, the bot tells you it's already equipped.</p>
 <p><code>!equip</code> fills the next open slot automatically — you don't pick a slot number, the bot does, in equipment order (weapon first, then bangle). You can equip several at once by separating names with commas:</p>
 <pre><code>!equip Fire, Ice, Knights of the Round</code></pre>
 <p>Each name is processed left to right, so this fills up to three empty slots in one command. If a name isn't something you currently have a spare copy of, you'll get back:</p>
 <pre><code>Error - You don't have that materia to equip.</code></pre>
-<p>Equipping multiple items in one command and only one fails still equips the rest — the reply lists each item's outcome. If your loadout is already full, <code>!unequip &lt;slot|materia&gt;</code> frees a slot first.</p>
+<p>Equipping multiple items in one command and only one fails still equips the rest — the reply lists each item's outcome. If your loadout is already full, <code>!unequip &lt;slot|materia&gt;</code> frees a slot first, or <code>!unequip all</code> empties every slot at once.</p>
     </section>
     <section class="guide-section prose" id="g-pets">
       <h2>Pets</h2>
