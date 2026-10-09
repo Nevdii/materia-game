@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T04:31:56.863Z",
+  "updatedAt": "2026-10-09T04:41:56.838Z",
   "barMax": 400,
   "bosses": [
     {
@@ -50,9 +50,9 @@
         "rufus",
         "motor-ball"
       ],
-      "power": 49,
-      "materiaCount": 18,
-      "equippedValue": 360,
+      "power": 50,
+      "materiaCount": 19,
+      "equippedValue": 375,
       "pets": []
     },
     {
@@ -105,9 +105,9 @@
         "sample-h0512",
         "gunner"
       ],
-      "power": 47,
-      "materiaCount": 16,
-      "equippedValue": 145,
+      "power": 57,
+      "materiaCount": 19,
+      "equippedValue": 235,
       "pets": []
     },
     {
@@ -143,21 +143,6 @@
     },
     {
       "rank": 7,
-      "name": "kragtik",
-      "bossesDefeated": 4,
-      "defeated": [
-        "guard-scorpion",
-        "aps",
-        "reno",
-        "sample-h0512"
-      ],
-      "power": 9,
-      "materiaCount": 6,
-      "equippedValue": 85,
-      "pets": []
-    },
-    {
-      "rank": 8,
       "name": "kinos_ttv",
       "bossesDefeated": 4,
       "defeated": [
@@ -166,9 +151,24 @@
         "aps",
         "reno"
       ],
-      "power": 8,
-      "materiaCount": 3,
-      "equippedValue": 100,
+      "power": 12,
+      "materiaCount": 4,
+      "equippedValue": 155,
+      "pets": []
+    },
+    {
+      "rank": 8,
+      "name": "kragtik",
+      "bossesDefeated": 4,
+      "defeated": [
+        "guard-scorpion",
+        "aps",
+        "reno",
+        "sample-h0512"
+      ],
+      "power": 11,
+      "materiaCount": 7,
+      "equippedValue": 85,
       "pets": []
     },
     {
@@ -208,8 +208,8 @@
         "air-buster",
         "aps"
       ],
-      "power": 15,
-      "materiaCount": 9,
+      "power": 16,
+      "materiaCount": 10,
       "equippedValue": 85,
       "pets": []
     },
@@ -223,7 +223,7 @@
       ],
       "power": 19,
       "materiaCount": 9,
-      "equippedValue": 65,
+      "equippedValue": 55,
       "pets": []
     },
     {
@@ -291,6 +291,18 @@
     },
     {
       "rank": 18,
+      "name": "nito_sm",
+      "bossesDefeated": 1,
+      "defeated": [
+        "guard-scorpion"
+      ],
+      "power": 6,
+      "materiaCount": 6,
+      "equippedValue": 20,
+      "pets": []
+    },
+    {
+      "rank": 19,
       "name": "dukasmink",
       "bossesDefeated": 1,
       "defeated": [
@@ -302,25 +314,13 @@
       "pets": []
     },
     {
-      "rank": 19,
-      "name": "nito_sm",
-      "bossesDefeated": 1,
-      "defeated": [
-        "guard-scorpion"
-      ],
-      "power": 5,
-      "materiaCount": 5,
-      "equippedValue": 20,
-      "pets": []
-    },
-    {
       "rank": 20,
       "name": "g0rg0nz",
       "bossesDefeated": 0,
       "defeated": [],
-      "power": 8,
-      "materiaCount": 3,
-      "equippedValue": 35,
+      "power": 12,
+      "materiaCount": 4,
+      "equippedValue": 90,
       "pets": []
     },
     {
