@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T03:51:56.941Z",
+  "updatedAt": "2026-10-09T04:01:56.934Z",
   "barMax": 400,
   "bosses": [
     {
@@ -52,7 +52,7 @@
       ],
       "power": 50,
       "materiaCount": 20,
-      "equippedValue": 305,
+      "equippedValue": 360,
       "pets": []
     },
     {
@@ -193,8 +193,8 @@
         "air-buster",
         "aps"
       ],
-      "power": 16,
-      "materiaCount": 9,
+      "power": 17,
+      "materiaCount": 10,
       "equippedValue": 95,
       "pets": []
     },
