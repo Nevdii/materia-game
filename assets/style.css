@@ -214,27 +214,22 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   border-radius: 999px; padding: 1px 8px; text-shadow: none;
 }
 .progress { display: flex; align-items: center; gap: 12px; }
-.pips { display: flex; gap: 3px; }
-.pip { width: 12px; height: 18px; border-radius: 3px; background: rgba(2, 7, 51, .8); border: 1px solid var(--edge-inner); }
+.pips { display: grid; grid-template-columns: repeat(9, 12px); gap: 4px 3px; }
+.pip { width: 12px; height: 16px; border-radius: 3px; background: rgba(2, 7, 51, .8); border: 1px solid var(--edge-inner); }
 .pip.special { border-color: #c9a7ff; }
 .pip.on { background: linear-gradient(180deg, #ffffff, #8fe4ff); border-color: #fff; box-shadow: 0 0 8px rgba(143, 228, 255, .8); }
 .progress .count { font-variant-numeric: tabular-nums; font-weight: 800; min-width: 3.2em; }
-.power { display: flex; align-items: center; gap: 10px; min-width: 230px; }
-.power .bar { flex: 1; height: 10px; background: rgba(2, 7, 51, .85); border-radius: 5px; overflow: hidden; border: 1px solid var(--edge-inner); }
-.power .bar { position: relative; }
-.power .fill { position: relative; z-index: 1; display: block; height: 100%; background: var(--gauge); border-radius: 0 4px 4px 0; }
-/* Deathblow's min-max span: a faint band behind the average fill. */
-.power .range { position: absolute; top: 0; bottom: 0; background: rgba(255, 255, 255, .28); }
-.power .n { font-variant-numeric: tabular-nums; min-width: 3em; text-align: right; font-weight: 800; }
+.power-value { font-variant-numeric: tabular-nums; font-weight: 800; font-size: 1.05rem; }
+.power-cell { text-align: center; }
 
 /* The loadout under a player's name, like the FF7 materia menu: cyan "Wpn."/"Arm."
    label, the gear name, then the sockets. Slots that share a .joined link are a
    linked pair (a bar runs between the two orbs). */
 .loadout { margin-top: 6px; display: grid; gap: 3px; }
-.gear { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: .82rem; line-height: 1.2; }
+.gear { display: flex; align-items: center; flex-wrap: nowrap; white-space: nowrap; gap: 8px; font-weight: 700; font-size: .82rem; line-height: 1.2; }
 .gear-label { color: var(--label); min-width: 2.6em; }
 .gear-name { min-width: 7.2em; }
-.sockets { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.sockets { display: inline-flex; align-items: center; gap: 8px; flex-wrap: nowrap; }
 .link { display: inline-flex; align-items: center; gap: 3px; padding: 2px; border-radius: 999px; }
 .link.joined { background: rgba(2, 7, 51, .85); border: 1px solid var(--edge-inner); padding: 1px 3px; gap: 2px; }
 .orb {
@@ -249,9 +244,9 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .orb.empty  { background: rgba(2, 7, 51, .85); box-shadow: inset 0 0 0 1px var(--edge-inner); }
 
 /* Current Boss column: the next boss each player has to beat. */
-.current-boss { display: flex; align-items: center; gap: 10px; min-width: 150px; }
+.current-boss { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 110px; text-align: center; }
 .current-boss img { width: 72px; height: 54px; object-fit: contain; flex: none; }
-.current-boss-name { font-weight: 800; font-size: .85rem; line-height: 1.2; }
+.current-boss-name { font-weight: 800; font-size: .8rem; line-height: 1.2; }
 .current-boss-name.cleared { color: var(--yellow); }
 
 /* ---------- small screens ---------- */
@@ -259,23 +254,18 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .hero { padding-top: 36px; }
   .tabs a { padding: 10px 16px 10px 32px; }
   .tabs a[aria-selected="true"]::before { left: 12px; }
-  .power { min-width: 120px; }
-  .pips { display: none; }
   th { white-space: normal; letter-spacing: .02em; font-size: .7rem; }
   .pet { font-size: .66rem; padding: 0 6px; }
-  .power { min-width: 0; flex-direction: column-reverse; align-items: stretch; gap: 3px; }
-  .power .bar { flex: none; width: 100%; min-width: 70px; }
-  .power .n { text-align: left; min-width: 0; }
   .progress .count { min-width: 0; }
   th, td { padding: 10px 8px; }
   .hiscores .rank { width: 1%; }
   .player { font-size: .92rem; }
-  .current-boss { min-width: 0; flex-direction: column; align-items: flex-start; gap: 2px; }
+  .current-boss { min-width: 0; }
   .current-boss img { width: 56px; height: 42px; }
   .current-boss-name { font-size: .7rem; }
-  .gear { font-size: .74rem; gap: 2px 6px; flex-wrap: wrap; }
-  .gear-name { min-width: 0; flex: 1; }
-  .sockets { flex-basis: 100%; flex-wrap: nowrap; gap: 6px; padding-left: 2.2em; }
+  .gear { font-size: .74rem; gap: 6px; }
+  .gear-name { min-width: 0; }
+  .sockets { gap: 6px; }
   .orb { width: 14px; height: 14px; }
   .boss-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .boss-card img { height: 130px; }

@@ -69,9 +69,6 @@
 
   function render() {
     var query = (search.value || '').trim().toLowerCase();
-    // Full bar = the payload's barMax (hardest boss's difficulty); falls back
-    // to the top equipped value for older snapshots.
-    var barMax = data.barMax || data.entries.reduce(function (m, e) { return Math.max(m, e.equippedValue); }, 0) || 1;
     var bossName = {};
     data.bosses.forEach(function (b) { bossName[b.key] = b.name; });
 
@@ -118,26 +115,13 @@
       progressCell.appendChild(progress);
       tr.appendChild(progressCell);
 
-      var powerCell = el('td');
-      var power = el('div', 'power');
-      var bar = el('span', 'bar');
-      var pct = function (v) { return Math.min(100, Math.round((v / barMax) * 100)); };
+      // Equipped Materia Power: a flat number (with Deathblow it's the average;
+      // hovering shows the range a fight can actually use).
+      var powerCell = el('td', 'power-cell');
+      var power = el('span', 'power-value', String(e.equippedValue));
       var lo = e.equippedMin === undefined ? e.equippedValue : e.equippedMin;
       var hi = e.equippedMax === undefined ? e.equippedValue : e.equippedMax;
-      if (hi > lo) {
-        // Deathblow is rolled each fight: the bar fills to the AVERAGE, and a
-        // faint band behind it shows the full range a fight can use.
-        var band = el('span', 'range');
-        band.style.left = pct(lo) + '%';
-        band.style.width = Math.max(1, pct(hi) - pct(lo)) + '%';
-        bar.appendChild(band);
-        bar.title = 'Average ' + e.equippedValue + ' (a fight can use ' + lo + '-' + hi + ')';
-      }
-      var fill = el('span', 'fill');
-      fill.style.width = pct(e.equippedValue) + '%';
-      bar.appendChild(fill);
-      power.appendChild(bar);
-      power.appendChild(el('span', 'n', String(e.equippedValue)));
+      if (hi > lo) power.title = 'Average ' + e.equippedValue + ' (a fight can use ' + lo + '-' + hi + ')';
       powerCell.appendChild(power);
       tr.appendChild(powerCell);
 
