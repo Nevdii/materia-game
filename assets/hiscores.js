@@ -27,6 +27,29 @@
     return Math.round(hours / 24) + ' days ago';
   }
 
+  // One piece of gear, FF7-menu style: "Wpn. Buster Sword" then its slots as
+  // orbs in the order the player filled them. Slots are linked in pairs (an
+  // even count is all joined pairs; an odd count leaves the last one on its
+  // own), like the in-game materia sockets.
+  function renderGear(gear) {
+    var row = el('div', 'gear');
+    row.appendChild(el('span', 'gear-label', gear.label));
+    row.appendChild(el('span', 'gear-name', gear.name));
+    var sockets = el('span', 'sockets');
+    for (var i = 0; i < gear.slots.length; i += 2) {
+      var group = gear.slots.slice(i, i + 2);
+      var link = el('span', group.length === 2 ? 'link joined' : 'link');
+      group.forEach(function (slot) {
+        var orb = el('span', slot ? 'orb ' + slot.color : 'orb empty');
+        orb.title = slot ? slot.name : 'Empty slot';
+        link.appendChild(orb);
+      });
+      sockets.appendChild(link);
+    }
+    row.appendChild(sockets);
+    return row;
+  }
+
   function renderStats() {
     stats.textContent = '';
     var entries = data.entries;
@@ -58,7 +81,7 @@
     if (shown.length === 0) {
       var row = el('tr');
       var cell = el('td', 'muted', data.entries.length ? 'No players match that search.' : 'No one is on the board yet - equip a materia with !equip to appear here!');
-      cell.colSpan = 4;
+      cell.colSpan = 5;
       row.appendChild(cell);
       body.appendChild(row);
       return;
@@ -73,6 +96,11 @@
       player.appendChild(el('span', null, e.name));
       (e.pets || []).forEach(function (pet) { player.appendChild(el('span', 'pet', pet)); });
       nameCell.appendChild(player);
+      if (e.loadout && e.loadout.length) {
+        var loadout = el('div', 'loadout');
+        e.loadout.forEach(function (gear) { loadout.appendChild(renderGear(gear)); });
+        nameCell.appendChild(loadout);
+      }
       tr.appendChild(nameCell);
 
       var progressCell = el('td');
@@ -113,6 +141,22 @@
       powerCell.appendChild(power);
       tr.appendChild(powerCell);
 
+      // Current Boss: the picture of whoever they're up to next.
+      var bossCell = el('td');
+      var current = el('div', 'current-boss');
+      if (e.currentBoss && bossName[e.currentBoss]) {
+        var img = el('img');
+        img.src = 'assets/bosses/' + e.currentBoss + '.webp';
+        img.alt = bossName[e.currentBoss];
+        img.loading = 'lazy';
+        current.appendChild(img);
+        current.appendChild(el('span', 'current-boss-name', bossName[e.currentBoss]));
+      } else {
+        current.appendChild(el('span', 'current-boss-name cleared', 'All bosses cleared'));
+      }
+      bossCell.appendChild(current);
+      tr.appendChild(bossCell);
+
       body.appendChild(tr);
     });
   }
@@ -139,7 +183,7 @@
       body.textContent = '';
       var row = el('tr');
       var cell = el('td', 'muted', 'Could not load the standings right now. Try again in a minute.');
-      cell.colSpan = 4;
+      cell.colSpan = 5;
       row.appendChild(cell);
       body.appendChild(row);
     });
