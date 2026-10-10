@@ -178,6 +178,11 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .boss-card { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 14px 14px 16px; }
 .boss-card img { height: 170px; width: 100%; object-fit: contain; margin: 6px 0 12px; filter: drop-shadow(0 6px 10px rgba(0, 0, 30, .7)); }
 .boss-card h3 { margin: 0; }
+.boss-card.special img { margin-top: 28px; height: 150px; }
+.boss-card.special { border-color: #c9a7ff; box-shadow: 0 0 14px rgba(180, 130, 255, .35); }
+.boss-num.special-tag { width: auto; padding: 0 9px; border-radius: 12px; background: #5b2a86; border-color: #e3ccff; letter-spacing: .04em; }
+.special-heading { margin: 26px 0 6px; }
+.boss-special-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 260px)); }
 .boss-card p { margin: 2px 0 0; }
 .boss-num {
   position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; border-radius: 8px; display: grid; place-items: center;
@@ -211,11 +216,15 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .progress { display: flex; align-items: center; gap: 12px; }
 .pips { display: flex; gap: 3px; }
 .pip { width: 12px; height: 18px; border-radius: 3px; background: rgba(2, 7, 51, .8); border: 1px solid var(--edge-inner); }
+.pip.special { border-color: #c9a7ff; }
 .pip.on { background: linear-gradient(180deg, #ffffff, #8fe4ff); border-color: #fff; box-shadow: 0 0 8px rgba(143, 228, 255, .8); }
 .progress .count { font-variant-numeric: tabular-nums; font-weight: 800; min-width: 3.2em; }
 .power { display: flex; align-items: center; gap: 10px; min-width: 230px; }
 .power .bar { flex: 1; height: 10px; background: rgba(2, 7, 51, .85); border-radius: 5px; overflow: hidden; border: 1px solid var(--edge-inner); }
-.power .fill { display: block; height: 100%; background: var(--gauge); border-radius: 0 4px 4px 0; }
+.power .bar { position: relative; }
+.power .fill { position: relative; z-index: 1; display: block; height: 100%; background: var(--gauge); border-radius: 0 4px 4px 0; }
+/* Deathblow's min-max span: a faint band behind the average fill. */
+.power .range { position: absolute; top: 0; bottom: 0; background: rgba(255, 255, 255, .28); }
 .power .n { font-variant-numeric: tabular-nums; min-width: 3em; text-align: right; font-weight: 800; }
 
 /* ---------- small screens ---------- */

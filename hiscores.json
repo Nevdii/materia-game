@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-09T06:11:56.703Z",
-  "barMax": 400,
+  "updatedAt": "2026-10-10T02:22:32.047Z",
+  "barMax": 640,
   "bosses": [
     {
       "key": "guard-scorpion",
@@ -33,6 +33,43 @@
     {
       "key": "motor-ball",
       "name": "Motor Ball"
+    },
+    {
+      "key": "bottomswell",
+      "name": "Bottomswell"
+    },
+    {
+      "key": "dyne",
+      "name": "Dyne"
+    },
+    {
+      "key": "rude",
+      "name": "Rude"
+    },
+    {
+      "key": "gi-nattak",
+      "name": "Gi Nattak"
+    },
+    {
+      "key": "materia-keeper",
+      "name": "Materia Keeper"
+    },
+    {
+      "key": "palmer",
+      "name": "Palmer"
+    },
+    {
+      "key": "red-dragon",
+      "name": "Red Dragon"
+    },
+    {
+      "key": "demons-gate",
+      "name": "Demon's Gate"
+    },
+    {
+      "key": "jenova-birth",
+      "name": "Jenova Birth",
+      "special": true
     }
   ],
   "entries": [
@@ -53,6 +90,8 @@
       "power": 54,
       "materiaCount": 22,
       "equippedValue": 375,
+      "equippedMin": 375,
+      "equippedMax": 375,
       "pets": []
     },
     {
@@ -72,6 +111,8 @@
       "power": 48,
       "materiaCount": 26,
       "equippedValue": 210,
+      "equippedMin": 210,
+      "equippedMax": 210,
       "pets": []
     },
     {
@@ -91,6 +132,8 @@
       "power": 16,
       "materiaCount": 5,
       "equippedValue": 205,
+      "equippedMin": 205,
+      "equippedMax": 205,
       "pets": []
     },
     {
@@ -108,6 +151,8 @@
       "power": 57,
       "materiaCount": 19,
       "equippedValue": 235,
+      "equippedMin": 235,
+      "equippedMax": 235,
       "pets": []
     },
     {
@@ -124,6 +169,8 @@
       "power": 54,
       "materiaCount": 22,
       "equippedValue": 190,
+      "equippedMin": 190,
+      "equippedMax": 190,
       "pets": []
     },
     {
@@ -139,7 +186,9 @@
       ],
       "power": 20,
       "materiaCount": 8,
-      "equippedValue": 155,
+      "equippedValue": 165,
+      "equippedMin": 165,
+      "equippedMax": 165,
       "pets": []
     },
     {
@@ -155,7 +204,9 @@
       ],
       "power": 11,
       "materiaCount": 6,
-      "equippedValue": 125,
+      "equippedValue": 135,
+      "equippedMin": 135,
+      "equippedMax": 135,
       "pets": []
     },
     {
@@ -171,6 +222,8 @@
       "power": 23,
       "materiaCount": 8,
       "equippedValue": 205,
+      "equippedMin": 205,
+      "equippedMax": 205,
       "pets": []
     },
     {
@@ -182,9 +235,11 @@
         "air-buster",
         "aps"
       ],
-      "power": 23,
-      "materiaCount": 10,
-      "equippedValue": 135,
+      "power": 25,
+      "materiaCount": 11,
+      "equippedValue": 145,
+      "equippedMin": 145,
+      "equippedMax": 145,
       "pets": []
     },
     {
@@ -199,6 +254,8 @@
       "power": 18,
       "materiaCount": 8,
       "equippedValue": 80,
+      "equippedMin": 80,
+      "equippedMax": 80,
       "pets": []
     },
     {
@@ -213,6 +270,8 @@
       "power": 17,
       "materiaCount": 10,
       "equippedValue": 95,
+      "equippedMin": 95,
+      "equippedMax": 95,
       "pets": []
     },
     {
@@ -224,9 +283,11 @@
         "air-buster",
         "aps"
       ],
-      "power": 16,
+      "power": 15,
       "materiaCount": 10,
-      "equippedValue": 85,
+      "equippedValue": 105,
+      "equippedMin": 105,
+      "equippedMax": 105,
       "pets": []
     },
     {
@@ -241,6 +302,8 @@
       "power": 10,
       "materiaCount": 4,
       "equippedValue": 75,
+      "equippedMin": 75,
+      "equippedMax": 75,
       "pets": []
     },
     {
@@ -254,6 +317,8 @@
       "power": 16,
       "materiaCount": 5,
       "equippedValue": 170,
+      "equippedMin": 170,
+      "equippedMax": 170,
       "pets": []
     },
     {
@@ -267,6 +332,8 @@
       "power": 3,
       "materiaCount": 3,
       "equippedValue": 10,
+      "equippedMin": 10,
+      "equippedMax": 10,
       "pets": []
     },
     {
@@ -279,6 +346,8 @@
       "power": 18,
       "materiaCount": 6,
       "equippedValue": 125,
+      "equippedMin": 125,
+      "equippedMax": 125,
       "pets": []
     },
     {
@@ -291,6 +360,8 @@
       "power": 15,
       "materiaCount": 8,
       "equippedValue": 65,
+      "equippedMin": 65,
+      "equippedMax": 65,
       "pets": []
     },
     {
@@ -303,6 +374,8 @@
       "power": 9,
       "materiaCount": 5,
       "equippedValue": 90,
+      "equippedMin": 90,
+      "equippedMax": 90,
       "pets": []
     },
     {
@@ -315,22 +388,12 @@
       "power": 5,
       "materiaCount": 2,
       "equippedValue": 55,
+      "equippedMin": 55,
+      "equippedMax": 55,
       "pets": []
     },
     {
       "rank": 20,
-      "name": "tamu_darknight",
-      "bossesDefeated": 1,
-      "defeated": [
-        "guard-scorpion"
-      ],
-      "power": 5,
-      "materiaCount": 3,
-      "equippedValue": 50,
-      "pets": []
-    },
-    {
-      "rank": 21,
       "name": "nito_sm",
       "bossesDefeated": 1,
       "defeated": [
@@ -339,6 +402,22 @@
       "power": 4,
       "materiaCount": 3,
       "equippedValue": 60,
+      "equippedMin": 60,
+      "equippedMax": 60,
+      "pets": []
+    },
+    {
+      "rank": 21,
+      "name": "tamu_darknight",
+      "bossesDefeated": 1,
+      "defeated": [
+        "guard-scorpion"
+      ],
+      "power": 4,
+      "materiaCount": 3,
+      "equippedValue": 40,
+      "equippedMin": 40,
+      "equippedMax": 40,
       "pets": []
     },
     {
@@ -349,6 +428,8 @@
       "power": 5,
       "materiaCount": 4,
       "equippedValue": 30,
+      "equippedMin": 30,
+      "equippedMax": 30,
       "pets": []
     },
     {
@@ -356,9 +437,11 @@
       "name": "drockylizard",
       "bossesDefeated": 0,
       "defeated": [],
-      "power": 4,
+      "power": 3,
       "materiaCount": 3,
-      "equippedValue": 20,
+      "equippedValue": 10,
+      "equippedMin": 10,
+      "equippedMax": 10,
       "pets": []
     },
     {
@@ -369,6 +452,8 @@
       "power": 1,
       "materiaCount": 1,
       "equippedValue": 10,
+      "equippedMin": 10,
+      "equippedMax": 10,
       "pets": []
     }
   ]

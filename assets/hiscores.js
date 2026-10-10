@@ -81,7 +81,7 @@
       var defeated = {};
       (e.defeated || []).forEach(function (k) { defeated[k] = true; });
       data.bosses.forEach(function (b) {
-        var pip = el('span', defeated[b.key] ? 'pip on' : 'pip');
+        var pip = el('span', (defeated[b.key] ? 'pip on' : 'pip') + (b.special ? ' special' : ''));
         pip.title = b.name + (defeated[b.key] ? ' - defeated' : ' - not yet');
         pips.appendChild(pip);
       });
@@ -93,8 +93,20 @@
       var powerCell = el('td');
       var power = el('div', 'power');
       var bar = el('span', 'bar');
+      var pct = function (v) { return Math.min(100, Math.round((v / barMax) * 100)); };
+      var lo = e.equippedMin === undefined ? e.equippedValue : e.equippedMin;
+      var hi = e.equippedMax === undefined ? e.equippedValue : e.equippedMax;
+      if (hi > lo) {
+        // Deathblow is rolled each fight: the bar fills to the AVERAGE, and a
+        // faint band behind it shows the full range a fight can use.
+        var band = el('span', 'range');
+        band.style.left = pct(lo) + '%';
+        band.style.width = Math.max(1, pct(hi) - pct(lo)) + '%';
+        bar.appendChild(band);
+        bar.title = 'Average ' + e.equippedValue + ' (a fight can use ' + lo + '-' + hi + ')';
+      }
       var fill = el('span', 'fill');
-      fill.style.width = Math.min(100, Math.round((e.equippedValue / barMax) * 100)) + '%';
+      fill.style.width = pct(e.equippedValue) + '%';
       bar.appendChild(fill);
       power.appendChild(bar);
       power.appendChild(el('span', 'n', String(e.equippedValue)));
