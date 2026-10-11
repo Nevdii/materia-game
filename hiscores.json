@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T06:27:51.027Z",
+  "updatedAt": "2026-10-11T22:00:47.084Z",
   "pvpRange": 50,
   "barMax": 640,
   "bosses": [
@@ -97,9 +97,9 @@
       "currentBoss": "red-dragon",
       "power": 47,
       "materiaCount": 20,
-      "equippedValue": 455,
-      "equippedMin": 400,
-      "equippedMax": 510,
+      "equippedValue": 435,
+      "equippedMin": 390,
+      "equippedMax": 480,
       "pets": [],
       "loadout": [
         {
@@ -168,9 +168,9 @@
       "currentBoss": "palmer",
       "power": 102,
       "materiaCount": 50,
-      "equippedValue": 420,
-      "equippedMin": 365,
-      "equippedMax": 475,
+      "equippedValue": 400,
+      "equippedMin": 355,
+      "equippedMax": 445,
       "pets": [],
       "loadout": [
         {
@@ -313,9 +313,9 @@
       "currentBoss": "materia-keeper",
       "power": 79,
       "materiaCount": 50,
-      "equippedValue": 435,
-      "equippedMin": 380,
-      "equippedMax": 490,
+      "equippedValue": 415,
+      "equippedMin": 370,
+      "equippedMax": 460,
       "pets": [],
       "loadout": [
         {
@@ -509,9 +509,9 @@
       "currentBoss": "dyne",
       "power": 36,
       "materiaCount": 13,
-      "equippedValue": 320,
-      "equippedMin": 265,
-      "equippedMax": 375,
+      "equippedValue": 300,
+      "equippedMin": 255,
+      "equippedMax": 345,
       "pets": [],
       "loadout": [
         {
@@ -571,9 +571,9 @@
       "currentBoss": "bottomswell",
       "power": 41,
       "materiaCount": 21,
-      "equippedValue": 370,
-      "equippedMin": 315,
-      "equippedMax": 425,
+      "equippedValue": 350,
+      "equippedMin": 305,
+      "equippedMax": 395,
       "pets": [],
       "loadout": [
         {
@@ -745,9 +745,9 @@
       "currentBoss": "rufus",
       "power": 38,
       "materiaCount": 19,
-      "equippedValue": 210,
-      "equippedMin": 155,
-      "equippedMax": 265,
+      "equippedValue": 190,
+      "equippedMin": 145,
+      "equippedMax": 235,
       "pets": [],
       "loadout": [
         {
@@ -913,9 +913,9 @@
       "currentBoss": "rufus",
       "power": 21,
       "materiaCount": 11,
-      "equippedValue": 195,
-      "equippedMin": 140,
-      "equippedMax": 250,
+      "equippedValue": 175,
+      "equippedMin": 130,
+      "equippedMax": 220,
       "pets": [],
       "loadout": [
         {

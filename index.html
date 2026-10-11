@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap">
-  <link rel="stylesheet" href="assets/style.css?v=0.54.0">
+  <link rel="stylesheet" href="assets/style.css?v=0.60.0">
 </head>
 <body>
   <header class="hero">
@@ -23,6 +23,7 @@
         <a href="#guide" role="tab" id="tab-guide" aria-controls="panel-guide" aria-selected="false" data-tab="guide">Read the Guide</a>
         <a href="#hiscores" role="tab" id="tab-hiscores" aria-controls="panel-hiscores" aria-selected="false" data-tab="hiscores">See the Hiscores</a>
         <a href="#pvp" role="tab" id="tab-pvp" aria-controls="panel-pvp" aria-selected="false" data-tab="pvp">PVP</a>
+        <a href="#patchnotes" role="tab" id="tab-patchnotes" aria-controls="panel-patchnotes" aria-selected="false" data-tab="patchnotes">Patch Notes</a>
       </nav>
     </div>
   </header>
@@ -95,6 +96,7 @@
           <img src="assets/bosses/aps.webp" alt="Aps" loading="lazy">
           <h3>Aps</h3>
           <p class="muted">First win: <strong>120 XP</strong></p>
+          <p class="muted">Drops <strong>Titan Bangle</strong></p>
         </li>
         <li class="card boss-card">
           <span class="boss-num">4</span>
@@ -107,6 +109,7 @@
           <img src="assets/bosses/sample-h0512.webp" alt="Sample H0512" loading="lazy">
           <h3>Sample H0512</h3>
           <p class="muted">First win: <strong>210 XP</strong></p>
+          <p class="muted">Drops <strong>Carbon Bangle</strong></p>
         </li>
         <li class="card boss-card">
           <span class="boss-num">6</span>
@@ -125,6 +128,7 @@
           <img src="assets/bosses/motor-ball.webp" alt="Motor Ball" loading="lazy">
           <h3>Motor Ball</h3>
           <p class="muted">First win: <strong>330 XP</strong></p>
+          <p class="muted">Drops <strong>Mythril Saber</strong></p>
         </li>
         <li class="card boss-card">
           <span class="boss-num">9</span>
@@ -149,6 +153,7 @@
           <img src="assets/bosses/gi-nattak.webp" alt="Gi Nattak" loading="lazy">
           <h3>Gi Nattak</h3>
           <p class="muted">First win: <strong>490 XP</strong></p>
+          <p class="muted">Drops <strong>Butterfly Edge</strong></p>
         </li>
         <li class="card boss-card">
           <span class="boss-num">13</span>
@@ -173,10 +178,11 @@
           <img src="assets/bosses/demons-gate.webp" alt="Demon's Gate" loading="lazy">
           <h3>Demon's Gate</h3>
           <p class="muted">First win: <strong>640 XP</strong></p>
+          <p class="muted">Drops <strong>Diamond Bangle</strong></p>
         </li>
       </ol>
       <h3 class="special-heading">Special boss</h3>
-      <p><strong>Jenova Birth</strong> isn't in the fight window. Redeem <strong>Battle Jenova Birth</strong> with 5,000 Channel Points and the battle starts automatically &mdash; a one-on-one, just you, no command needed. You need at least 400 Materia Value or it's over instantly. Beat it and it drops <strong>Four Slots</strong>, a 4-slot armour.</p>
+      <p><strong>Jenova Birth</strong> isn't in the fight window. Redeem <strong>Battle Jenova Birth</strong> with 5,000 Channel Points and the battle starts automatically &mdash; a one-on-one, just you, no command needed. You need at least 400 Materia Value &mdash; if you're short, your points are refunded. Beat it and it drops <strong>Four Slots</strong>, a 4-slot armour.</p>
       <ul class="boss-grid boss-special-grid">
         <li class="card boss-card special">
           <span class="boss-num special-tag">Special</span>
@@ -218,10 +224,11 @@
         <button type="button" class="chip" data-scroll="g-equip">Equipping</button>
         <button type="button" class="chip" data-scroll="g-pets">Pets</button>
         <button type="button" class="chip" data-scroll="g-bosses">Boss fights</button>
+        <button type="button" class="chip" data-scroll="g-drops">Boss drops</button>
     </nav>
     <section class="guide-section" id="g-materia">
       <h2>Materia</h2>
-      <p class="muted">Roll with <code>!rollmateria &lt;colour&gt;</code>. <strong>Value</strong> is what a materia adds toward beating a boss; <strong>rarity</strong> is how hard it is to roll. Deathblow is the odd one out: like in the real game it's unreliable, so its value is rolled fresh between 10 and 120 every fight.</p>
+      <p class="muted">Roll with <code>!rollmateria &lt;colour&gt;</code>. <strong>Value</strong> is what a materia adds toward beating a boss; <strong>rarity</strong> is how hard it is to roll. Deathblow is the odd one out: like in the real game it's unreliable, so its value is rolled fresh between 0 and 90 every fight.</p>
       <div class="materia-group purple">
         <h3><span class="gem" aria-hidden="true"></span>Purple (Independent) - 10 XP per roll</h3>
         <div class="table-wrap"><table>
@@ -245,7 +252,7 @@
           <tbody>
 <tr><td>Sense</td><td>Common</td><td class="num">20</td></tr>
 <tr><td>Steal</td><td>Common</td><td class="num">20</td></tr>
-<tr><td>Deathblow</td><td>Uncommon</td><td class="num">10-120</td></tr>
+<tr><td>Deathblow</td><td>Uncommon</td><td class="num">0-90</td></tr>
 <tr><td>Enemy Skill</td><td>Epic</td><td class="num">55</td></tr>
 <tr><td>Double Cut</td><td>Epic</td><td class="num">55</td></tr>
 <tr><td>Master Command</td><td>Legendary</td><td class="num">80</td></tr>
@@ -319,7 +326,7 @@
 <tr><td>Red</td><td>100 XP</td><td>33 XP</td></tr>
 </tbody>
 </table></div>
-<p>So <code>!salvage Ifrit</code> (Red) returns 33 XP. An upgrade-only tier (Fire2, HP Max, Mug, ...) is worth as many copies of the tier it's merged from as it took to make it - so Fire2 (5 Fire) returns 66 XP and Fire3 (2 Fire2) returns 133. Only copies that aren't in a loadout slot can be salvaged; it never un-equips anything (<code>!unequip</code> first if you want to break down an equipped one). One copy per command.</p>
+<p>So <code>!salvage Ifrit</code> (Red) returns 33 XP. An upgrade-only tier (Fire2, HP Max, Mug, ...) is worth as many copies of the tier it's merged from as it took to make it - so Fire2 (5 Fire) returns 66 XP and Fire3 (2 Fire2) returns 133. Only copies that aren't in a loadout slot can be salvaged; it never un-equips anything (<code>!unequip</code> first if you want to break down an equipped one). Each name breaks down one copy, so to salvage several in one command separate them with commas and repeat a name for each copy: <code>!salvage Bolt, Bolt, Fire</code> salvages two Bolt and one Fire (up to 20 per command) and answers with a single summary line; anything it can't do (no spare copy, not a materia) is listed as skipped while the rest still goes through.</p>
     </section>
     <section class="guide-section prose" id="g-equip">
       <h2>Equipping materia</h2>
@@ -355,6 +362,7 @@
           <img src="assets/bosses/aps.webp" alt="Aps" loading="lazy">
           <h3>Aps</h3>
           <p class="muted">First win: <strong>120 XP</strong></p>
+          <p class="muted">Drops <strong>Titan Bangle</strong></p>
         </li>
         <li class="card boss-card">
           <span class="boss-num">4</span>
@@ -367,6 +375,7 @@
           <img src="assets/bosses/sample-h0512.webp" alt="Sample H0512" loading="lazy">
           <h3>Sample H0512</h3>
           <p class="muted">First win: <strong>210 XP</strong></p>
+          <p class="muted">Drops <strong>Carbon Bangle</strong></p>
         </li>
         <li class="card boss-card">
           <span class="boss-num">6</span>
@@ -385,6 +394,7 @@
           <img src="assets/bosses/motor-ball.webp" alt="Motor Ball" loading="lazy">
           <h3>Motor Ball</h3>
           <p class="muted">First win: <strong>330 XP</strong></p>
+          <p class="muted">Drops <strong>Mythril Saber</strong></p>
         </li>
         <li class="card boss-card">
           <span class="boss-num">9</span>
@@ -409,6 +419,7 @@
           <img src="assets/bosses/gi-nattak.webp" alt="Gi Nattak" loading="lazy">
           <h3>Gi Nattak</h3>
           <p class="muted">First win: <strong>490 XP</strong></p>
+          <p class="muted">Drops <strong>Butterfly Edge</strong></p>
         </li>
         <li class="card boss-card">
           <span class="boss-num">13</span>
@@ -433,10 +444,11 @@
           <img src="assets/bosses/demons-gate.webp" alt="Demon's Gate" loading="lazy">
           <h3>Demon's Gate</h3>
           <p class="muted">First win: <strong>640 XP</strong></p>
+          <p class="muted">Drops <strong>Diamond Bangle</strong></p>
         </li>
       </ol>
       <h3 class="special-heading">Special boss</h3>
-      <p><strong>Jenova Birth</strong> isn't in the fight window. Redeem <strong>Battle Jenova Birth</strong> with 5,000 Channel Points and the battle starts automatically &mdash; a one-on-one, just you, no command needed. You need at least 400 Materia Value or it's over instantly. Beat it and it drops <strong>Four Slots</strong>, a 4-slot armour.</p>
+      <p><strong>Jenova Birth</strong> isn't in the fight window. Redeem <strong>Battle Jenova Birth</strong> with 5,000 Channel Points and the battle starts automatically &mdash; a one-on-one, just you, no command needed. You need at least 400 Materia Value &mdash; if you're short, your points are refunded. Beat it and it drops <strong>Four Slots</strong>, a 4-slot armour.</p>
       <ul class="boss-grid boss-special-grid">
         <li class="card boss-card special">
           <span class="boss-num special-tag">Special</span>
@@ -446,6 +458,22 @@
           <p class="muted">Drops <strong>Four Slots</strong></p>
         </li>
       </ul>
+    </section>
+    <section class="guide-section prose" id="g-drops">
+      <h2>Boss drops</h2>
+      <p>Some bosses drop a piece of gear when you beat them. It <strong>replaces</strong> the one you have in the same category (weapon or armour) and gives you more materia slots straight away &mdash; there's no command for it, it just happens. Everyone starts with Buster Sword (2 slots) and Iron Bangle (1 slot).</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Boss</th><th>Drops</th><th>Type</th><th>Slots</th><th>Replaces</th></tr></thead>
+        <tbody>
+          <tr><td>Aps</td><td>Titan Bangle</td><td>Armour</td><td class="num">2</td><td>Iron Bangle</td></tr>
+          <tr><td>Sample H0512</td><td>Carbon Bangle</td><td>Armour</td><td class="num">3</td><td>Titan Bangle</td></tr>
+          <tr><td>Motor Ball</td><td>Mythril Saber</td><td>Weapon</td><td class="num">3</td><td>Buster Sword</td></tr>
+          <tr><td>Gi Nattak</td><td>Butterfly Edge</td><td>Weapon</td><td class="num">4</td><td>Mythril Saber</td></tr>
+          <tr><td>Demon's Gate</td><td>Diamond Bangle</td><td>Armour</td><td class="num">5</td><td>Four Slots</td></tr>
+          <tr><td>Jenova Birth</td><td>Four Slots</td><td>Armour</td><td class="num">4</td><td>Carbon Bangle</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">Gear is never downgraded: if you already own something as good or better, re-beating that boss changes nothing. Whatever materia you had equipped carries over, and the new slots start empty. Bosses not listed don't drop gear yet.</p>
     </section>
   </section>
 
@@ -513,6 +541,19 @@
       <p class="muted small">Ranked by honourable wins, then by honourable battles fought. A battle counts for both players, but only the winner gets the win.</p>
     </section>
   </section>
+
+  <section class="panel" id="panel-patchnotes" role="tabpanel" aria-labelledby="tab-patchnotes" data-panel="patchnotes">
+    <section class="section">
+      <h2>Patch Notes</h2>
+      <p class="muted">Changes to the game, newest first.</p>
+      <article class="patch-note">
+        <h3><time datetime="2026-10-11">11 October 2026</time></h3>
+        <ul>
+          <li>Deathblow now rolls between 0 and 90 each fight (it used to roll between 10 and 120). Its steady value, used on !materia and the Hiscores, is now 45 instead of 65.</li>
+        </ul>
+      </article>
+    </section>
+  </section>
   </main>
 
   <footer class="site-footer">
@@ -527,7 +568,7 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=0.54.0"></script>
-  <script src="assets/hiscores.js?v=0.54.0"></script>
+  <script src="assets/site.js?v=0.60.0"></script>
+  <script src="assets/hiscores.js?v=0.60.0"></script>
 </body>
 </html>

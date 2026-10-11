@@ -276,3 +276,9 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 #pvp-table th.num, #pvp-table td.num { text-align: center; width: 22%; font-variant-numeric: tabular-nums; }
 #pvp-table td.num { font-weight: 800; }
 @media (max-width: 560px) { #pvp-table th.num, #pvp-table td.num { width: 28%; } }
+
+/* Patch Notes tab */
+.patch-note { margin: 18px 0; padding: 14px 18px; border: 2px solid rgba(223, 231, 255, .45); border-radius: var(--radius); background: rgba(5, 15, 92, .45); }
+.patch-note h3 { margin: 0 0 8px; font-size: 1.1rem; font-weight: 800; color: var(--label); text-shadow: var(--shadow); }
+.patch-note ul { margin: 0; padding-left: 1.3em; }
+.patch-note li { margin: 6px 0; color: #eef2ff; }
