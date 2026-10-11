@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T04:57:51.100Z",
+  "updatedAt": "2026-10-11T05:07:51.089Z",
   "pvpRange": 50,
   "barMax": 640,
   "bosses": [
@@ -88,8 +88,8 @@
         "rufus"
       ],
       "currentBoss": "motor-ball",
-      "power": 39,
-      "materiaCount": 14,
+      "power": 34,
+      "materiaCount": 12,
       "equippedValue": 255,
       "equippedMin": 255,
       "equippedMax": 255,
@@ -256,9 +256,9 @@
       "currentBoss": "gunner",
       "power": 28,
       "materiaCount": 15,
-      "equippedValue": 190,
-      "equippedMin": 135,
-      "equippedMax": 245,
+      "equippedValue": 210,
+      "equippedMin": 155,
+      "equippedMax": 265,
       "pets": [],
       "loadout": [
         {
@@ -287,7 +287,10 @@
               "name": "Enemy Skill",
               "color": "yellow"
             },
-            null
+            {
+              "name": "Gravity",
+              "color": "green"
+            }
           ]
         }
       ],
@@ -454,8 +457,8 @@
         "air-buster"
       ],
       "currentBoss": "aps",
-      "power": 16,
-      "materiaCount": 9,
+      "power": 17,
+      "materiaCount": 10,
       "equippedValue": 110,
       "equippedMin": 110,
       "equippedMax": 110,
@@ -778,11 +781,11 @@
       "bossesDefeated": 0,
       "defeated": [],
       "currentBoss": "guard-scorpion",
-      "power": 2,
-      "materiaCount": 1,
-      "equippedValue": 20,
-      "equippedMin": 20,
-      "equippedMax": 20,
+      "power": 4,
+      "materiaCount": 2,
+      "equippedValue": 40,
+      "equippedMin": 40,
+      "equippedMax": 40,
       "pets": [],
       "loadout": [
         {
@@ -790,10 +793,13 @@
           "name": "Buster Sword",
           "slots": [
             {
-              "name": "Speed Plus",
+              "name": "Luck Plus",
               "color": "purple"
             },
-            null
+            {
+              "name": "Speed Plus",
+              "color": "purple"
+            }
           ]
         },
         {
