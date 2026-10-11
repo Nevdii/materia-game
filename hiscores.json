@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T03:47:51.164Z",
+  "updatedAt": "2026-10-11T03:57:51.159Z",
   "pvpRange": 50,
   "barMax": 640,
   "bosses": [
@@ -82,8 +82,8 @@
         "guard-scorpion"
       ],
       "currentBoss": "air-buster",
-      "power": 18,
-      "materiaCount": 9,
+      "power": 20,
+      "materiaCount": 11,
       "equippedValue": 110,
       "equippedMin": 110,
       "equippedMax": 110,
@@ -119,6 +119,49 @@
     },
     {
       "rank": 2,
+      "name": "kinos_ttv",
+      "bossesDefeated": 1,
+      "defeated": [
+        "guard-scorpion"
+      ],
+      "currentBoss": "air-buster",
+      "power": 4,
+      "materiaCount": 3,
+      "equippedValue": 50,
+      "equippedMin": 50,
+      "equippedMax": 50,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Speed Plus",
+              "color": "purple"
+            },
+            {
+              "name": "Bolt",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "Sense",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 3,
       "name": "cipherdetective",
       "bossesDefeated": 1,
       "defeated": [
@@ -161,7 +204,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "di_zz",
       "bossesDefeated": 1,
       "defeated": [
@@ -201,46 +244,6 @@
       "pvpBattles": 1
     },
     {
-      "rank": 4,
-      "name": "kinos_ttv",
-      "bossesDefeated": 1,
-      "defeated": [
-        "guard-scorpion"
-      ],
-      "currentBoss": "air-buster",
-      "power": 3,
-      "materiaCount": 2,
-      "equippedValue": 30,
-      "equippedMin": 30,
-      "equippedMax": 30,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Speed Plus",
-              "color": "purple"
-            },
-            {
-              "name": "Bolt",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            null
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
       "rank": 5,
       "name": "bastion_blue_succubus87",
       "bossesDefeated": 1,
@@ -277,8 +280,8 @@
           ]
         }
       ],
-      "pvpWins": 0,
-      "pvpBattles": 0
+      "pvpWins": 1,
+      "pvpBattles": 1
     },
     {
       "rank": 6,
@@ -286,8 +289,46 @@
       "bossesDefeated": 0,
       "defeated": [],
       "currentBoss": "guard-scorpion",
+      "power": 5,
+      "materiaCount": 2,
+      "equippedValue": 55,
+      "equippedMin": 55,
+      "equippedMax": 55,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Chocobo Lure",
+              "color": "purple"
+            },
+            {
+              "name": "Counter Attack",
+              "color": "purple"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            null
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 1
+    },
+    {
+      "rank": 7,
+      "name": "nn_357",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
       "power": 2,
-      "materiaCount": 1,
+      "materiaCount": 2,
       "equippedValue": 20,
       "equippedMin": 20,
       "equippedMax": 20,
@@ -298,10 +339,13 @@
           "name": "Buster Sword",
           "slots": [
             {
-              "name": "Counter Attack",
-              "color": "purple"
+              "name": "Ice",
+              "color": "green"
             },
-            null
+            {
+              "name": "Long Range",
+              "color": "purple"
+            }
           ]
         },
         {
