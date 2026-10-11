@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T05:47:51.064Z",
+  "updatedAt": "2026-10-11T05:57:51.055Z",
   "pvpRange": 50,
   "barMax": 640,
   "bosses": [
@@ -154,8 +154,8 @@
         "bottomswell"
       ],
       "currentBoss": "dyne",
-      "power": 51,
-      "materiaCount": 24,
+      "power": 57,
+      "materiaCount": 28,
       "equippedValue": 330,
       "equippedMin": 330,
       "equippedMax": 330,
@@ -217,11 +217,11 @@
         "bottomswell"
       ],
       "currentBoss": "dyne",
-      "power": 33,
-      "materiaCount": 20,
-      "equippedValue": 255,
-      "equippedMin": 200,
-      "equippedMax": 310,
+      "power": 46,
+      "materiaCount": 25,
+      "equippedValue": 370,
+      "equippedMin": 315,
+      "equippedMax": 425,
       "pets": [],
       "loadout": [
         {
@@ -229,14 +229,17 @@
           "name": "Mythril Saber",
           "slots": [
             {
-              "name": "Chocobo Lure",
-              "color": "purple"
+              "name": "Ultima",
+              "color": "green"
             },
             {
               "name": "Deathblow",
               "color": "yellow"
             },
-            null
+            {
+              "name": "Bolt3",
+              "color": "green"
+            }
           ]
         },
         {
@@ -338,11 +341,11 @@
         "motor-ball"
       ],
       "currentBoss": "bottomswell",
-      "power": 39,
-      "materiaCount": 23,
-      "equippedValue": 300,
-      "equippedMin": 245,
-      "equippedMax": 355,
+      "power": 44,
+      "materiaCount": 24,
+      "equippedValue": 380,
+      "equippedMin": 325,
+      "equippedMax": 435,
       "pets": [],
       "loadout": [
         {
@@ -357,7 +360,10 @@
               "name": "Ultima",
               "color": "green"
             },
-            null
+            {
+              "name": "Deathblow",
+              "color": "yellow"
+            }
           ]
         },
         {
@@ -365,15 +371,15 @@
           "name": "Carbon Bangle",
           "slots": [
             {
-              "name": "Deathblow",
-              "color": "yellow"
-            },
-            {
               "name": "Mug",
               "color": "yellow"
             },
             {
-              "name": "Bio",
+              "name": "Bolt2",
+              "color": "green"
+            },
+            {
+              "name": "Ice2",
               "color": "green"
             }
           ]
@@ -397,10 +403,10 @@
       ],
       "currentBoss": "motor-ball",
       "power": 25,
-      "materiaCount": 11,
-      "equippedValue": 270,
-      "equippedMin": 215,
-      "equippedMax": 325,
+      "materiaCount": 9,
+      "equippedValue": 290,
+      "equippedMin": 235,
+      "equippedMax": 345,
       "pets": [],
       "loadout": [
         {
@@ -426,11 +432,11 @@
               "color": "red"
             },
             {
-              "name": "Ifrit",
-              "color": "red"
+              "name": "Mug",
+              "color": "yellow"
             },
             {
-              "name": "Shiva",
+              "name": "Ifrit",
               "color": "red"
             }
           ]
@@ -450,8 +456,8 @@
         "reno"
       ],
       "currentBoss": "sample-h0512",
-      "power": 23,
-      "materiaCount": 11,
+      "power": 18,
+      "materiaCount": 7,
       "equippedValue": 200,
       "equippedMin": 200,
       "equippedMax": 200,
@@ -549,8 +555,8 @@
         "aps"
       ],
       "currentBoss": "reno",
-      "power": 31,
-      "materiaCount": 18,
+      "power": 32,
+      "materiaCount": 19,
       "equippedValue": 130,
       "equippedMin": 130,
       "equippedMax": 130,
@@ -590,6 +596,55 @@
     },
     {
       "rank": 10,
+      "name": "9names",
+      "bossesDefeated": 3,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps"
+      ],
+      "currentBoss": "reno",
+      "power": 20,
+      "materiaCount": 11,
+      "equippedValue": 130,
+      "equippedMin": 130,
+      "equippedMax": 130,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Ramuh",
+              "color": "red"
+            },
+            {
+              "name": "Chocobo Lure",
+              "color": "purple"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Titan Bangle",
+          "slots": [
+            {
+              "name": "Choco/Mog",
+              "color": "red"
+            },
+            {
+              "name": "Counter Attack",
+              "color": "purple"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 11,
       "name": "namjies",
       "bossesDefeated": 3,
       "defeated": [
@@ -638,55 +693,6 @@
       "pvpBattles": 0
     },
     {
-      "rank": 11,
-      "name": "9names",
-      "bossesDefeated": 3,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps"
-      ],
-      "currentBoss": "reno",
-      "power": 16,
-      "materiaCount": 10,
-      "equippedValue": 95,
-      "equippedMin": 95,
-      "equippedMax": 95,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Chocobo Lure",
-              "color": "purple"
-            },
-            {
-              "name": "Choco/Mog",
-              "color": "red"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Titan Bangle",
-          "slots": [
-            {
-              "name": "Counter Attack",
-              "color": "purple"
-            },
-            {
-              "name": "Luck Plus",
-              "color": "purple"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
       "rank": 12,
       "name": "tilimorf",
       "bossesDefeated": 3,
@@ -696,11 +702,11 @@
         "aps"
       ],
       "currentBoss": "reno",
-      "power": 8,
-      "materiaCount": 5,
-      "equippedValue": 115,
-      "equippedMin": 60,
-      "equippedMax": 170,
+      "power": 12,
+      "materiaCount": 6,
+      "equippedValue": 160,
+      "equippedMin": 105,
+      "equippedMax": 215,
       "pets": [],
       "loadout": [
         {
@@ -712,7 +718,7 @@
               "color": "yellow"
             },
             {
-              "name": "Choco/Mog",
+              "name": "Ramuh",
               "color": "red"
             }
           ]
@@ -722,11 +728,11 @@
           "name": "Titan Bangle",
           "slots": [
             {
-              "name": "Speed Plus",
-              "color": "purple"
+              "name": "Choco/Mog",
+              "color": "red"
             },
             {
-              "name": "Cover",
+              "name": "Speed Plus",
               "color": "purple"
             }
           ]
@@ -744,8 +750,8 @@
         "air-buster"
       ],
       "currentBoss": "aps",
-      "power": 18,
-      "materiaCount": 10,
+      "power": 20,
+      "materiaCount": 12,
       "equippedValue": 60,
       "equippedMin": 60,
       "equippedMax": 60,
@@ -788,8 +794,8 @@
         "air-buster"
       ],
       "currentBoss": "aps",
-      "power": 14,
-      "materiaCount": 8,
+      "power": 15,
+      "materiaCount": 9,
       "equippedValue": 105,
       "equippedMin": 50,
       "equippedMax": 160,
@@ -834,9 +840,9 @@
       "currentBoss": "aps",
       "power": 13,
       "materiaCount": 7,
-      "equippedValue": 65,
-      "equippedMin": 65,
-      "equippedMax": 65,
+      "equippedValue": 135,
+      "equippedMin": 135,
+      "equippedMax": 135,
       "pets": [],
       "loadout": [
         {
@@ -844,12 +850,12 @@
           "name": "Buster Sword",
           "slots": [
             {
-              "name": "Chocobo Lure",
-              "color": "purple"
+              "name": "Master Magic",
+              "color": "green"
             },
             {
-              "name": "Steal",
-              "color": "yellow"
+              "name": "Chocobo Lure",
+              "color": "purple"
             }
           ]
         },
@@ -858,8 +864,8 @@
           "name": "Iron Bangle",
           "slots": [
             {
-              "name": "Ice",
-              "color": "green"
+              "name": "Steal",
+              "color": "yellow"
             }
           ]
         }
@@ -876,8 +882,8 @@
         "air-buster"
       ],
       "currentBoss": "aps",
-      "power": 9,
-      "materiaCount": 4,
+      "power": 11,
+      "materiaCount": 6,
       "equippedValue": 90,
       "equippedMin": 90,
       "equippedMax": 90,
@@ -1121,9 +1127,9 @@
       "currentBoss": "guard-scorpion",
       "power": 5,
       "materiaCount": 3,
-      "equippedValue": 10,
-      "equippedMin": 10,
-      "equippedMax": 10,
+      "equippedValue": 50,
+      "equippedMin": 50,
+      "equippedMax": 50,
       "pets": [],
       "loadout": [
         {
@@ -1131,17 +1137,23 @@
           "name": "Buster Sword",
           "slots": [
             {
-              "name": "HP Plus",
-              "color": "purple"
+              "name": "Choco/Mog",
+              "color": "red"
             },
-            null
+            {
+              "name": "Speed Plus",
+              "color": "purple"
+            }
           ]
         },
         {
           "label": "Arm.",
           "name": "Iron Bangle",
           "slots": [
-            null
+            {
+              "name": "HP Plus",
+              "color": "purple"
+            }
           ]
         }
       ],
@@ -1154,11 +1166,11 @@
       "bossesDefeated": 0,
       "defeated": [],
       "currentBoss": "guard-scorpion",
-      "power": 2,
-      "materiaCount": 2,
-      "equippedValue": 30,
-      "equippedMin": 30,
-      "equippedMax": 30,
+      "power": 3,
+      "materiaCount": 3,
+      "equippedValue": 40,
+      "equippedMin": 40,
+      "equippedMax": 40,
       "pets": [],
       "loadout": [
         {
@@ -1179,7 +1191,10 @@
           "label": "Arm.",
           "name": "Iron Bangle",
           "slots": [
-            null
+            {
+              "name": "Quake",
+              "color": "green"
+            }
           ]
         }
       ],
