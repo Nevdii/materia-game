@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T05:07:51.089Z",
+  "updatedAt": "2026-10-11T05:17:51.084Z",
   "pvpRange": 50,
   "barMax": 640,
   "bosses": [
@@ -144,8 +144,8 @@
         "gunner"
       ],
       "currentBoss": "rufus",
-      "power": 37,
-      "materiaCount": 19,
+      "power": 40,
+      "materiaCount": 20,
       "equippedValue": 225,
       "equippedMin": 225,
       "equippedMax": 225,
@@ -199,8 +199,8 @@
         "sample-h0512"
       ],
       "currentBoss": "gunner",
-      "power": 33,
-      "materiaCount": 14,
+      "power": 34,
+      "materiaCount": 15,
       "equippedValue": 255,
       "equippedMin": 255,
       "equippedMax": 255,
@@ -254,8 +254,8 @@
         "sample-h0512"
       ],
       "currentBoss": "gunner",
-      "power": 28,
-      "materiaCount": 15,
+      "power": 29,
+      "materiaCount": 16,
       "equippedValue": 210,
       "equippedMin": 155,
       "equippedMax": 265,
@@ -414,9 +414,9 @@
       "currentBoss": "reno",
       "power": 13,
       "materiaCount": 9,
-      "equippedValue": 95,
-      "equippedMin": 95,
-      "equippedMax": 95,
+      "equippedValue": 105,
+      "equippedMin": 105,
+      "equippedMax": 105,
       "pets": [],
       "loadout": [
         {
@@ -441,7 +441,10 @@
               "name": "Sense",
               "color": "yellow"
             },
-            null
+            {
+              "name": "Bolt",
+              "color": "green"
+            }
           ]
         }
       ],
@@ -578,6 +581,92 @@
     },
     {
       "rank": 11,
+      "name": "uwuqueue",
+      "bossesDefeated": 1,
+      "defeated": [
+        "guard-scorpion"
+      ],
+      "currentBoss": "air-buster",
+      "power": 12,
+      "materiaCount": 7,
+      "equippedValue": 105,
+      "equippedMin": 50,
+      "equippedMax": 160,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Deathblow",
+              "color": "yellow"
+            },
+            {
+              "name": "Luck Plus",
+              "color": "purple"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "Speed Plus",
+              "color": "purple"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 12,
+      "name": "irnbruu",
+      "bossesDefeated": 1,
+      "defeated": [
+        "guard-scorpion"
+      ],
+      "currentBoss": "air-buster",
+      "power": 6,
+      "materiaCount": 3,
+      "equippedValue": 60,
+      "equippedMin": 60,
+      "equippedMax": 60,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Choco/Mog",
+              "color": "red"
+            },
+            {
+              "name": "Counter Attack",
+              "color": "purple"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "MP Plus",
+              "color": "purple"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 13,
       "name": "andy",
       "bossesDefeated": 1,
       "defeated": [
@@ -620,47 +709,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 12,
-      "name": "irnbruu",
-      "bossesDefeated": 1,
-      "defeated": [
-        "guard-scorpion"
-      ],
-      "currentBoss": "air-buster",
-      "power": 4,
-      "materiaCount": 2,
-      "equippedValue": 40,
-      "equippedMin": 40,
-      "equippedMax": 40,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Counter Attack",
-              "color": "purple"
-            },
-            {
-              "name": "MP Plus",
-              "color": "purple"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            null
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 13,
+      "rank": 14,
       "name": "jmop95",
       "bossesDefeated": 1,
       "defeated": [
@@ -697,7 +746,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "namjies",
       "bossesDefeated": 0,
       "defeated": [],
@@ -738,7 +787,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "g0rg0nz",
       "bossesDefeated": 0,
       "defeated": [],
@@ -776,7 +825,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "nito_sm",
       "bossesDefeated": 0,
       "defeated": [],
@@ -814,7 +863,45 @@
       "pvpBattles": 0
     },
     {
-      "rank": 17,
+      "rank": 18,
+      "name": "tilimorf",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 2,
+      "materiaCount": 2,
+      "equippedValue": 20,
+      "equippedMin": 20,
+      "equippedMax": 20,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Cover",
+              "color": "purple"
+            },
+            {
+              "name": "Long Range",
+              "color": "purple"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            null
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 19,
       "name": "a_n_i_v",
       "bossesDefeated": 0,
       "defeated": [],
@@ -849,7 +936,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 18,
+      "rank": 20,
       "name": "mrockstar20",
       "bossesDefeated": 0,
       "defeated": [],
