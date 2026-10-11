@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-10-10T03:01:47.399Z",
+  "updatedAt": "2026-10-11T02:40:27.263Z",
+  "pvpRange": 50,
   "barMax": 640,
   "bosses": [
     {
@@ -131,7 +132,9 @@
             }
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 2,
@@ -188,7 +191,9 @@
             }
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 3,
@@ -242,7 +247,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 4,
@@ -296,7 +303,9 @@
             }
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 5,
@@ -343,7 +352,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 6,
@@ -393,7 +404,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 7,
@@ -443,7 +456,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 8,
@@ -491,7 +506,9 @@
             }
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 9,
@@ -538,7 +555,9 @@
             }
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 10,
@@ -582,7 +601,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 11,
@@ -626,7 +647,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 12,
@@ -673,7 +696,9 @@
             }
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 13,
@@ -714,7 +739,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 14,
@@ -756,7 +783,9 @@
             }
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 15,
@@ -792,7 +821,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 16,
@@ -833,7 +864,9 @@
             }
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 17,
@@ -874,7 +907,9 @@
             }
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 18,
@@ -912,7 +947,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 19,
@@ -947,7 +984,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 20,
@@ -985,7 +1024,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 21,
@@ -1026,7 +1067,9 @@
             }
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 22,
@@ -1062,7 +1105,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 23,
@@ -1095,7 +1140,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     },
     {
       "rank": 24,
@@ -1128,7 +1175,9 @@
             null
           ]
         }
-      ]
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
     }
   ]
 }

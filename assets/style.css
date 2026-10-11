@@ -271,3 +271,8 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .boss-card img { height: 130px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* PVP tab: keep the two number columns compact and centred. */
+#pvp-table th.num, #pvp-table td.num { text-align: center; width: 22%; font-variant-numeric: tabular-nums; }
+#pvp-table td.num { font-weight: 800; }
+@media (max-width: 560px) { #pvp-table th.num, #pvp-table td.num { width: 28%; } }

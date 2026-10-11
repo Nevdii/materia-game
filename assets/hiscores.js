@@ -145,6 +145,73 @@
     });
   }
 
+  // ---- PVP tab: honourable battles, from the same hiscores.json ----
+  var pvpBody = document.getElementById('pvp-body');
+  var pvpStats = document.getElementById('pvp-stats');
+  var pvpSearch = document.getElementById('pvp-search');
+
+  function pvpOrder() {
+    // Most honourable wins first, then most honourable battles, then name.
+    return data.entries.slice().sort(function (a, b) {
+      return (b.pvpWins || 0) - (a.pvpWins || 0) ||
+        (b.pvpBattles || 0) - (a.pvpBattles || 0) ||
+        a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+    });
+  }
+
+  function renderPvp() {
+    if (!pvpBody) return;
+    var range = document.getElementById('pvp-range');
+    if (range && data.pvpRange !== undefined) range.textContent = String(data.pvpRange);
+    var updatedEl = document.getElementById('pvp-updated');
+    if (updatedEl) updatedEl.textContent = data.updatedAt && !data.sample ? 'Updated ' + timeAgo(data.updatedAt) : '';
+    var pvpBanner = document.getElementById('pvp-banner');
+    if (pvpBanner && data.sample) {
+      pvpBanner.hidden = false;
+      pvpBanner.textContent = 'Showing sample data. Real standings appear once the bot has exported its first snapshot.';
+    }
+
+    var ordered = pvpOrder();
+    pvpStats.textContent = '';
+    var totalWins = ordered.reduce(function (sum, e) { return sum + (e.pvpWins || 0); }, 0);
+    var fighters = ordered.filter(function (e) { return (e.pvpBattles || 0) > 0; }).length;
+    [
+      [totalWins, 'honourable battles won'],
+      [fighters, 'players with an honourable battle'],
+    ].forEach(function (pair) {
+      var box = el('div', 'stat');
+      box.appendChild(el('div', 'value', String(pair[0])));
+      box.appendChild(el('div', 'label', pair[1]));
+      pvpStats.appendChild(box);
+    });
+
+    var query = (pvpSearch.value || '').trim().toLowerCase();
+    pvpBody.textContent = '';
+    var shown = [];
+    ordered.forEach(function (e, i) {
+      if (!query || e.name.toLowerCase().indexOf(query) !== -1) shown.push({ entry: e, rank: i + 1 });
+    });
+    if (shown.length === 0) {
+      var empty = el('tr');
+      var emptyCell = el('td', 'muted', ordered.length ? 'No players match that search.' : 'No honourable battles yet.');
+      emptyCell.colSpan = 4;
+      empty.appendChild(emptyCell);
+      pvpBody.appendChild(empty);
+      return;
+    }
+    shown.forEach(function (row) {
+      var e = row.entry;
+      var tr = el('tr', row.rank <= 3 && (e.pvpWins || 0) > 0 ? 'top' + row.rank : '');
+      tr.appendChild(el('td', 'num rank', String(row.rank)));
+      var nameCell = el('td');
+      nameCell.appendChild(el('div', 'player', e.name));
+      tr.appendChild(nameCell);
+      tr.appendChild(el('td', 'num', String(e.pvpWins || 0)));
+      tr.appendChild(el('td', 'num', String(e.pvpBattles || 0)));
+      pvpBody.appendChild(tr);
+    });
+  }
+
   function show(json) {
     data = json;
     if (data.sample) {
@@ -154,7 +221,9 @@
     updated.textContent = data.updatedAt && !data.sample ? 'Updated ' + timeAgo(data.updatedAt) : '';
     renderStats();
     render();
+    renderPvp();
     search.addEventListener('input', render);
+    if (pvpSearch) pvpSearch.addEventListener('input', renderPvp);
   }
 
   fetch('hiscores.json', { cache: 'no-cache' })
@@ -170,5 +239,13 @@
       cell.colSpan = 5;
       row.appendChild(cell);
       body.appendChild(row);
+      if (pvpBody) {
+        pvpBody.textContent = '';
+        var pvpRow = el('tr');
+        var pvpCell = el('td', 'muted', 'Could not load the standings right now. Try again in a minute.');
+        pvpCell.colSpan = 4;
+        pvpRow.appendChild(pvpCell);
+        pvpBody.appendChild(pvpRow);
+      }
     });
 })();
