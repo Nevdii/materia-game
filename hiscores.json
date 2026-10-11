@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T22:00:47.084Z",
+  "updatedAt": "2026-10-11T22:14:07.770Z",
   "pvpRange": 50,
   "barMax": 640,
   "bosses": [
@@ -40,6 +40,11 @@
       "name": "Bottomswell"
     },
     {
+      "key": "jenova-birth",
+      "name": "Jenova Birth",
+      "special": true
+    },
+    {
       "key": "dyne",
       "name": "Dyne"
     },
@@ -66,11 +71,6 @@
     {
       "key": "demons-gate",
       "name": "Demon's Gate"
-    },
-    {
-      "key": "jenova-birth",
-      "name": "Jenova Birth",
-      "special": true
     }
   ],
   "entries": [
@@ -231,10 +231,10 @@
         "rufus",
         "motor-ball",
         "bottomswell",
+        "jenova-birth",
         "dyne",
         "rude",
-        "gi-nattak",
-        "jenova-birth"
+        "gi-nattak"
       ],
       "currentBoss": "materia-keeper",
       "power": 60,
@@ -506,7 +506,7 @@
         "motor-ball",
         "bottomswell"
       ],
-      "currentBoss": "dyne",
+      "currentBoss": "jenova-birth",
       "power": 36,
       "materiaCount": 13,
       "equippedValue": 300,
