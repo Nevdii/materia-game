@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T02:45:52.438Z",
+  "updatedAt": "2026-10-11T03:37:51.173Z",
   "pvpRange": 50,
   "barMax": 640,
   "bosses": [
@@ -73,5 +73,79 @@
       "special": true
     }
   ],
-  "entries": []
+  "entries": [
+    {
+      "rank": 1,
+      "name": "cemorocks",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 9,
+      "materiaCount": 5,
+      "equippedValue": 35,
+      "equippedMin": 35,
+      "equippedMax": 35,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Chocobo Lure",
+              "color": "purple"
+            },
+            null
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            null
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 2,
+      "name": "di_zz",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 3,
+      "materiaCount": 2,
+      "equippedValue": 40,
+      "equippedMin": 40,
+      "equippedMax": 40,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Counter Attack",
+              "color": "purple"
+            },
+            {
+              "name": "Steal",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            null
+          ]
+        }
+      ],
+      "pvpWins": 1,
+      "pvpBattles": 1
+    }
+  ]
 }
