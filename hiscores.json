@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T22:49:02.351Z",
+  "updatedAt": "2026-10-12T22:51:27.859Z",
   "pvpRange": 50,
   "barMax": 640,
   "bosses": [
@@ -142,7 +142,7 @@
               "color": "green"
             },
             {
-              "name": "Gravity2",
+              "name": "Demi2",
               "color": "green"
             }
           ]
@@ -1227,7 +1227,7 @@
           "name": "Buster Sword",
           "slots": [
             {
-              "name": "Gravity",
+              "name": "Demi",
               "color": "green"
             },
             {
