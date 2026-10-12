@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap">
-  <link rel="stylesheet" href="assets/style.css?v=0.67.0">
+  <link rel="stylesheet" href="assets/style.css?v=0.68.0">
 </head>
 <body>
   <header class="hero">
@@ -34,7 +34,7 @@
       <h2>How it works</h2>
       <ol class="steps">
         <li><strong>Watch.</strong> Every minute you're in chat while the stream is live, you earn 1 XP. No typing needed.</li>
-        <li><strong>Roll.</strong> Spend XP in chat with <code>!rollmateria &lt;colour&gt;</code> to roll for materia.</li>
+        <li><strong>Roll.</strong> Spend XP in chat with <code>!rollmateria &lt;colour&gt;</code> to roll for materia, or add a number to roll several at once, like <code>!rollmateria red 5</code>.</li>
         <li><strong>Equip.</strong> <code>!equip</code> your best materia into your weapon and armour slots. <code>!materia</code> shows your screen, ending with your Equipped Materia Value.</li>
         <li><strong>Upgrade.</strong> Merge copies of a materia into its next tier with <code>!upgrade</code>, or <code>!salvage</code> spares back into XP.</li>
         <li><strong>Fight.</strong> Players can open a boss window with 5,000 Channel Points or 500 Bits. When this window opens, <code>!fight &lt;boss&gt;</code>.</li>
@@ -208,6 +208,7 @@
         <tbody>
           <tr><td><code>!xp</code></td><td>Your XP and what each colour costs to roll</td></tr>
           <tr><td><code>!rollmateria &lt;colour&gt;</code></td><td>Roll purple, yellow, green or red</td></tr>
+          <tr><td><code>!rollmateria &lt;colour&gt; &lt;number&gt;</code></td><td>Roll several at once, e.g. <code>!rollmateria red 5</code> (up to 10 per command; you need the XP for all of them)</td></tr>
           <tr><td><code>!materia</code></td><td>Your full screen: equipment, spare materia, Equipped Materia Value, pets</td></tr>
           <tr><td><code>!equip</code> / <code>!unequip</code></td><td>Manage your slots (one of each materia can be equipped). <code>!unequip all</code> empties every slot</td></tr>
           <tr><td><code>!equip bestmateria</code></td><td>The lazy option: fills every slot with your highest-value materia (the opposite of <code>!unequip all</code>)</td></tr>
@@ -564,6 +565,13 @@
       <article class="patch-note">
         <h3><time datetime="2026-10-12">12 October 2026</time></h3>
         <ul>
+          <li>You can now roll several materia in one go: !rollmateria red 5 rolls red materia five times (up to 10 at once, and you need the XP for every roll).</li>
+        </ul>
+      </article>
+
+      <article class="patch-note">
+        <h3><time datetime="2026-10-12">12 October 2026</time></h3>
+        <ul>
           <li>Added Jenova Life - Final Boss Battle of Disc 1</li>
         </ul>
       </article>
@@ -607,7 +615,7 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=0.67.0"></script>
-  <script src="assets/hiscores.js?v=0.67.0"></script>
+  <script src="assets/site.js?v=0.68.0"></script>
+  <script src="assets/hiscores.js?v=0.68.0"></script>
 </body>
 </html>
