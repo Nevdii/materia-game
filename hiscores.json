@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-12T22:51:27.859Z",
+  "updatedAt": "2026-10-12T23:57:16.940Z",
   "pvpRange": 50,
-  "barMax": 640,
+  "barMax": 880,
   "bosses": [
     {
       "key": "guard-scorpion",
@@ -76,6 +76,30 @@
       "key": "jenova-life",
       "name": "Jenova Life",
       "special": true
+    },
+    {
+      "key": "schizo",
+      "name": "Schizo"
+    },
+    {
+      "key": "jenova-death",
+      "name": "Jenova Death"
+    },
+    {
+      "key": "carry-armor",
+      "name": "Carry Armor"
+    },
+    {
+      "key": "diamond-weapon",
+      "name": "Diamond Weapon"
+    },
+    {
+      "key": "turks",
+      "name": "Turks"
+    },
+    {
+      "key": "proud-clod",
+      "name": "Proud Clod"
     }
   ],
   "entries": [
@@ -173,9 +197,9 @@
       "currentBoss": "palmer",
       "power": 102,
       "materiaCount": 50,
-      "equippedValue": 400,
-      "equippedMin": 355,
-      "equippedMax": 445,
+      "equippedValue": 410,
+      "equippedMin": 365,
+      "equippedMax": 455,
       "pets": [],
       "loadout": [
         {
@@ -318,9 +342,9 @@
       "currentBoss": "materia-keeper",
       "power": 79,
       "materiaCount": 50,
-      "equippedValue": 415,
-      "equippedMin": 370,
-      "equippedMax": 460,
+      "equippedValue": 420,
+      "equippedMin": 375,
+      "equippedMax": 465,
       "pets": [],
       "loadout": [
         {
@@ -387,9 +411,9 @@
       "currentBoss": "gi-nattak",
       "power": 50,
       "materiaCount": 23,
-      "equippedValue": 295,
-      "equippedMin": 295,
-      "equippedMax": 295,
+      "equippedValue": 305,
+      "equippedMin": 305,
+      "equippedMax": 305,
       "pets": [],
       "loadout": [
         {
@@ -451,9 +475,9 @@
       "currentBoss": "rude",
       "power": 45,
       "materiaCount": 14,
-      "equippedValue": 290,
-      "equippedMin": 290,
-      "equippedMax": 290,
+      "equippedValue": 300,
+      "equippedMin": 300,
+      "equippedMax": 300,
       "pets": [],
       "loadout": [
         {
@@ -576,9 +600,9 @@
       "currentBoss": "bottomswell",
       "power": 41,
       "materiaCount": 21,
-      "equippedValue": 350,
-      "equippedMin": 305,
-      "equippedMax": 395,
+      "equippedValue": 355,
+      "equippedMin": 310,
+      "equippedMax": 400,
       "pets": [],
       "loadout": [
         {
@@ -637,9 +661,9 @@
       "currentBoss": "motor-ball",
       "power": 54,
       "materiaCount": 30,
-      "equippedValue": 245,
-      "equippedMin": 245,
-      "equippedMax": 245,
+      "equippedValue": 250,
+      "equippedMin": 250,
+      "equippedMax": 250,
       "pets": [],
       "loadout": [
         {
@@ -694,9 +718,9 @@
       "currentBoss": "motor-ball",
       "power": 45,
       "materiaCount": 26,
-      "equippedValue": 195,
-      "equippedMin": 195,
-      "equippedMax": 195,
+      "equippedValue": 200,
+      "equippedMin": 200,
+      "equippedMax": 200,
       "pets": [],
       "loadout": [
         {
@@ -750,9 +774,9 @@
       "currentBoss": "rufus",
       "power": 38,
       "materiaCount": 19,
-      "equippedValue": 190,
-      "equippedMin": 145,
-      "equippedMax": 235,
+      "equippedValue": 195,
+      "equippedMin": 150,
+      "equippedMax": 240,
       "pets": [],
       "loadout": [
         {
@@ -918,9 +942,9 @@
       "currentBoss": "rufus",
       "power": 21,
       "materiaCount": 11,
-      "equippedValue": 175,
-      "equippedMin": 130,
-      "equippedMax": 220,
+      "equippedValue": 180,
+      "equippedMin": 135,
+      "equippedMax": 225,
       "pets": [],
       "loadout": [
         {
@@ -974,9 +998,9 @@
       "currentBoss": "rufus",
       "power": 21,
       "materiaCount": 13,
-      "equippedValue": 195,
-      "equippedMin": 195,
-      "equippedMax": 195,
+      "equippedValue": 200,
+      "equippedMin": 200,
+      "equippedMax": 200,
       "pets": [],
       "loadout": [
         {
@@ -1030,9 +1054,9 @@
       "currentBoss": "rufus",
       "power": 15,
       "materiaCount": 5,
-      "equippedValue": 145,
-      "equippedMin": 145,
-      "equippedMax": 145,
+      "equippedValue": 150,
+      "equippedMin": 150,
+      "equippedMax": 150,
       "pets": [],
       "loadout": [
         {

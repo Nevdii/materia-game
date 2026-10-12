@@ -182,6 +182,8 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .boss-card.special { border-color: #c9a7ff; box-shadow: 0 0 14px rgba(180, 130, 255, .35); }
 .boss-num.special-tag { width: auto; padding: 0 9px; border-radius: 12px; background: #5b2a86; border-color: #e3ccff; letter-spacing: .04em; }
 .special-heading { margin: 26px 0 6px; }
+.guide-section .disc-divider + h2 { border-top: 0; padding-top: 0; }
+.disc-divider { border: 0; border-top: 2px solid var(--edge-inner); opacity: .7; margin: 34px 0 26px; }
 .boss-special-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 260px)); }
 .boss-card p { margin: 2px 0 0; }
 .boss-num {

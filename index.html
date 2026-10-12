@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap">
-  <link rel="stylesheet" href="assets/style.css?v=0.68.1">
+  <link rel="stylesheet" href="assets/style.css?v=0.74.0">
 </head>
 <body>
   <header class="hero">
@@ -196,9 +196,48 @@
           <p class="muted">The final boss of Disc 1</p>
         </li>
       </ol>
-      <h3 class="special-heading">Special boss</h3>
-      <p><strong>Jenova Birth</strong> isn't in the fight window. Redeem <strong>Battle Jenova Birth</strong> with 3,000 Channel Points and the battle starts automatically &mdash; a one-on-one, just you, no command needed. You need at least 320 Materia Value &mdash; if you're short, your points are refunded. She comes right after Bottomswell and <strong>must be beaten before you can move on to Dyne</strong>. Beat her and she drops <strong>Four Slots</strong>, a 4-slot armour.</p>
-      <p><strong>Jenova Life</strong> is the final boss of Disc 1. Once you've beaten every boss up to Demon's Gate, redeem <strong>Battle Jenova Life</strong> with 3,000 Channel Points. You need at least 600 Materia Value &mdash; if you're short, or you haven't beaten every boss yet, your points are refunded. The fight plays out live on stream, and it can be lost: if she wins, the points are spent and you can try again after an hour. The streamer approves each challenge before it begins, so it may take a little while &mdash; if it isn't answered, you're refunded.</p>
+      <hr class="disc-divider">
+      <h2>Boss Fights - Disc 2</h2>
+      <ol class="boss-grid">
+        <li class="card boss-card">
+          <span class="boss-num">17</span>
+          <img src="assets/bosses/schizo.webp" alt="Schizo" loading="lazy">
+          <h3>Schizo</h3>
+          
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">18</span>
+          <img src="assets/bosses/jenova-death.webp" alt="Jenova Death" loading="lazy">
+          <h3>Jenova Death</h3>
+          
+          <p class="muted">Drops <strong>Crystal Sword</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">19</span>
+          <img src="assets/bosses/carry-armor.webp" alt="Carry Armor" loading="lazy">
+          <h3>Carry Armor</h3>
+          
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">20</span>
+          <img src="assets/bosses/diamond-weapon.webp" alt="Diamond Weapon" loading="lazy">
+          <h3>Diamond Weapon</h3>
+          
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">21</span>
+          <img src="assets/bosses/turks.webp" alt="Turks" loading="lazy">
+          <h3>Turks</h3>
+          
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">22</span>
+          <img src="assets/bosses/proud-clod.webp" alt="Proud Clod" loading="lazy">
+          <h3>Proud Clod</h3>
+          
+          <p class="muted">Drops <strong>Crystal Bangle</strong></p>
+        </li>
+      </ol>
     </section>
 
     <section class="section">
@@ -293,18 +332,21 @@
 <tr><td>Choco/Mog</td><td>Uncommon</td><td class="num">20</td></tr>
 <tr><td>Shiva</td><td>Rare</td><td class="num">35</td></tr>
 <tr><td>Ifrit</td><td>Rare</td><td class="num">35</td></tr>
-<tr><td>Ramuh</td><td>Epic</td><td class="num">55</td></tr>
-<tr><td>Titan</td><td>Epic</td><td class="num">55</td></tr>
-<tr><td>Odin</td><td>Legendary</td><td class="num">80</td></tr>
-<tr><td>Bahamut</td><td>Legendary</td><td class="num">80</td></tr>
-<tr><td>Knights of the Round</td><td>Insane</td><td class="num">120</td></tr>
+<tr><td>Ramuh</td><td>Epic</td><td class="num">60</td></tr>
+<tr><td>Titan</td><td>Epic</td><td class="num">60</td></tr>
+<tr><td>Leviathan</td><td>Epic</td><td class="num">60</td></tr>
+<tr><td>Kjata</td><td>Epic</td><td class="num">60</td></tr>
+<tr><td>Phoenix</td><td>Epic</td><td class="num">60</td></tr>
+<tr><td>Odin</td><td>Legendary</td><td class="num">85</td></tr>
+<tr><td>Bahamut</td><td>Legendary</td><td class="num">85</td></tr>
+<tr><td>Knights of the Round</td><td>Insane</td><td class="num">150</td></tr>
           </tbody>
         </table></div>
       </div>
     </section>
     <section class="guide-section" id="g-upgrade">
       <h2>Upgrading materia</h2>
-      <p><code>!upgrade &lt;materia&gt;</code> merges copies of a materia into one copy of its next tier. The upgraded tiers can't be rolled directly - merging is the only way to get them. Most steps need 5 of the tier before it; the last step of a spell line (Fire2 → Fire3 and so on) only needs 2. So reaching Fire3 takes 10 Fire in total.</p>
+      <p><code>!upgrade &lt;materia&gt;</code> merges copies of a materia into one copy of its next tier. The upgraded tiers can't be rolled directly - merging is the only way to get them. Most steps need 5 of the tier before it; the last step of a spell line (Fire2 → Fire3 and so on) only needs 2, and Comet and Double Cut only need 3. So reaching Fire3 takes 10 Fire in total.</p>
       <div class="table-wrap"><table>
         <thead><tr><th>Upgrade path</th><th class="num">Start value</th><th class="num">Middle value</th><th class="num">End value</th></tr></thead>
         <tbody>
@@ -312,6 +354,7 @@
 <tr><td>Ice → Ice2 → Ice3</td><td class="num">10</td><td class="num">50</td><td class="num">70</td></tr>
 <tr><td>Bolt → Bolt2 → Bolt3</td><td class="num">10</td><td class="num">50</td><td class="num">70</td></tr>
 <tr><td>Quake → Quake2 → Quake3</td><td class="num">10</td><td class="num">50</td><td class="num">70</td></tr>
+<tr><td>Comet → Comet2</td><td class="num">35</td><td class="num">-</td><td class="num">80</td></tr>
 <tr><td>Demi → Demi2 → Demi3</td><td class="num">20</td><td class="num">50</td><td class="num">70</td></tr>
 <tr><td>Bio → Bio2 → Bio3</td><td class="num">20</td><td class="num">60</td><td class="num">80</td></tr>
 <tr><td>Steal → Mug</td><td class="num">20</td><td class="num">-</td><td class="num">55</td></tr>
@@ -471,7 +514,49 @@
           <p class="muted">The final boss of Disc 1</p>
         </li>
       </ol>
-      <h3 class="special-heading">Special boss</h3>
+      <hr class="disc-divider">
+      <h2>Boss Fights - Disc 2</h2>
+      <ol class="boss-grid">
+        <li class="card boss-card">
+          <span class="boss-num">17</span>
+          <img src="assets/bosses/schizo.webp" alt="Schizo" loading="lazy">
+          <h3>Schizo</h3>
+          
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">18</span>
+          <img src="assets/bosses/jenova-death.webp" alt="Jenova Death" loading="lazy">
+          <h3>Jenova Death</h3>
+          
+          <p class="muted">Drops <strong>Crystal Sword</strong></p>
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">19</span>
+          <img src="assets/bosses/carry-armor.webp" alt="Carry Armor" loading="lazy">
+          <h3>Carry Armor</h3>
+          
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">20</span>
+          <img src="assets/bosses/diamond-weapon.webp" alt="Diamond Weapon" loading="lazy">
+          <h3>Diamond Weapon</h3>
+          
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">21</span>
+          <img src="assets/bosses/turks.webp" alt="Turks" loading="lazy">
+          <h3>Turks</h3>
+          
+        </li>
+        <li class="card boss-card">
+          <span class="boss-num">22</span>
+          <img src="assets/bosses/proud-clod.webp" alt="Proud Clod" loading="lazy">
+          <h3>Proud Clod</h3>
+          
+          <p class="muted">Drops <strong>Crystal Bangle</strong></p>
+        </li>
+      </ol>
+      <h3 class="special-heading">Special bosses</h3>
       <p><strong>Jenova Birth</strong> isn't in the fight window. Redeem <strong>Battle Jenova Birth</strong> with 3,000 Channel Points and the battle starts automatically &mdash; a one-on-one, just you, no command needed. You need at least 320 Materia Value &mdash; if you're short, your points are refunded. She comes right after Bottomswell and <strong>must be beaten before you can move on to Dyne</strong>. Beat her and she drops <strong>Four Slots</strong>, a 4-slot armour.</p>
       <p><strong>Jenova Life</strong> is the final boss of Disc 1. Once you've beaten every boss up to Demon's Gate, redeem <strong>Battle Jenova Life</strong> with 3,000 Channel Points. You need at least 600 Materia Value &mdash; if you're short, or you haven't beaten every boss yet, your points are refunded. The fight plays out live on stream, and it can be lost: if she wins, the points are spent and you can try again after an hour. The streamer approves each challenge before it begins, so it may take a little while &mdash; if it isn't answered, you're refunded.</p>
     </section>
@@ -487,6 +572,8 @@
           <tr><td>Jenova Birth</td><td>Four Slots</td><td>Armour</td><td class="num">4</td><td>Carbon Bangle</td></tr>
           <tr><td>Gi Nattak</td><td>Butterfly Edge</td><td>Weapon</td><td class="num">4</td><td>Mythril Saber</td></tr>
           <tr><td>Demon's Gate</td><td>Diamond Bangle</td><td>Armour</td><td class="num">5</td><td>Four Slots</td></tr>
+          <tr><td>Jenova Death</td><td>Crystal Sword</td><td>Weapon</td><td class="num">5</td><td>Butterfly Edge</td></tr>
+          <tr><td>Proud Clod</td><td>Crystal Bangle</td><td>Armour</td><td class="num">6</td><td>Diamond Bangle</td></tr>
         </tbody>
       </table></div>
       <p class="muted">Gear is never downgraded: if you already own something as good or better, re-beating that boss changes nothing. Whatever materia you had equipped carries over, and the new slots start empty. Bosses not listed don't drop gear yet.</p>
@@ -565,6 +652,37 @@
       <article class="patch-note">
         <h3><time datetime="2026-10-12">12 October 2026</time></h3>
         <ul>
+          <li>Added Jenova Death - the second boss of Disc 2. Beating him drops Crystal Sword, a 5-slot weapon.</li>
+          <li>Added Carry Armor - the third boss of Disc 2.</li>
+          <li>Added Diamond Weapon - the fourth boss of Disc 2.</li>
+          <li>Added Turks - the fifth boss of Disc 2.</li>
+          <li>Added Proud Clod - the sixth boss of Disc 2. Beating him drops Crystal Bangle, a 6-slot armour.</li>
+          <li>Disc 2 bosses (Schizo, Jenova Death, Carry Armor, Diamond Weapon, Turks and Proud Clod) do not award XP.</li>
+        </ul>
+      </article>
+
+      <article class="patch-note">
+        <h3><time datetime="2026-10-12">12 October 2026</time></h3>
+        <ul>
+          <li>Added Comet2: merge 3 Comet to make one. Comet2 has a value of 80.</li>
+          <li>Double Cut now only needs 3 copies to merge into 4x Cut (it used to need 5). 4x Cut stays at a value of 80.</li>
+          <li>Added the summons Leviathan, Kjata and Phoenix, all Epic.</li>
+          <li>Epic summons (Ramuh, Titan, Leviathan, Kjata and Phoenix) are now worth 60, up from 55.</li>
+          <li>Odin and Bahamut are now worth 85, up from 80.</li>
+          <li>Knights of the Round is now worth 150, up from 120.</li>
+        </ul>
+      </article>
+
+      <article class="patch-note">
+        <h3><time datetime="2026-10-12">12 October 2026</time></h3>
+        <ul>
+          <li>Added Schizo - the first boss of Disc 2.</li>
+        </ul>
+      </article>
+
+      <article class="patch-note">
+        <h3><time datetime="2026-10-12">12 October 2026</time></h3>
+        <ul>
           <li>You can now roll several materia in one go: !rollmateria red 5 rolls red materia five times (up to 10 at once, and you need the XP for every roll).</li>
           <li>Renamed the Gravity materia line to Demi, Demi2 and Demi3, to match the game. Everything you own carries over.</li>
         </ul>
@@ -616,7 +734,7 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=0.68.1"></script>
-  <script src="assets/hiscores.js?v=0.68.1"></script>
+  <script src="assets/site.js?v=0.74.0"></script>
+  <script src="assets/hiscores.js?v=0.74.0"></script>
 </body>
 </html>
