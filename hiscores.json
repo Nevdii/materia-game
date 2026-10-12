@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T02:24:54.038Z",
+  "updatedAt": "2026-10-12T05:56:03.238Z",
   "pvpRange": 50,
   "barMax": 640,
   "bosses": [
@@ -71,6 +71,11 @@
     {
       "key": "demons-gate",
       "name": "Demon's Gate"
+    },
+    {
+      "key": "jenova-life",
+      "name": "Jenova Life",
+      "special": true
     }
   ],
   "entries": [
