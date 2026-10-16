@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T22:39:01.985Z",
+  "updatedAt": "2026-10-16T22:49:01.974Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -130,8 +130,8 @@
         "red-dragon"
       ],
       "currentBoss": "demons-gate",
-      "power": 58,
-      "materiaCount": 29,
+      "power": 97,
+      "materiaCount": 60,
       "equippedValue": 435,
       "equippedMin": 390,
       "equippedMax": 480,
@@ -202,8 +202,8 @@
         "palmer"
       ],
       "currentBoss": "red-dragon",
-      "power": 65,
-      "materiaCount": 30,
+      "power": 90,
+      "materiaCount": 39,
       "equippedValue": 500,
       "equippedMin": 500,
       "equippedMax": 500,
@@ -781,8 +781,8 @@
         "rufus"
       ],
       "currentBoss": "motor-ball",
-      "power": 45,
-      "materiaCount": 19,
+      "power": 42,
+      "materiaCount": 18,
       "equippedValue": 280,
       "equippedMin": 235,
       "equippedMax": 325,
@@ -826,63 +826,6 @@
     },
     {
       "rank": 12,
-      "name": "g0rg0nz",
-      "bossesDefeated": 7,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus"
-      ],
-      "currentBoss": "motor-ball",
-      "power": 28,
-      "materiaCount": 18,
-      "equippedValue": 235,
-      "equippedMin": 235,
-      "equippedMax": 235,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Master Magic",
-              "color": "green"
-            },
-            {
-              "name": "Bolt2",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Carbon Bangle",
-          "slots": [
-            {
-              "name": "Ice2",
-              "color": "green"
-            },
-            {
-              "name": "Chocobo Lure",
-              "color": "purple"
-            },
-            {
-              "name": "Steal",
-              "color": "yellow"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 13,
       "name": "zeb316",
       "bossesDefeated": 7,
       "defeated": [
@@ -895,8 +838,8 @@
         "rufus"
       ],
       "currentBoss": "motor-ball",
-      "power": 28,
-      "materiaCount": 17,
+      "power": 34,
+      "materiaCount": 23,
       "equippedValue": 215,
       "equippedMin": 215,
       "equippedMax": 215,
@@ -931,6 +874,63 @@
             {
               "name": "Bio",
               "color": "green"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 13,
+      "name": "g0rg0nz",
+      "bossesDefeated": 7,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus"
+      ],
+      "currentBoss": "motor-ball",
+      "power": 32,
+      "materiaCount": 21,
+      "equippedValue": 235,
+      "equippedMin": 235,
+      "equippedMax": 235,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Master Magic",
+              "color": "green"
+            },
+            {
+              "name": "Bolt2",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Carbon Bangle",
+          "slots": [
+            {
+              "name": "Ice2",
+              "color": "green"
+            },
+            {
+              "name": "Chocobo Lure",
+              "color": "purple"
+            },
+            {
+              "name": "Steal",
+              "color": "yellow"
             }
           ]
         }
@@ -1167,8 +1167,8 @@
         "air-buster"
       ],
       "currentBoss": "aps",
-      "power": 4,
-      "materiaCount": 2,
+      "power": 7,
+      "materiaCount": 3,
       "equippedValue": 45,
       "equippedMin": 45,
       "equippedMax": 45,
