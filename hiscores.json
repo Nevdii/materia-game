@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T01:01:16.536Z",
+  "updatedAt": "2026-10-16T22:29:01.988Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -253,6 +253,77 @@
     },
     {
       "rank": 3,
+      "name": "kinos_ttv",
+      "bossesDefeated": 13,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball",
+        "bottomswell",
+        "dyne",
+        "rude",
+        "gi-nattak",
+        "materia-keeper"
+      ],
+      "currentBoss": "palmer",
+      "power": 70,
+      "materiaCount": 38,
+      "equippedValue": 420,
+      "equippedMin": 375,
+      "equippedMax": 465,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Butterfly Edge",
+          "slots": [
+            {
+              "name": "Master Command",
+              "color": "yellow"
+            },
+            {
+              "name": "Master Magic",
+              "color": "green"
+            },
+            {
+              "name": "Deathblow",
+              "color": "yellow"
+            },
+            {
+              "name": "Titan",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Carbon Bangle",
+          "slots": [
+            {
+              "name": "Mug",
+              "color": "yellow"
+            },
+            {
+              "name": "Fire2",
+              "color": "green"
+            },
+            {
+              "name": "Ice2",
+              "color": "green"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 4,
       "name": "eddie",
       "bossesDefeated": 13,
       "defeated": [
@@ -325,76 +396,6 @@
       ],
       "pvpWins": 1,
       "pvpBattles": 2
-    },
-    {
-      "rank": 4,
-      "name": "kinos_ttv",
-      "bossesDefeated": 12,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball",
-        "bottomswell",
-        "dyne",
-        "rude",
-        "gi-nattak"
-      ],
-      "currentBoss": "materia-keeper",
-      "power": 79,
-      "materiaCount": 50,
-      "equippedValue": 420,
-      "equippedMin": 375,
-      "equippedMax": 465,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Butterfly Edge",
-          "slots": [
-            {
-              "name": "Master Command",
-              "color": "yellow"
-            },
-            {
-              "name": "Master Magic",
-              "color": "green"
-            },
-            {
-              "name": "Deathblow",
-              "color": "yellow"
-            },
-            {
-              "name": "Titan",
-              "color": "red"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Carbon Bangle",
-          "slots": [
-            {
-              "name": "Mug",
-              "color": "yellow"
-            },
-            {
-              "name": "Fire2",
-              "color": "green"
-            },
-            {
-              "name": "Ice2",
-              "color": "green"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
     },
     {
       "rank": 5,
@@ -603,8 +604,8 @@
         "motor-ball"
       ],
       "currentBoss": "bottomswell",
-      "power": 41,
-      "materiaCount": 21,
+      "power": 43,
+      "materiaCount": 22,
       "equippedValue": 355,
       "equippedMin": 310,
       "equippedMax": 400,
