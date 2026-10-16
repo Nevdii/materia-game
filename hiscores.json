@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T23:09:01.954Z",
+  "updatedAt": "2026-10-16T23:19:01.959Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -1553,8 +1553,8 @@
       "bossesDefeated": 0,
       "defeated": [],
       "currentBoss": "guard-scorpion",
-      "power": 1,
-      "materiaCount": 1,
+      "power": 2,
+      "materiaCount": 2,
       "equippedValue": 10,
       "equippedMin": 10,
       "equippedMax": 10,
