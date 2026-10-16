@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T23:45:26.217Z",
+  "updatedAt": "2026-10-16T23:55:26.214Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -131,8 +131,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 92,
-      "materiaCount": 39,
+      "power": 102,
+      "materiaCount": 47,
       "equippedValue": 500,
       "equippedMin": 500,
       "equippedMax": 500,
@@ -1520,6 +1520,47 @@
     },
     {
       "rank": 26,
+      "name": "imyt",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 8,
+      "materiaCount": 4,
+      "equippedValue": 90,
+      "equippedMin": 90,
+      "equippedMax": 90,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Titan",
+              "color": "red"
+            },
+            {
+              "name": "Choco/Mog",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "Cover",
+              "color": "purple"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 27,
       "name": "a_n_i_v",
       "bossesDefeated": 0,
       "defeated": [],
@@ -1551,47 +1592,6 @@
           "slots": [
             {
               "name": "HP Plus",
-              "color": "purple"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 27,
-      "name": "imyt",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "currentBoss": "guard-scorpion",
-      "power": 7,
-      "materiaCount": 3,
-      "equippedValue": 90,
-      "equippedMin": 90,
-      "equippedMax": 90,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Titan",
-              "color": "red"
-            },
-            {
-              "name": "Choco/Mog",
-              "color": "red"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            {
-              "name": "Cover",
               "color": "purple"
             }
           ]
