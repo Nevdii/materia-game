@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T22:49:01.974Z",
+  "updatedAt": "2026-10-16T22:59:01.965Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -781,8 +781,8 @@
         "rufus"
       ],
       "currentBoss": "motor-ball",
-      "power": 42,
-      "materiaCount": 18,
+      "power": 43,
+      "materiaCount": 19,
       "equippedValue": 280,
       "equippedMin": 235,
       "equippedMax": 325,
@@ -826,63 +826,6 @@
     },
     {
       "rank": 12,
-      "name": "zeb316",
-      "bossesDefeated": 7,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus"
-      ],
-      "currentBoss": "motor-ball",
-      "power": 34,
-      "materiaCount": 23,
-      "equippedValue": 215,
-      "equippedMin": 215,
-      "equippedMax": 215,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Ramuh",
-              "color": "red"
-            },
-            {
-              "name": "Fire2",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Carbon Bangle",
-          "slots": [
-            {
-              "name": "Ice2",
-              "color": "green"
-            },
-            {
-              "name": "Comet",
-              "color": "green"
-            },
-            {
-              "name": "Bio",
-              "color": "green"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 13,
       "name": "g0rg0nz",
       "bossesDefeated": 7,
       "defeated": [
@@ -895,8 +838,8 @@
         "rufus"
       ],
       "currentBoss": "motor-ball",
-      "power": 32,
-      "materiaCount": 21,
+      "power": 40,
+      "materiaCount": 25,
       "equippedValue": 235,
       "equippedMin": 235,
       "equippedMax": 235,
@@ -931,6 +874,63 @@
             {
               "name": "Steal",
               "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 13,
+      "name": "zeb316",
+      "bossesDefeated": 7,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus"
+      ],
+      "currentBoss": "motor-ball",
+      "power": 36,
+      "materiaCount": 25,
+      "equippedValue": 215,
+      "equippedMin": 215,
+      "equippedMax": 215,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Ramuh",
+              "color": "red"
+            },
+            {
+              "name": "Fire2",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Carbon Bangle",
+          "slots": [
+            {
+              "name": "Ice2",
+              "color": "green"
+            },
+            {
+              "name": "Comet",
+              "color": "green"
+            },
+            {
+              "name": "Bio",
+              "color": "green"
             }
           ]
         }
@@ -1448,8 +1448,8 @@
       "bossesDefeated": 0,
       "defeated": [],
       "currentBoss": "guard-scorpion",
-      "power": 1,
-      "materiaCount": 1,
+      "power": 3,
+      "materiaCount": 2,
       "equippedValue": 10,
       "equippedMin": 10,
       "equippedMax": 10,
