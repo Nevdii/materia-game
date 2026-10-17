@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:25:26.143Z",
+  "updatedAt": "2026-10-17T01:45:26.124Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -698,7 +698,7 @@
     {
       "rank": 9,
       "name": "g0rg0nz",
-      "bossesDefeated": 9,
+      "bossesDefeated": 10,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -708,11 +708,12 @@
         "gunner",
         "rufus",
         "motor-ball",
-        "bottomswell"
+        "bottomswell",
+        "jenova-birth"
       ],
-      "currentBoss": "jenova-birth",
-      "power": 39,
-      "materiaCount": 13,
+      "currentBoss": "dyne",
+      "power": 40,
+      "materiaCount": 14,
       "equippedValue": 440,
       "equippedMin": 440,
       "equippedMax": 440,
@@ -738,7 +739,7 @@
         },
         {
           "label": "Arm.",
-          "name": "Carbon Bangle",
+          "name": "Four Slots",
           "slots": [
             {
               "name": "Fire3",
@@ -751,7 +752,8 @@
             {
               "name": "Quake3",
               "color": "green"
-            }
+            },
+            null
           ]
         }
       ],
