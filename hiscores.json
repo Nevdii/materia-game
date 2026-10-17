@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T02:45:26.060Z",
+  "updatedAt": "2026-10-17T02:55:26.050Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -132,8 +132,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 71,
-      "materiaCount": 20,
+      "power": 73,
+      "materiaCount": 21,
       "equippedValue": 640,
       "equippedMin": 640,
       "equippedMax": 640,
@@ -214,11 +214,11 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 58,
-      "materiaCount": 17,
-      "equippedValue": 635,
-      "equippedMin": 590,
-      "equippedMax": 680,
+      "power": 56,
+      "materiaCount": 15,
+      "equippedValue": 675,
+      "equippedMin": 675,
+      "equippedMax": 675,
       "pets": [],
       "loadout": [
         {
@@ -230,8 +230,8 @@
               "color": "green"
             },
             {
-              "name": "Deathblow",
-              "color": "yellow"
+              "name": "Odin",
+              "color": "red"
             },
             {
               "name": "Bolt3",
@@ -295,11 +295,11 @@
         "palmer"
       ],
       "currentBoss": "red-dragon",
-      "power": 115,
-      "materiaCount": 52,
-      "equippedValue": 545,
-      "equippedMin": 545,
-      "equippedMax": 545,
+      "power": 129,
+      "materiaCount": 57,
+      "equippedValue": 525,
+      "equippedMin": 525,
+      "equippedMax": 525,
       "pets": [],
       "loadout": [
         {
@@ -333,16 +333,16 @@
               "color": "green"
             },
             {
-              "name": "Ramuh",
+              "name": "Kjata",
               "color": "red"
+            },
+            {
+              "name": "Chocobo Lure",
+              "color": "purple"
             },
             {
               "name": "Titan",
               "color": "red"
-            },
-            {
-              "name": "HP Max",
-              "color": "purple"
             }
           ]
         }
@@ -370,11 +370,11 @@
         "gi-nattak"
       ],
       "currentBoss": "materia-keeper",
-      "power": 105,
-      "materiaCount": 43,
-      "equippedValue": 425,
-      "equippedMin": 425,
-      "equippedMax": 425,
+      "power": 89,
+      "materiaCount": 36,
+      "equippedValue": 460,
+      "equippedMin": 460,
+      "equippedMax": 460,
       "pets": [],
       "loadout": [
         {
@@ -386,15 +386,15 @@
               "color": "green"
             },
             {
+              "name": "Fire3",
+              "color": "green"
+            },
+            {
               "name": "Kjata",
               "color": "red"
             },
             {
               "name": "Phoenix",
-              "color": "red"
-            },
-            {
-              "name": "Ramuh",
               "color": "red"
             }
           ]
@@ -403,6 +403,10 @@
           "label": "Arm.",
           "name": "Four Slots",
           "slots": [
+            {
+              "name": "Ramuh",
+              "color": "red"
+            },
             {
               "name": "Titan",
               "color": "red"
@@ -413,10 +417,6 @@
             },
             {
               "name": "Ifrit",
-              "color": "red"
-            },
-            {
-              "name": "Shiva",
               "color": "red"
             }
           ]
@@ -587,8 +587,8 @@
         "dyne"
       ],
       "currentBoss": "rude",
-      "power": 50,
-      "materiaCount": 21,
+      "power": 37,
+      "materiaCount": 12,
       "equippedValue": 500,
       "equippedMin": 500,
       "equippedMax": 500,
@@ -657,9 +657,9 @@
       "currentBoss": "dyne",
       "power": 81,
       "materiaCount": 42,
-      "equippedValue": 440,
-      "equippedMin": 440,
-      "equippedMax": 440,
+      "equippedValue": 475,
+      "equippedMin": 475,
+      "equippedMax": 475,
       "pets": [],
       "loadout": [
         {
@@ -693,8 +693,8 @@
               "color": "green"
             },
             {
-              "name": "Ice2",
-              "color": "green"
+              "name": "Bahamut",
+              "color": "red"
             },
             {
               "name": "Quake2",
@@ -723,8 +723,8 @@
         "dyne"
       ],
       "currentBoss": "rude",
-      "power": 47,
-      "materiaCount": 15,
+      "power": 38,
+      "materiaCount": 12,
       "equippedValue": 300,
       "equippedMin": 300,
       "equippedMax": 300,
@@ -1307,8 +1307,8 @@
         "aps"
       ],
       "currentBoss": "reno",
-      "power": 12,
-      "materiaCount": 7,
+      "power": 13,
+      "materiaCount": 8,
       "equippedValue": 85,
       "equippedMin": 85,
       "equippedMax": 85,
@@ -1832,6 +1832,41 @@
     },
     {
       "rank": 32,
+      "name": "caffeinedaydream",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 3,
+      "materiaCount": 1,
+      "equippedValue": 35,
+      "equippedMin": 35,
+      "equippedMax": 35,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Ifrit",
+              "color": "red"
+            },
+            null
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            null
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 33,
       "name": "cadjin",
       "bossesDefeated": 0,
       "defeated": [],
