@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T03:55:26.017Z",
+  "updatedAt": "2026-10-17T04:05:26.008Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -536,7 +536,7 @@
       ],
       "currentBoss": "red-dragon",
       "power": 54,
-      "materiaCount": 17,
+      "materiaCount": 18,
       "equippedValue": 565,
       "equippedMin": 565,
       "equippedMax": 565,
@@ -1282,6 +1282,61 @@
     },
     {
       "rank": 18,
+      "name": "zombieoov",
+      "bossesDefeated": 5,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512"
+      ],
+      "currentBoss": "gunner",
+      "power": 30,
+      "materiaCount": 20,
+      "equippedValue": 120,
+      "equippedMin": 120,
+      "equippedMax": 120,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Comet",
+              "color": "green"
+            },
+            {
+              "name": "Shiva",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Carbon Bangle",
+          "slots": [
+            {
+              "name": "Choco/Mog",
+              "color": "red"
+            },
+            {
+              "name": "Steal",
+              "color": "yellow"
+            },
+            {
+              "name": "Bolt",
+              "color": "green"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 19,
       "name": "irnbruu",
       "bossesDefeated": 5,
       "defeated": [
@@ -1336,61 +1391,6 @@
       "pvpBattles": 0
     },
     {
-      "rank": 19,
-      "name": "zombieoov",
-      "bossesDefeated": 5,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512"
-      ],
-      "currentBoss": "gunner",
-      "power": 21,
-      "materiaCount": 14,
-      "equippedValue": 120,
-      "equippedMin": 120,
-      "equippedMax": 120,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Comet",
-              "color": "green"
-            },
-            {
-              "name": "Shiva",
-              "color": "red"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Carbon Bangle",
-          "slots": [
-            {
-              "name": "Choco/Mog",
-              "color": "red"
-            },
-            {
-              "name": "Steal",
-              "color": "yellow"
-            },
-            {
-              "name": "Bolt",
-              "color": "green"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
       "rank": 20,
       "name": "caffeinedaydream",
       "bossesDefeated": 4,
@@ -1401,11 +1401,11 @@
         "reno"
       ],
       "currentBoss": "sample-h0512",
-      "power": 19,
-      "materiaCount": 8,
-      "equippedValue": 125,
-      "equippedMin": 125,
-      "equippedMax": 125,
+      "power": 16,
+      "materiaCount": 7,
+      "equippedValue": 165,
+      "equippedMin": 165,
+      "equippedMax": 165,
       "pets": [],
       "loadout": [
         {
@@ -1413,12 +1413,12 @@
           "name": "Buster Sword",
           "slots": [
             {
-              "name": "Chocobo Lure",
-              "color": "purple"
+              "name": "Ramuh",
+              "color": "red"
             },
             {
-              "name": "Ifrit",
-              "color": "red"
+              "name": "Chocobo Lure",
+              "color": "purple"
             }
           ]
         },
@@ -1427,12 +1427,12 @@
           "name": "Titan Bangle",
           "slots": [
             {
-              "name": "Shiva",
+              "name": "Ifrit",
               "color": "red"
             },
             {
-              "name": "Steal",
-              "color": "yellow"
+              "name": "Shiva",
+              "color": "red"
             }
           ]
         }
