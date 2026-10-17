@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T00:25:26.194Z",
+  "updatedAt": "2026-10-17T00:35:26.185Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -131,8 +131,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 85,
-      "materiaCount": 30,
+      "power": 77,
+      "materiaCount": 26,
       "equippedValue": 620,
       "equippedMin": 620,
       "equippedMax": 620,
@@ -213,8 +213,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 70,
-      "materiaCount": 41,
+      "power": 51,
+      "materiaCount": 20,
       "equippedValue": 635,
       "equippedMin": 590,
       "equippedMax": 680,
@@ -631,11 +631,11 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 48,
-      "materiaCount": 25,
-      "equippedValue": 400,
-      "equippedMin": 400,
-      "equippedMax": 400,
+      "power": 46,
+      "materiaCount": 21,
+      "equippedValue": 420,
+      "equippedMin": 420,
+      "equippedMax": 420,
       "pets": [],
       "loadout": [
         {
@@ -661,15 +661,15 @@
           "name": "Carbon Bangle",
           "slots": [
             {
+              "name": "Ice3",
+              "color": "green"
+            },
+            {
               "name": "Quake3",
               "color": "green"
             },
             {
               "name": "Fire2",
-              "color": "green"
-            },
-            {
-              "name": "Ice2",
               "color": "green"
             }
           ]
@@ -819,8 +819,8 @@
         "motor-ball"
       ],
       "currentBoss": "bottomswell",
-      "power": 43,
-      "materiaCount": 22,
+      "power": 45,
+      "materiaCount": 23,
       "equippedValue": 355,
       "equippedMin": 310,
       "equippedMax": 400,
@@ -1211,8 +1211,8 @@
         "reno"
       ],
       "currentBoss": "sample-h0512",
-      "power": 17,
-      "materiaCount": 12,
+      "power": 18,
+      "materiaCount": 13,
       "equippedValue": 125,
       "equippedMin": 125,
       "equippedMax": 125,
@@ -1494,6 +1494,47 @@
     },
     {
       "rank": 25,
+      "name": "icawn_",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 8,
+      "materiaCount": 6,
+      "equippedValue": 60,
+      "equippedMin": 60,
+      "equippedMax": 60,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Luck Plus",
+              "color": "purple"
+            },
+            {
+              "name": "Speed Plus",
+              "color": "purple"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "Steal",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 26,
       "name": "imyt",
       "bossesDefeated": 0,
       "defeated": [],
@@ -1534,7 +1575,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 26,
+      "rank": 27,
       "name": "a_n_i_v",
       "bossesDefeated": 0,
       "defeated": [],
@@ -1567,47 +1608,6 @@
             {
               "name": "HP Plus",
               "color": "purple"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 27,
-      "name": "icawn_",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "currentBoss": "guard-scorpion",
-      "power": 6,
-      "materiaCount": 4,
-      "equippedValue": 60,
-      "equippedMin": 60,
-      "equippedMax": 60,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Luck Plus",
-              "color": "purple"
-            },
-            {
-              "name": "Speed Plus",
-              "color": "purple"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            {
-              "name": "Steal",
-              "color": "yellow"
             }
           ]
         }
