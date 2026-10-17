@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:45:26.124Z",
+  "updatedAt": "2026-10-17T01:55:26.112Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -512,8 +512,8 @@
         "rude"
       ],
       "currentBoss": "gi-nattak",
-      "power": 67,
-      "materiaCount": 33,
+      "power": 68,
+      "materiaCount": 34,
       "equippedValue": 420,
       "equippedMin": 420,
       "equippedMax": 420,
