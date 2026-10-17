@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T00:35:26.185Z",
+  "updatedAt": "2026-10-17T00:45:26.173Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -885,7 +885,9 @@
       "equippedValue": 250,
       "equippedMin": 250,
       "equippedMax": 250,
-      "pets": [],
+      "pets": [
+        "Baby Chocobo"
+      ],
       "loadout": [
         {
           "label": "Wpn.",
