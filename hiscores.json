@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T05:05:25.967Z",
+  "updatedAt": "2026-10-17T05:15:25.957Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -936,8 +936,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 96,
-      "materiaCount": 51,
+      "power": 100,
+      "materiaCount": 53,
       "equippedValue": 300,
       "equippedMin": 300,
       "equippedMax": 300,
