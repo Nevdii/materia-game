@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T04:45:25.985Z",
+  "updatedAt": "2026-10-17T04:55:25.979Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -635,8 +635,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 56,
-      "materiaCount": 15,
+      "power": 63,
+      "materiaCount": 18,
       "equippedValue": 675,
       "equippedMin": 675,
       "equippedMax": 675,
