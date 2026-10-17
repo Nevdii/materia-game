@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T04:55:25.979Z",
+  "updatedAt": "2026-10-17T05:05:25.967Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -307,8 +307,8 @@
         "schizo"
       ],
       "currentBoss": "jenova-death",
-      "power": 59,
-      "materiaCount": 20,
+      "power": 60,
+      "materiaCount": 21,
       "equippedValue": 640,
       "equippedMin": 640,
       "equippedMax": 640,
@@ -936,8 +936,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 94,
-      "materiaCount": 50,
+      "power": 96,
+      "materiaCount": 51,
       "equippedValue": 300,
       "equippedMin": 300,
       "equippedMax": 300,
@@ -1189,8 +1189,8 @@
         "motor-ball"
       ],
       "currentBoss": "bottomswell",
-      "power": 43,
-      "materiaCount": 24,
+      "power": 46,
+      "materiaCount": 25,
       "equippedValue": 220,
       "equippedMin": 175,
       "equippedMax": 265,
