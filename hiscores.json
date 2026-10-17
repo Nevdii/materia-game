@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T00:55:26.163Z",
+  "updatedAt": "2026-10-17T01:05:26.154Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -213,8 +213,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 49,
-      "materiaCount": 15,
+      "power": 53,
+      "materiaCount": 16,
       "equippedValue": 635,
       "equippedMin": 590,
       "equippedMax": 680,
@@ -275,7 +275,7 @@
     {
       "rank": 3,
       "name": "cipherdetective",
-      "bossesDefeated": 13,
+      "bossesDefeated": 14,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -286,6 +286,7 @@
         "rufus",
         "motor-ball",
         "bottomswell",
+        "jenova-birth",
         "dyne",
         "rude",
         "gi-nattak",
@@ -323,7 +324,7 @@
         },
         {
           "label": "Arm.",
-          "name": "Carbon Bangle",
+          "name": "Four Slots",
           "slots": [
             {
               "name": "Titan",
@@ -333,6 +334,7 @@
               "name": "Chocobo Lure",
               "color": "purple"
             },
+            null,
             null
           ]
         }
@@ -561,6 +563,71 @@
     },
     {
       "rank": 7,
+      "name": "supersponge253",
+      "bossesDefeated": 10,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball",
+        "bottomswell",
+        "jenova-birth"
+      ],
+      "currentBoss": "dyne",
+      "power": 50,
+      "materiaCount": 24,
+      "equippedValue": 390,
+      "equippedMin": 390,
+      "equippedMax": 390,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Mythril Saber",
+          "slots": [
+            {
+              "name": "Master Command",
+              "color": "yellow"
+            },
+            {
+              "name": "Master Magic",
+              "color": "green"
+            },
+            {
+              "name": "Fire3",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Four Slots",
+          "slots": [
+            {
+              "name": "Titan",
+              "color": "red"
+            },
+            {
+              "name": "Bolt2",
+              "color": "green"
+            },
+            {
+              "name": "Ice2",
+              "color": "green"
+            },
+            null
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 8,
       "name": "cemorocks",
       "bossesDefeated": 10,
       "defeated": [
@@ -622,69 +689,6 @@
       ],
       "pvpWins": 0,
       "pvpBattles": 1
-    },
-    {
-      "rank": 8,
-      "name": "supersponge253",
-      "bossesDefeated": 9,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball",
-        "bottomswell"
-      ],
-      "currentBoss": "jenova-birth",
-      "power": 50,
-      "materiaCount": 24,
-      "equippedValue": 390,
-      "equippedMin": 390,
-      "equippedMax": 390,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Mythril Saber",
-          "slots": [
-            {
-              "name": "Master Command",
-              "color": "yellow"
-            },
-            {
-              "name": "Master Magic",
-              "color": "green"
-            },
-            {
-              "name": "Fire3",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Carbon Bangle",
-          "slots": [
-            {
-              "name": "Titan",
-              "color": "red"
-            },
-            {
-              "name": "Bolt2",
-              "color": "green"
-            },
-            {
-              "name": "Ice2",
-              "color": "green"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
     },
     {
       "rank": 9,
