@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T23:31:44.510Z",
+  "updatedAt": "2026-10-17T23:41:44.499Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -1580,6 +1580,50 @@
     },
     {
       "rank": 22,
+      "name": "icawn_",
+      "bossesDefeated": 2,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster"
+      ],
+      "currentBoss": "aps",
+      "power": 15,
+      "materiaCount": 9,
+      "equippedValue": 75,
+      "equippedMin": 75,
+      "equippedMax": 75,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Shiva",
+              "color": "red"
+            },
+            {
+              "name": "Luck Plus",
+              "color": "purple"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "Speed Plus",
+              "color": "purple"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 23,
       "name": "drazhar",
       "bossesDefeated": 2,
       "defeated": [
@@ -1615,50 +1659,6 @@
             {
               "name": "Bio",
               "color": "green"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 23,
-      "name": "icawn_",
-      "bossesDefeated": 2,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster"
-      ],
-      "currentBoss": "aps",
-      "power": 12,
-      "materiaCount": 8,
-      "equippedValue": 75,
-      "equippedMin": 75,
-      "equippedMax": 75,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Shiva",
-              "color": "red"
-            },
-            {
-              "name": "Luck Plus",
-              "color": "purple"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            {
-              "name": "Speed Plus",
-              "color": "purple"
             }
           ]
         }
@@ -1911,8 +1911,8 @@
       "bossesDefeated": 0,
       "defeated": [],
       "currentBoss": "guard-scorpion",
-      "power": 9,
-      "materiaCount": 4,
+      "power": 10,
+      "materiaCount": 5,
       "equippedValue": 55,
       "equippedMin": 55,
       "equippedMax": 55,
