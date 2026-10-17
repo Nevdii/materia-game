@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T03:25:26.029Z",
+  "updatedAt": "2026-10-17T03:35:26.032Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -372,8 +372,8 @@
         "materia-keeper"
       ],
       "currentBoss": "palmer",
-      "power": 94,
-      "materiaCount": 38,
+      "power": 96,
+      "materiaCount": 40,
       "equippedValue": 490,
       "equippedMin": 490,
       "equippedMax": 490,
@@ -449,9 +449,9 @@
       "currentBoss": "materia-keeper",
       "power": 78,
       "materiaCount": 31,
-      "equippedValue": 490,
-      "equippedMin": 490,
-      "equippedMax": 490,
+      "equippedValue": 500,
+      "equippedMin": 500,
+      "equippedMax": 500,
       "pets": [],
       "loadout": [
         {
@@ -481,20 +481,20 @@
           "name": "Four Slots",
           "slots": [
             {
-              "name": "Double Cut",
-              "color": "yellow"
+              "name": "Phoenix",
+              "color": "red"
             },
             {
-              "name": "Enemy Skill",
+              "name": "Ramuh",
+              "color": "red"
+            },
+            {
+              "name": "Double Cut",
               "color": "yellow"
             },
             {
               "name": "Chocobo Lure",
               "color": "purple"
-            },
-            {
-              "name": "Mug",
-              "color": "yellow"
             }
           ]
         }
