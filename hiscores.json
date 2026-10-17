@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T23:21:44.465Z",
+  "updatedAt": "2026-10-17T23:31:44.510Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -111,7 +111,7 @@
     {
       "rank": 1,
       "name": "uwuqueue",
-      "bossesDefeated": 22,
+      "bossesDefeated": 23,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -134,14 +134,15 @@
         "schizo",
         "jenova-death",
         "carry-armor",
-        "diamond-weapon"
+        "diamond-weapon",
+        "turks"
       ],
-      "currentBoss": "turks",
-      "power": 61,
-      "materiaCount": 21,
-      "equippedValue": 705,
-      "equippedMin": 660,
-      "equippedMax": 750,
+      "currentBoss": "proud-clod",
+      "power": 57,
+      "materiaCount": 18,
+      "equippedValue": 730,
+      "equippedMin": 685,
+      "equippedMax": 775,
       "pets": [],
       "loadout": [
         {
@@ -179,6 +180,10 @@
               "color": "green"
             },
             {
+              "name": "Bio2",
+              "color": "green"
+            },
+            {
               "name": "Kjata",
               "color": "red"
             },
@@ -193,10 +198,6 @@
             {
               "name": "Deathblow",
               "color": "yellow"
-            },
-            {
-              "name": "Chocobo Lure",
-              "color": "purple"
             }
           ]
         }
@@ -914,7 +915,7 @@
     {
       "rank": 11,
       "name": "zeb316",
-      "bossesDefeated": 11,
+      "bossesDefeated": 12,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -926,14 +927,15 @@
         "motor-ball",
         "bottomswell",
         "jenova-birth",
-        "dyne"
+        "dyne",
+        "rude"
       ],
-      "currentBoss": "rude",
-      "power": 56,
-      "materiaCount": 30,
-      "equippedValue": 395,
-      "equippedMin": 395,
-      "equippedMax": 395,
+      "currentBoss": "gi-nattak",
+      "power": 57,
+      "materiaCount": 25,
+      "equippedValue": 435,
+      "equippedMin": 435,
+      "equippedMax": 435,
       "pets": [],
       "loadout": [
         {
@@ -941,16 +943,16 @@
           "name": "Mythril Saber",
           "slots": [
             {
+              "name": "Bolt3",
+              "color": "green"
+            },
+            {
+              "name": "Fire3",
+              "color": "green"
+            },
+            {
               "name": "Ice3",
               "color": "green"
-            },
-            {
-              "name": "Quake3",
-              "color": "green"
-            },
-            {
-              "name": "Phoenix",
-              "color": "red"
             }
           ]
         },
@@ -959,16 +961,16 @@
           "name": "Four Slots",
           "slots": [
             {
-              "name": "Ramuh",
+              "name": "Quake3",
+              "color": "green"
+            },
+            {
+              "name": "Phoenix",
               "color": "red"
             },
             {
-              "name": "Bolt2",
-              "color": "green"
-            },
-            {
-              "name": "Fire2",
-              "color": "green"
+              "name": "Ramuh",
+              "color": "red"
             },
             {
               "name": "Comet",
@@ -1299,6 +1301,65 @@
     },
     {
       "rank": 17,
+      "name": "caffeinedaydream",
+      "bossesDefeated": 8,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball"
+      ],
+      "currentBoss": "bottomswell",
+      "power": 16,
+      "materiaCount": 7,
+      "equippedValue": 185,
+      "equippedMin": 185,
+      "equippedMax": 185,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Mythril Saber",
+          "slots": [
+            {
+              "name": "Ramuh",
+              "color": "red"
+            },
+            {
+              "name": "Chocobo Lure",
+              "color": "purple"
+            },
+            null
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Carbon Bangle",
+          "slots": [
+            {
+              "name": "Ifrit",
+              "color": "red"
+            },
+            {
+              "name": "Shiva",
+              "color": "red"
+            },
+            {
+              "name": "Steal",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 18,
       "name": "9names",
       "bossesDefeated": 7,
       "defeated": [
@@ -1347,63 +1408,6 @@
             {
               "name": "Choco/Mog",
               "color": "red"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 18,
-      "name": "caffeinedaydream",
-      "bossesDefeated": 7,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus"
-      ],
-      "currentBoss": "motor-ball",
-      "power": 16,
-      "materiaCount": 7,
-      "equippedValue": 185,
-      "equippedMin": 185,
-      "equippedMax": 185,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Ramuh",
-              "color": "red"
-            },
-            {
-              "name": "Chocobo Lure",
-              "color": "purple"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Carbon Bangle",
-          "slots": [
-            {
-              "name": "Ifrit",
-              "color": "red"
-            },
-            {
-              "name": "Shiva",
-              "color": "red"
-            },
-            {
-              "name": "Steal",
-              "color": "yellow"
             }
           ]
         }
@@ -1576,6 +1580,50 @@
     },
     {
       "rank": 22,
+      "name": "drazhar",
+      "bossesDefeated": 2,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster"
+      ],
+      "currentBoss": "aps",
+      "power": 12,
+      "materiaCount": 5,
+      "equippedValue": 115,
+      "equippedMin": 115,
+      "equippedMax": 115,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Phoenix",
+              "color": "red"
+            },
+            {
+              "name": "Shiva",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "Bio",
+              "color": "green"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 23,
       "name": "icawn_",
       "bossesDefeated": 2,
       "defeated": [
@@ -1611,50 +1659,6 @@
             {
               "name": "Speed Plus",
               "color": "purple"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 23,
-      "name": "drazhar",
-      "bossesDefeated": 2,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster"
-      ],
-      "currentBoss": "aps",
-      "power": 10,
-      "materiaCount": 4,
-      "equippedValue": 115,
-      "equippedMin": 115,
-      "equippedMax": 115,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Phoenix",
-              "color": "red"
-            },
-            {
-              "name": "Shiva",
-              "color": "red"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            {
-              "name": "Bio",
-              "color": "green"
             }
           ]
         }
