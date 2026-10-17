@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T23:55:26.214Z",
+  "updatedAt": "2026-10-17T00:15:26.204Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -973,6 +973,62 @@
     },
     {
       "rank": 14,
+      "name": "tilimorf",
+      "bossesDefeated": 6,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner"
+      ],
+      "currentBoss": "rufus",
+      "power": 32,
+      "materiaCount": 17,
+      "equippedValue": 180,
+      "equippedMin": 135,
+      "equippedMax": 225,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Deathblow",
+              "color": "yellow"
+            },
+            {
+              "name": "Ramuh",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Carbon Bangle",
+          "slots": [
+            {
+              "name": "Ifrit",
+              "color": "red"
+            },
+            {
+              "name": "Bio",
+              "color": "green"
+            },
+            {
+              "name": "Choco/Mog",
+              "color": "red"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 15,
       "name": "namjies",
       "bossesDefeated": 6,
       "defeated": [
@@ -1020,62 +1076,6 @@
             {
               "name": "Speed Plus",
               "color": "purple"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 15,
-      "name": "tilimorf",
-      "bossesDefeated": 6,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner"
-      ],
-      "currentBoss": "rufus",
-      "power": 27,
-      "materiaCount": 15,
-      "equippedValue": 180,
-      "equippedMin": 135,
-      "equippedMax": 225,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Deathblow",
-              "color": "yellow"
-            },
-            {
-              "name": "Ramuh",
-              "color": "red"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Carbon Bangle",
-          "slots": [
-            {
-              "name": "Ifrit",
-              "color": "red"
-            },
-            {
-              "name": "Bio",
-              "color": "green"
-            },
-            {
-              "name": "Choco/Mog",
-              "color": "red"
             }
           ]
         }
