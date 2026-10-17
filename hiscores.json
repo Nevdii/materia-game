@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T04:35:25.990Z",
+  "updatedAt": "2026-10-17T04:45:25.985Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -1176,6 +1176,65 @@
     },
     {
       "rank": 15,
+      "name": "tilimorf",
+      "bossesDefeated": 8,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball"
+      ],
+      "currentBoss": "bottomswell",
+      "power": 43,
+      "materiaCount": 24,
+      "equippedValue": 220,
+      "equippedMin": 175,
+      "equippedMax": 265,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Mythril Saber",
+          "slots": [
+            {
+              "name": "Kjata",
+              "color": "red"
+            },
+            {
+              "name": "Ramuh",
+              "color": "red"
+            },
+            null
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Carbon Bangle",
+          "slots": [
+            {
+              "name": "Deathblow",
+              "color": "yellow"
+            },
+            {
+              "name": "Ifrit",
+              "color": "red"
+            },
+            {
+              "name": "Bio",
+              "color": "green"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 16,
       "name": "zombieoov",
       "bossesDefeated": 8,
       "defeated": [
@@ -1226,65 +1285,6 @@
             {
               "name": "Shiva",
               "color": "red"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 16,
-      "name": "tilimorf",
-      "bossesDefeated": 8,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball"
-      ],
-      "currentBoss": "bottomswell",
-      "power": 35,
-      "materiaCount": 20,
-      "equippedValue": 220,
-      "equippedMin": 175,
-      "equippedMax": 265,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Mythril Saber",
-          "slots": [
-            {
-              "name": "Kjata",
-              "color": "red"
-            },
-            {
-              "name": "Ramuh",
-              "color": "red"
-            },
-            null
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Carbon Bangle",
-          "slots": [
-            {
-              "name": "Deathblow",
-              "color": "yellow"
-            },
-            {
-              "name": "Ifrit",
-              "color": "red"
-            },
-            {
-              "name": "Bio",
-              "color": "green"
             }
           ]
         }
