@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T05:01:44.201Z",
+  "updatedAt": "2026-10-18T05:11:44.189Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -340,8 +340,8 @@
         "carry-armor"
       ],
       "currentBoss": "diamond-weapon",
-      "power": 210,
-      "materiaCount": 93,
+      "power": 171,
+      "materiaCount": 66,
       "equippedValue": 685,
       "equippedMin": 685,
       "equippedMax": 685,
@@ -1327,7 +1327,7 @@
       ],
       "currentBoss": "gi-nattak",
       "power": 61,
-      "materiaCount": 24,
+      "materiaCount": 23,
       "equippedValue": 520,
       "equippedMin": 520,
       "equippedMax": 520,
@@ -1526,11 +1526,11 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 60,
-      "materiaCount": 31,
-      "equippedValue": 345,
-      "equippedMin": 300,
-      "equippedMax": 390,
+      "power": 55,
+      "materiaCount": 28,
+      "equippedValue": 365,
+      "equippedMin": 320,
+      "equippedMax": 410,
       "pets": [],
       "loadout": [
         {
@@ -1560,7 +1560,7 @@
               "color": "green"
             },
             {
-              "name": "Quake2",
+              "name": "Quake3",
               "color": "green"
             },
             {
