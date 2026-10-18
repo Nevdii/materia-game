@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T06:41:44.105Z",
+  "updatedAt": "2026-10-18T06:51:44.100Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -241,8 +241,8 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 99,
-      "materiaCount": 33,
+      "power": 105,
+      "materiaCount": 38,
       "equippedValue": 765,
       "equippedMin": 765,
       "equippedMax": 765,
@@ -1154,9 +1154,9 @@
       "currentBoss": "jenova-life",
       "power": 66,
       "materiaCount": 21,
-      "equippedValue": 600,
-      "equippedMin": 600,
-      "equippedMax": 600,
+      "equippedValue": 655,
+      "equippedMin": 655,
+      "equippedMax": 655,
       "pets": [],
       "loadout": [
         {
@@ -1201,7 +1201,10 @@
               "name": "Quake3",
               "color": "green"
             },
-            null
+            {
+              "name": "Enemy Skill",
+              "color": "yellow"
+            }
           ]
         }
       ],
@@ -1232,8 +1235,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 61,
-      "materiaCount": 22,
+      "power": 63,
+      "materiaCount": 23,
       "equippedValue": 575,
       "equippedMin": 575,
       "equippedMax": 575,
@@ -1524,6 +1527,71 @@
     },
     {
       "rank": 17,
+      "name": "jmop95",
+      "bossesDefeated": 10,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball",
+        "bottomswell",
+        "jenova-birth"
+      ],
+      "currentBoss": "dyne",
+      "power": 49,
+      "materiaCount": 24,
+      "equippedValue": 365,
+      "equippedMin": 320,
+      "equippedMax": 410,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Mythril Saber",
+          "slots": [
+            {
+              "name": "Ultima",
+              "color": "green"
+            },
+            {
+              "name": "Bolt3",
+              "color": "green"
+            },
+            {
+              "name": "Fire2",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Four Slots",
+          "slots": [
+            {
+              "name": "Ice2",
+              "color": "green"
+            },
+            {
+              "name": "Quake3",
+              "color": "green"
+            },
+            {
+              "name": "Deathblow",
+              "color": "yellow"
+            },
+            null
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 18,
       "name": "drazhar",
       "bossesDefeated": 9,
       "defeated": [
@@ -1538,8 +1606,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 66,
-      "materiaCount": 24,
+      "power": 71,
+      "materiaCount": 26,
       "equippedValue": 310,
       "equippedMin": 310,
       "equippedMax": 310,
@@ -1578,69 +1646,6 @@
             {
               "name": "Shiva",
               "color": "red"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 18,
-      "name": "jmop95",
-      "bossesDefeated": 9,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball",
-        "bottomswell"
-      ],
-      "currentBoss": "jenova-birth",
-      "power": 49,
-      "materiaCount": 24,
-      "equippedValue": 365,
-      "equippedMin": 320,
-      "equippedMax": 410,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Mythril Saber",
-          "slots": [
-            {
-              "name": "Ultima",
-              "color": "green"
-            },
-            {
-              "name": "Bolt3",
-              "color": "green"
-            },
-            {
-              "name": "Fire2",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Carbon Bangle",
-          "slots": [
-            {
-              "name": "Ice2",
-              "color": "green"
-            },
-            {
-              "name": "Quake3",
-              "color": "green"
-            },
-            {
-              "name": "Deathblow",
-              "color": "yellow"
             }
           ]
         }
@@ -2008,9 +2013,9 @@
       "currentBoss": "reno",
       "power": 18,
       "materiaCount": 10,
-      "equippedValue": 90,
-      "equippedMin": 90,
-      "equippedMax": 90,
+      "equippedValue": 110,
+      "equippedMin": 110,
+      "equippedMax": 110,
       "pets": [],
       "loadout": [
         {
@@ -2035,7 +2040,10 @@
               "name": "Luck Plus",
               "color": "purple"
             },
-            null
+            {
+              "name": "Speed Plus",
+              "color": "purple"
+            }
           ]
         }
       ],
