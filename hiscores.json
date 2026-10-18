@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T04:31:44.234Z",
+  "updatedAt": "2026-10-18T04:41:44.222Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -1162,8 +1162,8 @@
         "red-dragon"
       ],
       "currentBoss": "demons-gate",
-      "power": 93,
-      "materiaCount": 42,
+      "power": 95,
+      "materiaCount": 44,
       "equippedValue": 495,
       "equippedMin": 495,
       "equippedMax": 495,
@@ -1311,8 +1311,8 @@
         "dyne"
       ],
       "currentBoss": "rude",
-      "power": 59,
-      "materiaCount": 28,
+      "power": 61,
+      "materiaCount": 29,
       "equippedValue": 490,
       "equippedMin": 490,
       "equippedMax": 490,
