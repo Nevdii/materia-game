@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T00:21:44.469Z",
+  "updatedAt": "2026-10-18T00:31:44.459Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -138,8 +138,8 @@
         "turks"
       ],
       "currentBoss": "proud-clod",
-      "power": 58,
-      "materiaCount": 19,
+      "power": 57,
+      "materiaCount": 18,
       "equippedValue": 730,
       "equippedMin": 685,
       "equippedMax": 775,
@@ -543,8 +543,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 74,
-      "materiaCount": 22,
+      "power": 71,
+      "materiaCount": 19,
       "equippedValue": 660,
       "equippedMin": 660,
       "equippedMax": 660,
@@ -1252,11 +1252,11 @@
         "motor-ball"
       ],
       "currentBoss": "bottomswell",
-      "power": 39,
+      "power": 38,
       "materiaCount": 21,
-      "equippedValue": 345,
-      "equippedMin": 345,
-      "equippedMax": 345,
+      "equippedValue": 360,
+      "equippedMin": 360,
+      "equippedMax": 360,
       "pets": [],
       "loadout": [
         {
@@ -1290,8 +1290,8 @@
               "color": "green"
             },
             {
-              "name": "Shiva",
-              "color": "red"
+              "name": "Quake2",
+              "color": "green"
             }
           ]
         }
@@ -1316,9 +1316,9 @@
       "currentBoss": "bottomswell",
       "power": 16,
       "materiaCount": 7,
-      "equippedValue": 185,
-      "equippedMin": 185,
-      "equippedMax": 185,
+      "equippedValue": 195,
+      "equippedMin": 195,
+      "equippedMax": 195,
       "pets": [],
       "loadout": [
         {
@@ -1333,7 +1333,10 @@
               "name": "Chocobo Lure",
               "color": "purple"
             },
-            null
+            {
+              "name": "Ifrit",
+              "color": "red"
+            }
           ]
         },
         {
@@ -1341,16 +1344,16 @@
           "name": "Carbon Bangle",
           "slots": [
             {
-              "name": "Ifrit",
-              "color": "red"
-            },
-            {
               "name": "Shiva",
               "color": "red"
             },
             {
               "name": "Steal",
               "color": "yellow"
+            },
+            {
+              "name": "Fire",
+              "color": "green"
             }
           ]
         }
@@ -1372,8 +1375,8 @@
         "rufus"
       ],
       "currentBoss": "motor-ball",
-      "power": 47,
-      "materiaCount": 27,
+      "power": 48,
+      "materiaCount": 28,
       "equippedValue": 200,
       "equippedMin": 200,
       "equippedMax": 200,
@@ -1406,8 +1409,8 @@
               "color": "red"
             },
             {
-              "name": "Choco/Mog",
-              "color": "red"
+              "name": "Bio",
+              "color": "green"
             }
           ]
         }
