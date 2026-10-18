@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T00:41:44.449Z",
+  "updatedAt": "2026-10-18T00:51:44.437Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -139,8 +139,8 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 57,
-      "materiaCount": 18,
+      "power": 58,
+      "materiaCount": 19,
       "equippedValue": 765,
       "equippedMin": 720,
       "equippedMax": 810,
@@ -947,8 +947,8 @@
         "gi-nattak"
       ],
       "currentBoss": "materia-keeper",
-      "power": 62,
-      "materiaCount": 25,
+      "power": 66,
+      "materiaCount": 26,
       "equippedValue": 470,
       "equippedMin": 470,
       "equippedMax": 470,
@@ -1075,7 +1075,7 @@
     {
       "rank": 13,
       "name": "9names",
-      "bossesDefeated": 9,
+      "bossesDefeated": 10,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -1085,9 +1085,10 @@
         "gunner",
         "rufus",
         "motor-ball",
-        "bottomswell"
+        "bottomswell",
+        "jenova-birth"
       ],
-      "currentBoss": "jenova-birth",
+      "currentBoss": "dyne",
       "power": 59,
       "materiaCount": 31,
       "equippedValue": 365,
@@ -1115,7 +1116,7 @@
         },
         {
           "label": "Arm.",
-          "name": "Carbon Bangle",
+          "name": "Four Slots",
           "slots": [
             {
               "name": "Chocobo Lure",
@@ -1128,7 +1129,8 @@
             {
               "name": "Shiva",
               "color": "red"
-            }
+            },
+            null
           ]
         }
       ],
@@ -1340,8 +1342,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 21,
-      "materiaCount": 8,
+      "power": 29,
+      "materiaCount": 12,
       "equippedValue": 265,
       "equippedMin": 265,
       "equippedMax": 265,
