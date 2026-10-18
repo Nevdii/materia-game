@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T06:31:44.108Z",
+  "updatedAt": "2026-10-18T06:41:44.105Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -2249,6 +2249,46 @@
     },
     {
       "rank": 31,
+      "name": "duece910",
+      "bossesDefeated": 1,
+      "defeated": [
+        "guard-scorpion"
+      ],
+      "currentBoss": "air-buster",
+      "power": 5,
+      "materiaCount": 2,
+      "equippedValue": 55,
+      "equippedMin": 55,
+      "equippedMax": 55,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Shiva",
+              "color": "red"
+            },
+            {
+              "name": "Choco/Mog",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            null
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 32,
       "name": "tamu_darknight",
       "bossesDefeated": 1,
       "defeated": [
@@ -2288,7 +2328,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 32,
+      "rank": 33,
       "name": "azuremen",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2329,7 +2369,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 33,
+      "rank": 34,
       "name": "drinnar",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2364,7 +2404,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 34,
+      "rank": 35,
       "name": "a_n_i_v",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2405,7 +2445,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 35,
+      "rank": 36,
       "name": "capitan_jefe",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2446,7 +2486,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 36,
+      "rank": 37,
       "name": "dargkkast",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2484,7 +2524,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 37,
+      "rank": 38,
       "name": "iamkyluya",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2525,7 +2565,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 38,
+      "rank": 39,
       "name": "derekjjackson",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2559,44 +2599,6 @@
               "name": "HP Plus",
               "color": "purple"
             }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 39,
-      "name": "duece910",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "currentBoss": "guard-scorpion",
-      "power": 5,
-      "materiaCount": 2,
-      "equippedValue": 55,
-      "equippedMin": 55,
-      "equippedMax": 55,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Shiva",
-              "color": "red"
-            },
-            {
-              "name": "Choco/Mog",
-              "color": "red"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            null
           ]
         }
       ],
