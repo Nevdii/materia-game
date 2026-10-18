@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T00:11:44.480Z",
+  "updatedAt": "2026-10-18T00:21:44.469Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -1372,8 +1372,8 @@
         "rufus"
       ],
       "currentBoss": "motor-ball",
-      "power": 45,
-      "materiaCount": 26,
+      "power": 47,
+      "materiaCount": 27,
       "equippedValue": 200,
       "equippedMin": 200,
       "equippedMax": 200,
