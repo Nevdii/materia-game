@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T05:41:44.157Z",
+  "updatedAt": "2026-10-18T05:51:44.148Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -888,9 +888,9 @@
       "currentBoss": "jenova-life",
       "power": 133,
       "materiaCount": 48,
-      "equippedValue": 35,
-      "equippedMin": 35,
-      "equippedMax": 35,
+      "equippedValue": 620,
+      "equippedMin": 620,
+      "equippedMax": 620,
       "pets": [],
       "loadout": [
         {
@@ -898,23 +898,47 @@
           "name": "Butterfly Edge",
           "slots": [
             {
-              "name": "Chocobo Lure",
-              "color": "purple"
+              "name": "Master Magic",
+              "color": "green"
             },
-            null,
-            null,
-            null
+            {
+              "name": "Ultima",
+              "color": "green"
+            },
+            {
+              "name": "Bolt3",
+              "color": "green"
+            },
+            {
+              "name": "Fire3",
+              "color": "green"
+            }
           ]
         },
         {
           "label": "Arm.",
           "name": "Diamond Bangle",
           "slots": [
-            null,
-            null,
-            null,
-            null,
-            null
+            {
+              "name": "Ice3",
+              "color": "green"
+            },
+            {
+              "name": "Quake3",
+              "color": "green"
+            },
+            {
+              "name": "Kjata",
+              "color": "red"
+            },
+            {
+              "name": "Leviathan",
+              "color": "red"
+            },
+            {
+              "name": "Phoenix",
+              "color": "red"
+            }
           ]
         }
       ],
@@ -945,8 +969,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 95,
-      "materiaCount": 44,
+      "power": 92,
+      "materiaCount": 40,
       "equippedValue": 545,
       "equippedMin": 545,
       "equippedMax": 545,
@@ -987,15 +1011,15 @@
               "color": "green"
             },
             {
+              "name": "Bolt2",
+              "color": "green"
+            },
+            {
               "name": "Fire2",
               "color": "green"
             },
             {
               "name": "Ice2",
-              "color": "green"
-            },
-            {
-              "name": "Quake2",
               "color": "green"
             }
           ]
@@ -1028,8 +1052,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 77,
-      "materiaCount": 23,
+      "power": 79,
+      "materiaCount": 24,
       "equippedValue": 480,
       "equippedMin": 480,
       "equippedMax": 480,
@@ -1681,8 +1705,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 31,
-      "materiaCount": 19,
+      "power": 33,
+      "materiaCount": 20,
       "equippedValue": 290,
       "equippedMin": 245,
       "equippedMax": 335,
@@ -2430,6 +2454,47 @@
     },
     {
       "rank": 37,
+      "name": "derekjjackson",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 6,
+      "materiaCount": 3,
+      "equippedValue": 65,
+      "equippedMin": 65,
+      "equippedMax": 65,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Comet",
+              "color": "green"
+            },
+            {
+              "name": "Choco/Mog",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "HP Plus",
+              "color": "purple"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 38,
       "name": "duece910",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2467,7 +2532,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 38,
+      "rank": 39,
       "name": "capitan_jefe",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2501,44 +2566,6 @@
               "name": "HP Plus",
               "color": "purple"
             }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 39,
-      "name": "derekjjackson",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "currentBoss": "guard-scorpion",
-      "power": 4,
-      "materiaCount": 2,
-      "equippedValue": 45,
-      "equippedMin": 45,
-      "equippedMax": 45,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Comet",
-              "color": "green"
-            },
-            {
-              "name": "HP Plus",
-              "color": "purple"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            null
           ]
         }
       ],
