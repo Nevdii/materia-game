@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T01:51:44.399Z",
+  "updatedAt": "2026-10-18T02:01:44.388Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -389,7 +389,7 @@
     {
       "rank": 4,
       "name": "supersponge253",
-      "bossesDefeated": 17,
+      "bossesDefeated": 18,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -407,9 +407,10 @@
         "materia-keeper",
         "palmer",
         "red-dragon",
-        "demons-gate"
+        "demons-gate",
+        "jenova-life"
       ],
-      "currentBoss": "jenova-life",
+      "currentBoss": "schizo",
       "power": 208,
       "materiaCount": 103,
       "equippedValue": 625,
@@ -693,6 +694,89 @@
     },
     {
       "rank": 8,
+      "name": "cemorocks",
+      "bossesDefeated": 17,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball",
+        "bottomswell",
+        "jenova-birth",
+        "dyne",
+        "rude",
+        "gi-nattak",
+        "materia-keeper",
+        "palmer",
+        "red-dragon",
+        "demons-gate"
+      ],
+      "currentBoss": "jenova-life",
+      "power": 72,
+      "materiaCount": 21,
+      "equippedValue": 480,
+      "equippedMin": 480,
+      "equippedMax": 480,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Butterfly Edge",
+          "slots": [
+            {
+              "name": "Kjata",
+              "color": "red"
+            },
+            {
+              "name": "Leviathan",
+              "color": "red"
+            },
+            {
+              "name": "Phoenix",
+              "color": "red"
+            },
+            {
+              "name": "Ramuh",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Diamond Bangle",
+          "slots": [
+            {
+              "name": "Titan",
+              "color": "red"
+            },
+            {
+              "name": "HP Max",
+              "color": "purple"
+            },
+            {
+              "name": "MP Max",
+              "color": "purple"
+            },
+            {
+              "name": "Chocobo Lure",
+              "color": "purple"
+            },
+            {
+              "name": "Ifrit",
+              "color": "red"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 1
+    },
+    {
+      "rank": 9,
       "name": "arceoxys",
       "bossesDefeated": 17,
       "defeated": [
@@ -773,88 +857,6 @@
       ],
       "pvpWins": 0,
       "pvpBattles": 0
-    },
-    {
-      "rank": 9,
-      "name": "cemorocks",
-      "bossesDefeated": 16,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball",
-        "bottomswell",
-        "dyne",
-        "rude",
-        "gi-nattak",
-        "materia-keeper",
-        "palmer",
-        "red-dragon",
-        "demons-gate"
-      ],
-      "currentBoss": "jenova-life",
-      "power": 72,
-      "materiaCount": 21,
-      "equippedValue": 480,
-      "equippedMin": 480,
-      "equippedMax": 480,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Butterfly Edge",
-          "slots": [
-            {
-              "name": "Kjata",
-              "color": "red"
-            },
-            {
-              "name": "Leviathan",
-              "color": "red"
-            },
-            {
-              "name": "Phoenix",
-              "color": "red"
-            },
-            {
-              "name": "Ramuh",
-              "color": "red"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Diamond Bangle",
-          "slots": [
-            {
-              "name": "Titan",
-              "color": "red"
-            },
-            {
-              "name": "HP Max",
-              "color": "purple"
-            },
-            {
-              "name": "MP Max",
-              "color": "purple"
-            },
-            {
-              "name": "Chocobo Lure",
-              "color": "purple"
-            },
-            {
-              "name": "Ifrit",
-              "color": "red"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 1
     },
     {
       "rank": 10,
@@ -1706,8 +1708,8 @@
         "reno"
       ],
       "currentBoss": "sample-h0512",
-      "power": 28,
-      "materiaCount": 18,
+      "power": 29,
+      "materiaCount": 19,
       "equippedValue": 165,
       "equippedMin": 120,
       "equippedMax": 210,
@@ -1800,8 +1802,8 @@
         "air-buster"
       ],
       "currentBoss": "aps",
-      "power": 25,
-      "materiaCount": 17,
+      "power": 26,
+      "materiaCount": 18,
       "equippedValue": 120,
       "equippedMin": 120,
       "equippedMax": 120,
