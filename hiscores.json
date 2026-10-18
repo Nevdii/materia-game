@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T01:21:44.418Z",
+  "updatedAt": "2026-10-18T01:31:44.407Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -1233,8 +1233,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 42,
-      "materiaCount": 16,
+      "power": 47,
+      "materiaCount": 19,
       "equippedValue": 335,
       "equippedMin": 290,
       "equippedMax": 380,
@@ -1691,8 +1691,8 @@
         "aps"
       ],
       "currentBoss": "reno",
-      "power": 22,
-      "materiaCount": 16,
+      "power": 30,
+      "materiaCount": 21,
       "equippedValue": 100,
       "equippedMin": 55,
       "equippedMax": 145,
@@ -1782,8 +1782,8 @@
         "air-buster"
       ],
       "currentBoss": "aps",
-      "power": 19,
-      "materiaCount": 15,
+      "power": 25,
+      "materiaCount": 20,
       "equippedValue": 65,
       "equippedMin": 65,
       "equippedMax": 65,
