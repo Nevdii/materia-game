@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T23:41:44.499Z",
+  "updatedAt": "2026-10-18T00:11:44.480Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -138,8 +138,8 @@
         "turks"
       ],
       "currentBoss": "proud-clod",
-      "power": 57,
-      "materiaCount": 18,
+      "power": 58,
+      "materiaCount": 19,
       "equippedValue": 730,
       "equippedMin": 685,
       "equippedMax": 775,
