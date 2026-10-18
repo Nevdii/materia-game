@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T01:31:44.407Z",
+  "updatedAt": "2026-10-18T01:41:44.395Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -139,11 +139,11 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 63,
-      "materiaCount": 23,
-      "equippedValue": 765,
-      "equippedMin": 720,
-      "equippedMax": 810,
+      "power": 59,
+      "materiaCount": 21,
+      "equippedValue": 780,
+      "equippedMin": 735,
+      "equippedMax": 825,
       "pets": [],
       "loadout": [
         {
@@ -197,12 +197,12 @@
               "color": "red"
             },
             {
-              "name": "Deathblow",
-              "color": "yellow"
+              "name": "Demi2",
+              "color": "green"
             },
             {
-              "name": "Chocobo Lure",
-              "color": "purple"
+              "name": "Deathblow",
+              "color": "yellow"
             }
           ]
         }
@@ -388,6 +388,89 @@
     },
     {
       "rank": 4,
+      "name": "supersponge253",
+      "bossesDefeated": 17,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball",
+        "bottomswell",
+        "jenova-birth",
+        "dyne",
+        "rude",
+        "gi-nattak",
+        "materia-keeper",
+        "palmer",
+        "red-dragon",
+        "demons-gate"
+      ],
+      "currentBoss": "jenova-life",
+      "power": 163,
+      "materiaCount": 82,
+      "equippedValue": 625,
+      "equippedMin": 625,
+      "equippedMax": 625,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Butterfly Edge",
+          "slots": [
+            {
+              "name": "Bahamut",
+              "color": "red"
+            },
+            {
+              "name": "Master Command",
+              "color": "yellow"
+            },
+            {
+              "name": "Master Magic",
+              "color": "green"
+            },
+            {
+              "name": "Ultima",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Diamond Bangle",
+          "slots": [
+            {
+              "name": "Fire3",
+              "color": "green"
+            },
+            {
+              "name": "Kjata",
+              "color": "red"
+            },
+            {
+              "name": "Titan",
+              "color": "red"
+            },
+            {
+              "name": "Double Cut",
+              "color": "yellow"
+            },
+            {
+              "name": "Mug",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 5,
       "name": "di_zz",
       "bossesDefeated": 17,
       "defeated": [
@@ -446,7 +529,7 @@
       "pvpBattles": 1
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "cipherdetective",
       "bossesDefeated": 17,
       "defeated": [
@@ -526,7 +609,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "kinos_ttv",
       "bossesDefeated": 17,
       "defeated": [
@@ -609,7 +692,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "arceoxys",
       "bossesDefeated": 17,
       "defeated": [
@@ -632,8 +715,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 60,
-      "materiaCount": 17,
+      "power": 69,
+      "materiaCount": 20,
       "equippedValue": 675,
       "equippedMin": 675,
       "equippedMax": 675,
@@ -684,84 +767,6 @@
             {
               "name": "Comet2",
               "color": "green"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 8,
-      "name": "supersponge253",
-      "bossesDefeated": 16,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball",
-        "bottomswell",
-        "jenova-birth",
-        "dyne",
-        "rude",
-        "gi-nattak",
-        "materia-keeper",
-        "palmer",
-        "red-dragon"
-      ],
-      "currentBoss": "demons-gate",
-      "power": 163,
-      "materiaCount": 82,
-      "equippedValue": 570,
-      "equippedMin": 570,
-      "equippedMax": 570,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Butterfly Edge",
-          "slots": [
-            {
-              "name": "Bahamut",
-              "color": "red"
-            },
-            {
-              "name": "Master Command",
-              "color": "yellow"
-            },
-            {
-              "name": "Master Magic",
-              "color": "green"
-            },
-            {
-              "name": "Ultima",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Four Slots",
-          "slots": [
-            {
-              "name": "Fire3",
-              "color": "green"
-            },
-            {
-              "name": "Kjata",
-              "color": "red"
-            },
-            {
-              "name": "Titan",
-              "color": "red"
-            },
-            {
-              "name": "Double Cut",
-              "color": "yellow"
             }
           ]
         }
@@ -1080,7 +1085,7 @@
     {
       "rank": 13,
       "name": "zombieoov",
-      "bossesDefeated": 12,
+      "bossesDefeated": 13,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -1093,19 +1098,20 @@
         "bottomswell",
         "jenova-birth",
         "dyne",
-        "rude"
+        "rude",
+        "gi-nattak"
       ],
-      "currentBoss": "gi-nattak",
+      "currentBoss": "materia-keeper",
       "power": 62,
       "materiaCount": 29,
-      "equippedValue": 440,
-      "equippedMin": 440,
-      "equippedMax": 440,
+      "equippedValue": 490,
+      "equippedMin": 490,
+      "equippedMax": 490,
       "pets": [],
       "loadout": [
         {
           "label": "Wpn.",
-          "name": "Mythril Saber",
+          "name": "Butterfly Edge",
           "slots": [
             {
               "name": "Comet2",
@@ -1118,6 +1124,10 @@
             {
               "name": "Kjata",
               "color": "red"
+            },
+            {
+              "name": "Phoenix",
+              "color": "red"
             }
           ]
         },
@@ -1125,10 +1135,6 @@
           "label": "Arm.",
           "name": "Four Slots",
           "slots": [
-            {
-              "name": "Phoenix",
-              "color": "red"
-            },
             {
               "name": "Titan",
               "color": "red"
@@ -1139,6 +1145,10 @@
             },
             {
               "name": "Fire2",
+              "color": "green"
+            },
+            {
+              "name": "Ice2",
               "color": "green"
             }
           ]
@@ -1468,18 +1478,19 @@
     {
       "rank": 19,
       "name": "drazhar",
-      "bossesDefeated": 6,
+      "bossesDefeated": 7,
       "defeated": [
         "guard-scorpion",
         "air-buster",
         "aps",
         "reno",
         "sample-h0512",
-        "gunner"
+        "gunner",
+        "rufus"
       ],
-      "currentBoss": "rufus",
-      "power": 37,
-      "materiaCount": 14,
+      "currentBoss": "motor-ball",
+      "power": 44,
+      "materiaCount": 17,
       "equippedValue": 215,
       "equippedMin": 215,
       "equippedMax": 215,
@@ -1683,52 +1694,6 @@
     },
     {
       "rank": 23,
-      "name": "jmop95",
-      "bossesDefeated": 3,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps"
-      ],
-      "currentBoss": "reno",
-      "power": 30,
-      "materiaCount": 21,
-      "equippedValue": 100,
-      "equippedMin": 55,
-      "equippedMax": 145,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Deathblow",
-              "color": "yellow"
-            },
-            {
-              "name": "Ifrit",
-              "color": "red"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Titan Bangle",
-          "slots": [
-            {
-              "name": "Choco/Mog",
-              "color": "red"
-            },
-            null
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 24,
       "name": "icawn_",
       "bossesDefeated": 3,
       "defeated": [
@@ -1774,7 +1739,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 25,
+      "rank": 24,
       "name": "pr0xy0nen7",
       "bossesDefeated": 2,
       "defeated": [
@@ -1782,8 +1747,8 @@
         "air-buster"
       ],
       "currentBoss": "aps",
-      "power": 25,
-      "materiaCount": 20,
+      "power": 28,
+      "materiaCount": 21,
       "equippedValue": 65,
       "equippedMin": 65,
       "equippedMax": 65,
@@ -1818,7 +1783,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 26,
+      "rank": 25,
       "name": "bastion_blue_succubus87",
       "bossesDefeated": 2,
       "defeated": [
@@ -1859,7 +1824,7 @@
       "pvpBattles": 1
     },
     {
-      "rank": 27,
+      "rank": 26,
       "name": "seven8time",
       "bossesDefeated": 2,
       "defeated": [
@@ -1897,7 +1862,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 28,
+      "rank": 27,
       "name": "pust3y",
       "bossesDefeated": 1,
       "defeated": [
@@ -1937,7 +1902,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 29,
+      "rank": 28,
       "name": "andy",
       "bossesDefeated": 1,
       "defeated": [
@@ -1980,7 +1945,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 30,
+      "rank": 29,
       "name": "tamu_darknight",
       "bossesDefeated": 1,
       "defeated": [
@@ -2020,7 +1985,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 31,
+      "rank": 30,
       "name": "dargkkast",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2058,7 +2023,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 32,
+      "rank": 31,
       "name": "a_n_i_v",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2099,7 +2064,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 33,
+      "rank": 32,
       "name": "azuremen",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2134,7 +2099,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 34,
+      "rank": 33,
       "name": "mrockstar20",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2175,7 +2140,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 35,
+      "rank": 34,
       "name": "drinnar",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2210,7 +2175,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 36,
+      "rank": 35,
       "name": "cadjin",
       "bossesDefeated": 0,
       "defeated": [],
