@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T02:21:44.366Z",
+  "updatedAt": "2026-10-18T02:31:44.356Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -139,8 +139,8 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 51,
-      "materiaCount": 14,
+      "power": 64,
+      "materiaCount": 23,
       "equippedValue": 770,
       "equippedMin": 770,
       "equippedMax": 770,
@@ -333,8 +333,8 @@
         "schizo"
       ],
       "currentBoss": "jenova-death",
-      "power": 203,
-      "materiaCount": 98,
+      "power": 195,
+      "materiaCount": 88,
       "equippedValue": 625,
       "equippedMin": 625,
       "equippedMax": 625,
@@ -640,8 +640,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 78,
-      "materiaCount": 23,
+      "power": 80,
+      "materiaCount": 24,
       "equippedValue": 480,
       "equippedMin": 480,
       "equippedMax": 480,
@@ -965,11 +965,11 @@
         "palmer"
       ],
       "currentBoss": "red-dragon",
-      "power": 73,
-      "materiaCount": 35,
-      "equippedValue": 510,
-      "equippedMin": 510,
-      "equippedMax": 510,
+      "power": 93,
+      "materiaCount": 41,
+      "equippedValue": 585,
+      "equippedMin": 585,
+      "equippedMax": 585,
       "pets": [],
       "loadout": [
         {
@@ -985,11 +985,11 @@
               "color": "red"
             },
             {
-              "name": "Leviathan",
-              "color": "red"
+              "name": "Ultima",
+              "color": "green"
             },
             {
-              "name": "Ramuh",
+              "name": "Leviathan",
               "color": "red"
             }
           ]
@@ -999,20 +999,20 @@
           "name": "Four Slots",
           "slots": [
             {
-              "name": "Ice2",
+              "name": "Ramuh",
+              "color": "red"
+            },
+            {
+              "name": "Bolt2",
               "color": "green"
             },
             {
-              "name": "Chocobo Lure",
-              "color": "purple"
+              "name": "Fire2",
+              "color": "green"
             },
             {
-              "name": "Ifrit",
-              "color": "red"
-            },
-            {
-              "name": "Shiva",
-              "color": "red"
+              "name": "Ice2",
+              "color": "green"
             }
           ]
         }
@@ -1042,8 +1042,8 @@
         "palmer"
       ],
       "currentBoss": "red-dragon",
-      "power": 71,
-      "materiaCount": 31,
+      "power": 79,
+      "materiaCount": 34,
       "equippedValue": 470,
       "equippedMin": 470,
       "equippedMax": 470,
@@ -1675,11 +1675,11 @@
         "sample-h0512"
       ],
       "currentBoss": "gunner",
-      "power": 29,
-      "materiaCount": 19,
-      "equippedValue": 185,
-      "equippedMin": 140,
-      "equippedMax": 230,
+      "power": 39,
+      "materiaCount": 25,
+      "equippedValue": 215,
+      "equippedMin": 170,
+      "equippedMax": 260,
       "pets": [],
       "loadout": [
         {
@@ -1687,12 +1687,12 @@
           "name": "Buster Sword",
           "slots": [
             {
-              "name": "Quake2",
+              "name": "Fire2",
               "color": "green"
             },
             {
-              "name": "Deathblow",
-              "color": "yellow"
+              "name": "Quake2",
+              "color": "green"
             }
           ]
         },
@@ -1701,16 +1701,16 @@
           "name": "Carbon Bangle",
           "slots": [
             {
+              "name": "Deathblow",
+              "color": "yellow"
+            },
+            {
               "name": "Comet",
               "color": "green"
             },
             {
               "name": "Ifrit",
               "color": "red"
-            },
-            {
-              "name": "Bio",
-              "color": "green"
             }
           ]
         }
@@ -1784,11 +1784,11 @@
         "reno"
       ],
       "currentBoss": "sample-h0512",
-      "power": 30,
-      "materiaCount": 21,
-      "equippedValue": 140,
-      "equippedMin": 140,
-      "equippedMax": 140,
+      "power": 28,
+      "materiaCount": 17,
+      "equippedValue": 190,
+      "equippedMin": 190,
+      "equippedMax": 190,
       "pets": [],
       "loadout": [
         {
@@ -1796,11 +1796,11 @@
           "name": "Buster Sword",
           "slots": [
             {
-              "name": "Fire2",
+              "name": "Fire3",
               "color": "green"
             },
             {
-              "name": "Comet",
+              "name": "Ice2",
               "color": "green"
             }
           ]
@@ -1810,12 +1810,12 @@
           "name": "Titan Bangle",
           "slots": [
             {
-              "name": "Shiva",
-              "color": "red"
+              "name": "Comet",
+              "color": "green"
             },
             {
-              "name": "Demi",
-              "color": "green"
+              "name": "Shiva",
+              "color": "red"
             }
           ]
         }
