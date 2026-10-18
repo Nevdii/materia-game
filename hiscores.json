@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T06:51:44.100Z",
+  "updatedAt": "2026-10-18T07:01:44.097Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -445,8 +445,8 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 59,
-      "materiaCount": 17,
+      "power": 60,
+      "materiaCount": 18,
       "equippedValue": 800,
       "equippedMin": 800,
       "equippedMax": 800,
@@ -964,6 +964,90 @@
     },
     {
       "rank": 10,
+      "name": "pr0xy0nen7",
+      "bossesDefeated": 18,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball",
+        "bottomswell",
+        "jenova-birth",
+        "dyne",
+        "rude",
+        "gi-nattak",
+        "materia-keeper",
+        "palmer",
+        "red-dragon",
+        "demons-gate",
+        "jenova-life"
+      ],
+      "currentBoss": "schizo",
+      "power": 66,
+      "materiaCount": 21,
+      "equippedValue": 655,
+      "equippedMin": 655,
+      "equippedMax": 655,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Butterfly Edge",
+          "slots": [
+            {
+              "name": "Comet2",
+              "color": "green"
+            },
+            {
+              "name": "Master Command",
+              "color": "yellow"
+            },
+            {
+              "name": "Master Magic",
+              "color": "green"
+            },
+            {
+              "name": "Ultima",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Diamond Bangle",
+          "slots": [
+            {
+              "name": "Bolt3",
+              "color": "green"
+            },
+            {
+              "name": "Fire3",
+              "color": "green"
+            },
+            {
+              "name": "Ice3",
+              "color": "green"
+            },
+            {
+              "name": "Quake3",
+              "color": "green"
+            },
+            {
+              "name": "Enemy Skill",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 11,
       "name": "cemorocks",
       "bossesDefeated": 17,
       "defeated": [
@@ -1046,7 +1130,7 @@
       "pvpBattles": 1
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "arceoxys",
       "bossesDefeated": 17,
       "defeated": [
@@ -1121,89 +1205,6 @@
             {
               "name": "Comet2",
               "color": "green"
-            }
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 12,
-      "name": "pr0xy0nen7",
-      "bossesDefeated": 17,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball",
-        "bottomswell",
-        "jenova-birth",
-        "dyne",
-        "rude",
-        "gi-nattak",
-        "materia-keeper",
-        "palmer",
-        "red-dragon",
-        "demons-gate"
-      ],
-      "currentBoss": "jenova-life",
-      "power": 66,
-      "materiaCount": 21,
-      "equippedValue": 655,
-      "equippedMin": 655,
-      "equippedMax": 655,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Butterfly Edge",
-          "slots": [
-            {
-              "name": "Comet2",
-              "color": "green"
-            },
-            {
-              "name": "Master Command",
-              "color": "yellow"
-            },
-            {
-              "name": "Master Magic",
-              "color": "green"
-            },
-            {
-              "name": "Ultima",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Diamond Bangle",
-          "slots": [
-            {
-              "name": "Bolt3",
-              "color": "green"
-            },
-            {
-              "name": "Fire3",
-              "color": "green"
-            },
-            {
-              "name": "Ice3",
-              "color": "green"
-            },
-            {
-              "name": "Quake3",
-              "color": "green"
-            },
-            {
-              "name": "Enemy Skill",
-              "color": "yellow"
             }
           ]
         }
@@ -1544,9 +1545,9 @@
       "currentBoss": "dyne",
       "power": 49,
       "materiaCount": 24,
-      "equippedValue": 365,
-      "equippedMin": 320,
-      "equippedMax": 410,
+      "equippedValue": 420,
+      "equippedMin": 420,
+      "equippedMax": 420,
       "pets": [],
       "loadout": [
         {
@@ -1562,7 +1563,7 @@
               "color": "green"
             },
             {
-              "name": "Fire2",
+              "name": "Quake3",
               "color": "green"
             }
           ]
@@ -1572,18 +1573,21 @@
           "name": "Four Slots",
           "slots": [
             {
+              "name": "Bolt2",
+              "color": "green"
+            },
+            {
+              "name": "Fire2",
+              "color": "green"
+            },
+            {
               "name": "Ice2",
               "color": "green"
             },
             {
-              "name": "Quake3",
+              "name": "Quake2",
               "color": "green"
-            },
-            {
-              "name": "Deathblow",
-              "color": "yellow"
-            },
-            null
+            }
           ]
         }
       ],
