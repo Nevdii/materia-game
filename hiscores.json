@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T04:21:44.247Z",
+  "updatedAt": "2026-10-18T04:31:44.234Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -141,9 +141,9 @@
       "currentBoss": "hojo",
       "power": 57,
       "materiaCount": 16,
-      "equippedValue": 790,
-      "equippedMin": 790,
-      "equippedMax": 790,
+      "equippedValue": 775,
+      "equippedMin": 775,
+      "equippedMax": 775,
       "pets": [],
       "loadout": [
         {
@@ -201,8 +201,8 @@
               "color": "purple"
             },
             {
-              "name": "Demi2",
-              "color": "green"
+              "name": "Chocobo Lure",
+              "color": "purple"
             }
           ]
         }
@@ -917,8 +917,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 121,
-      "materiaCount": 54,
+      "power": 130,
+      "materiaCount": 63,
       "equippedValue": 520,
       "equippedMin": 520,
       "equippedMax": 520,
@@ -1311,7 +1311,7 @@
         "dyne"
       ],
       "currentBoss": "rude",
-      "power": 53,
+      "power": 59,
       "materiaCount": 28,
       "equippedValue": 490,
       "equippedMin": 490,
@@ -1636,8 +1636,8 @@
         "motor-ball"
       ],
       "currentBoss": "bottomswell",
-      "power": 57,
-      "materiaCount": 31,
+      "power": 72,
+      "materiaCount": 41,
       "equippedValue": 215,
       "equippedMin": 170,
       "equippedMax": 260,
@@ -2270,8 +2270,8 @@
       "bossesDefeated": 0,
       "defeated": [],
       "currentBoss": "guard-scorpion",
-      "power": 9,
-      "materiaCount": 5,
+      "power": 10,
+      "materiaCount": 6,
       "equippedValue": 75,
       "equippedMin": 75,
       "equippedMax": 75,
@@ -2500,6 +2500,41 @@
     },
     {
       "rank": 40,
+      "name": "leotrinds",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 2,
+      "materiaCount": 1,
+      "equippedValue": 20,
+      "equippedMin": 20,
+      "equippedMax": 20,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "MP Plus",
+              "color": "purple"
+            },
+            null
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            null
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 41,
       "name": "cadjin",
       "bossesDefeated": 0,
       "defeated": [],
