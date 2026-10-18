@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T06:11:44.127Z",
+  "updatedAt": "2026-10-18T06:21:44.121Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -445,8 +445,8 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 61,
-      "materiaCount": 19,
+      "power": 63,
+      "materiaCount": 20,
       "equippedValue": 805,
       "equippedMin": 805,
       "equippedMax": 805,
@@ -1235,8 +1235,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 53,
-      "materiaCount": 18,
+      "power": 51,
+      "materiaCount": 21,
       "equippedValue": 605,
       "equippedMin": 605,
       "equippedMax": 605,
@@ -1317,8 +1317,8 @@
         "red-dragon"
       ],
       "currentBoss": "demons-gate",
-      "power": 69,
-      "materiaCount": 24,
+      "power": 68,
+      "materiaCount": 23,
       "equippedValue": 600,
       "equippedMin": 600,
       "equippedMax": 600,
@@ -2126,11 +2126,11 @@
         "guard-scorpion"
       ],
       "currentBoss": "air-buster",
-      "power": 6,
-      "materiaCount": 3,
-      "equippedValue": 65,
-      "equippedMin": 20,
-      "equippedMax": 110,
+      "power": 8,
+      "materiaCount": 4,
+      "equippedValue": 85,
+      "equippedMin": 40,
+      "equippedMax": 130,
       "pets": [],
       "loadout": [
         {
@@ -2151,7 +2151,10 @@
           "label": "Arm.",
           "name": "Iron Bangle",
           "slots": [
-            null
+            {
+              "name": "MP Plus",
+              "color": "purple"
+            }
           ]
         }
       ],
@@ -2289,9 +2292,9 @@
       "currentBoss": "guard-scorpion",
       "power": 18,
       "materiaCount": 12,
-      "equippedValue": 35,
-      "equippedMin": 35,
-      "equippedMax": 35,
+      "equippedValue": 75,
+      "equippedMin": 75,
+      "equippedMax": 75,
       "pets": [],
       "loadout": [
         {
@@ -2302,14 +2305,20 @@
               "name": "Ifrit",
               "color": "red"
             },
-            null
+            {
+              "name": "Counter Attack",
+              "color": "purple"
+            }
           ]
         },
         {
           "label": "Arm.",
           "name": "Iron Bangle",
           "slots": [
-            null
+            {
+              "name": "Luck Plus",
+              "color": "purple"
+            }
           ]
         }
       ],
@@ -2394,6 +2403,47 @@
     },
     {
       "rank": 35,
+      "name": "capitan_jefe",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 12,
+      "materiaCount": 6,
+      "equippedValue": 120,
+      "equippedMin": 120,
+      "equippedMax": 120,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Ultima",
+              "color": "green"
+            },
+            {
+              "name": "Choco/Mog",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "Counter Attack",
+              "color": "purple"
+            }
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 36,
       "name": "dargkkast",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2431,7 +2481,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 36,
+      "rank": 37,
       "name": "iamkyluya",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2472,7 +2522,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 37,
+      "rank": 38,
       "name": "derekjjackson",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2513,7 +2563,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 38,
+      "rank": 39,
       "name": "duece910",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2544,47 +2594,6 @@
           "name": "Iron Bangle",
           "slots": [
             null
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 39,
-      "name": "capitan_jefe",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "currentBoss": "guard-scorpion",
-      "power": 5,
-      "materiaCount": 4,
-      "equippedValue": 40,
-      "equippedMin": 40,
-      "equippedMax": 40,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Counter Attack",
-              "color": "purple"
-            },
-            {
-              "name": "Fire",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            {
-              "name": "HP Plus",
-              "color": "purple"
-            }
           ]
         }
       ],
