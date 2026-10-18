@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T05:21:44.180Z",
+  "updatedAt": "2026-10-18T05:31:44.168Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -139,8 +139,8 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 57,
-      "materiaCount": 17,
+      "power": 59,
+      "materiaCount": 18,
       "equippedValue": 805,
       "equippedMin": 805,
       "equippedMax": 805,
@@ -341,11 +341,11 @@
         "diamond-weapon"
       ],
       "currentBoss": "turks",
-      "power": 173,
-      "materiaCount": 63,
-      "equippedValue": 700,
-      "equippedMin": 700,
-      "equippedMax": 700,
+      "power": 175,
+      "materiaCount": 64,
+      "equippedValue": 735,
+      "equippedMin": 735,
+      "equippedMax": 735,
       "pets": [],
       "loadout": [
         {
@@ -398,7 +398,10 @@
               "name": "Double Cut",
               "color": "yellow"
             },
-            null
+            {
+              "name": "Chocobo Lure",
+              "color": "purple"
+            }
           ]
         }
       ],
@@ -531,9 +534,9 @@
       "currentBoss": "diamond-weapon",
       "power": 99,
       "materiaCount": 33,
-      "equippedValue": 680,
-      "equippedMin": 680,
-      "equippedMax": 680,
+      "equippedValue": 655,
+      "equippedMin": 655,
+      "equippedMax": 655,
       "pets": [],
       "loadout": [
         {
@@ -579,8 +582,8 @@
               "color": "red"
             },
             {
-              "name": "Ramuh",
-              "color": "red"
+              "name": "Chocobo Lure",
+              "color": "purple"
             },
             {
               "name": "Titan",
@@ -935,11 +938,11 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 80,
-      "materiaCount": 31,
-      "equippedValue": 530,
-      "equippedMin": 530,
-      "equippedMax": 530,
+      "power": 95,
+      "materiaCount": 44,
+      "equippedValue": 545,
+      "equippedMin": 545,
+      "equippedMax": 545,
       "pets": [],
       "loadout": [
         {
@@ -973,6 +976,10 @@
               "color": "red"
             },
             {
+              "name": "Demi2",
+              "color": "green"
+            },
+            {
               "name": "Fire2",
               "color": "green"
             },
@@ -982,10 +989,6 @@
             },
             {
               "name": "Quake2",
-              "color": "green"
-            },
-            {
-              "name": "Comet",
               "color": "green"
             }
           ]
@@ -1340,11 +1343,11 @@
         "gi-nattak"
       ],
       "currentBoss": "materia-keeper",
-      "power": 58,
-      "materiaCount": 22,
-      "equippedValue": 520,
-      "equippedMin": 520,
-      "equippedMax": 520,
+      "power": 48,
+      "materiaCount": 16,
+      "equippedValue": 575,
+      "equippedMin": 575,
+      "equippedMax": 575,
       "pets": [],
       "loadout": [
         {
@@ -1363,17 +1366,16 @@
               "name": "Ultima",
               "color": "green"
             },
-            null
+            {
+              "name": "Bolt3",
+              "color": "green"
+            }
           ]
         },
         {
           "label": "Arm.",
           "name": "Four Slots",
           "slots": [
-            {
-              "name": "Bolt3",
-              "color": "green"
-            },
             {
               "name": "Fire3",
               "color": "green"
@@ -1385,6 +1387,10 @@
             {
               "name": "Quake3",
               "color": "green"
+            },
+            {
+              "name": "Mug",
+              "color": "yellow"
             }
           ]
         }
