@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T05:31:44.168Z",
+  "updatedAt": "2026-10-18T05:41:44.157Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -315,7 +315,7 @@
     {
       "rank": 3,
       "name": "supersponge253",
-      "bossesDefeated": 22,
+      "bossesDefeated": 23,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -338,11 +338,12 @@
         "schizo",
         "jenova-death",
         "carry-armor",
-        "diamond-weapon"
+        "diamond-weapon",
+        "turks"
       ],
-      "currentBoss": "turks",
-      "power": 175,
-      "materiaCount": 64,
+      "currentBoss": "proud-clod",
+      "power": 180,
+      "materiaCount": 65,
       "equippedValue": 735,
       "equippedMin": 735,
       "equippedMax": 735,
@@ -411,7 +412,7 @@
     {
       "rank": 4,
       "name": "kinos_ttv",
-      "bossesDefeated": 22,
+      "bossesDefeated": 23,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -434,9 +435,10 @@
         "schizo",
         "jenova-death",
         "carry-armor",
-        "diamond-weapon"
+        "diamond-weapon",
+        "turks"
       ],
-      "currentBoss": "turks",
+      "currentBoss": "proud-clod",
       "power": 71,
       "materiaCount": 17,
       "equippedValue": 825,
@@ -507,7 +509,7 @@
     {
       "rank": 5,
       "name": "cipherdetective",
-      "bossesDefeated": 21,
+      "bossesDefeated": 22,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -529,14 +531,15 @@
         "jenova-life",
         "schizo",
         "jenova-death",
-        "carry-armor"
+        "carry-armor",
+        "diamond-weapon"
       ],
-      "currentBoss": "diamond-weapon",
+      "currentBoss": "turks",
       "power": 99,
       "materiaCount": 33,
-      "equippedValue": 655,
-      "equippedMin": 655,
-      "equippedMax": 655,
+      "equippedValue": 715,
+      "equippedMin": 715,
+      "equippedMax": 715,
       "pets": [],
       "loadout": [
         {
@@ -567,7 +570,7 @@
         },
         {
           "label": "Arm.",
-          "name": "Diamond Bangle",
+          "name": "Crystal Bangle",
           "slots": [
             {
               "name": "Quake3",
@@ -582,12 +585,16 @@
               "color": "red"
             },
             {
-              "name": "Chocobo Lure",
-              "color": "purple"
+              "name": "Ramuh",
+              "color": "red"
             },
             {
               "name": "Titan",
               "color": "red"
+            },
+            {
+              "name": "Chocobo Lure",
+              "color": "purple"
             }
           ]
         }
@@ -1326,7 +1333,7 @@
     {
       "rank": 15,
       "name": "pr0xy0nen7",
-      "bossesDefeated": 13,
+      "bossesDefeated": 14,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -1340,9 +1347,10 @@
         "jenova-birth",
         "dyne",
         "rude",
-        "gi-nattak"
+        "gi-nattak",
+        "materia-keeper"
       ],
-      "currentBoss": "materia-keeper",
+      "currentBoss": "palmer",
       "power": 48,
       "materiaCount": 16,
       "equippedValue": 575,
@@ -1547,8 +1555,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 55,
-      "materiaCount": 28,
+      "power": 49,
+      "materiaCount": 24,
       "equippedValue": 365,
       "equippedMin": 320,
       "equippedMax": 410,
@@ -2192,6 +2200,81 @@
     },
     {
       "rank": 31,
+      "name": "dj_webb32",
+      "bossesDefeated": 1,
+      "defeated": [
+        "guard-scorpion"
+      ],
+      "currentBoss": "air-buster",
+      "power": 4,
+      "materiaCount": 2,
+      "equippedValue": 65,
+      "equippedMin": 20,
+      "equippedMax": 110,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Deathblow",
+              "color": "yellow"
+            },
+            {
+              "name": "Choco/Mog",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            null
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 32,
+      "name": "azuremen",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 18,
+      "materiaCount": 12,
+      "equippedValue": 35,
+      "equippedMin": 35,
+      "equippedMax": 35,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Ifrit",
+              "color": "red"
+            },
+            null
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            null
+          ]
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 33,
       "name": "drinnar",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2226,7 +2309,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 32,
+      "rank": 34,
       "name": "a_n_i_v",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2267,7 +2350,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 33,
+      "rank": 35,
       "name": "dargkkast",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2305,7 +2388,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 34,
+      "rank": 36,
       "name": "iamkyluya",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2346,7 +2429,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 35,
+      "rank": 37,
       "name": "duece910",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2384,7 +2467,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 36,
+      "rank": 38,
       "name": "capitan_jefe",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2425,42 +2508,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 37,
-      "name": "azuremen",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "currentBoss": "guard-scorpion",
-      "power": 4,
-      "materiaCount": 2,
-      "equippedValue": 35,
-      "equippedMin": 35,
-      "equippedMax": 35,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Ifrit",
-              "color": "red"
-            },
-            null
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            null
-          ]
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 38,
+      "rank": 39,
       "name": "derekjjackson",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2498,7 +2546,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 39,
+      "rank": 40,
       "name": "mrockstar20",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2539,7 +2587,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 40,
+      "rank": 41,
       "name": "leotrinds",
       "bossesDefeated": 0,
       "defeated": [],
@@ -2574,7 +2622,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 41,
+      "rank": 42,
       "name": "cadjin",
       "bossesDefeated": 0,
       "defeated": [],
