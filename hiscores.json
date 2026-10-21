@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T21:46:09.886Z",
+  "updatedAt": "2026-10-21T21:53:29.304Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -207,6 +207,98 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Fire2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ice2",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Quake2",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 4
+        },
+        {
+          "name": "Mug",
+          "color": "yellow",
+          "qty": 2
+        },
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "HP Max",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Luck Plus",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 7
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 5
+        },
+        {
+          "name": "Bahamut",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 4
+        },
+        {
+          "name": "Kjata",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 7
+        },
+        {
+          "name": "Titan",
+          "color": "red",
+          "qty": 2
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -307,6 +399,88 @@
               "color": "purple"
             }
           ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Quake2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Mug",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "Counter Attack",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Luck Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Ramuh",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 4
         }
       ],
       "pvpWins": 0,
@@ -411,6 +585,23 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Master Magic",
+          "color": "green",
+          "qty": 3
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -511,6 +702,33 @@
               "color": "purple"
             }
           ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Demi2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "MP Max",
+          "color": "purple",
+          "qty": 1
         }
       ],
       "pvpWins": 0,
@@ -615,6 +833,13 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 4
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -705,6 +930,58 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 2
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -788,6 +1065,108 @@
               "color": "red"
             }
           ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Bolt2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 5
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Fire2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ice3",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 8
+        },
+        {
+          "name": "Quake2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ultima",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Sense",
+          "color": "yellow",
+          "qty": 9
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 10
+        },
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Counter Attack",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "Luck Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 4
+        },
+        {
+          "name": "Ramuh",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 1
         }
       ],
       "pvpWins": 0,
@@ -875,6 +1254,58 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Double Cut",
+          "color": "yellow",
+          "qty": 2
+        },
+        {
+          "name": "Enemy Skill",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Mug",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "HP Max",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Kjata",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Ramuh",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Titan",
+          "color": "red",
+          "qty": 1
+        }
+      ],
       "pvpWins": 1,
       "pvpBattles": 2
     },
@@ -957,6 +1388,83 @@
               "color": "red"
             }
           ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 3
+        },
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 4
+        },
+        {
+          "name": "Leviathan",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Ramuh",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 8
+        },
+        {
+          "name": "Titan",
+          "color": "red",
+          "qty": 6
         }
       ],
       "pvpWins": 1,
@@ -1043,6 +1551,58 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Bolt2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Fire2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ice2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Quake2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ultima",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Mug",
+          "color": "yellow",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -1124,6 +1684,58 @@
               "color": "red"
             }
           ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Counter Attack",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Long Range",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Luck Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Leviathan",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Phoenix",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Ramuh",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Titan",
+          "color": "red",
+          "qty": 3
         }
       ],
       "pvpWins": 0,
@@ -1209,6 +1821,53 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Quake3",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Enemy Skill",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Mug",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Kjata",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Phoenix",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Ramuh",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -1290,6 +1949,33 @@
               "color": "yellow"
             }
           ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 2
+        },
+        {
+          "name": "Counter Attack",
+          "color": "purple",
+          "qty": 1
         }
       ],
       "pvpWins": 0,
@@ -1375,6 +2061,38 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 5
+        },
+        {
+          "name": "Fire2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Phoenix",
+          "color": "red",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -1452,6 +2170,68 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Fire2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Ice2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ultima",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -1523,6 +2303,103 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Quake2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Enemy Skill",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Sense",
+          "color": "yellow",
+          "qty": 4
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 2
+        },
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 4
+        },
+        {
+          "name": "Counter Attack",
+          "color": "purple",
+          "qty": 4
+        },
+        {
+          "name": "Cover",
+          "color": "purple",
+          "qty": 7
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "Long Range",
+          "color": "purple",
+          "qty": 4
+        },
+        {
+          "name": "Luck Plus",
+          "color": "purple",
+          "qty": 3
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 3
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 7
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 2
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -1591,6 +2468,48 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ultima",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -1652,6 +2571,48 @@
               "color": "red"
             }
           ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 8
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 3
+        },
+        {
+          "name": "Kjata",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Leviathan",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 4
         }
       ],
       "pvpWins": 0,
@@ -1717,6 +2678,33 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Sense",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 3
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -1780,6 +2768,48 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bolt2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Sense",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 2
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -1839,6 +2869,53 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 2
+        },
+        {
+          "name": "Cover",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Long Range",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 8
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -1895,6 +2972,43 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Sense",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 4
+        },
+        {
+          "name": "Cover",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 2
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -1945,6 +3059,83 @@
             },
             null
           ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 5
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Cover",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Long Range",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
         }
       ],
       "pvpWins": 0,
@@ -2002,6 +3193,28 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Luck Plus",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 2
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2051,6 +3264,33 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2092,6 +3332,7 @@
           ]
         }
       ],
+      "spare": [],
       "pvpWins": 1,
       "pvpBattles": 1
     },
@@ -2130,6 +3371,7 @@
           ]
         }
       ],
+      "spare": [],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2173,6 +3415,13 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2213,6 +3462,7 @@
           ]
         }
       ],
+      "spare": [],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2256,6 +3506,13 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2296,6 +3553,7 @@
           ]
         }
       ],
+      "spare": [],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2336,6 +3594,7 @@
           ]
         }
       ],
+      "spare": [],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2377,6 +3636,33 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Cover",
+          "color": "purple",
+          "qty": 3
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "Long Range",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 2
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2410,6 +3696,28 @@
           "slots": [
             null
           ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 3
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 2
         }
       ],
       "pvpWins": 0,
@@ -2453,6 +3761,33 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Long Range",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 2
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2494,6 +3829,23 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 1
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2530,6 +3882,23 @@
           "slots": [
             null
           ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Long Range",
+          "color": "purple",
+          "qty": 1
         }
       ],
       "pvpWins": 0,
@@ -2573,6 +3942,18 @@
           ]
         }
       ],
+      "spare": [
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 2
+        }
+      ],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2614,6 +3995,7 @@
           ]
         }
       ],
+      "spare": [],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2655,6 +4037,7 @@
           ]
         }
       ],
+      "spare": [],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2690,6 +4073,7 @@
           ]
         }
       ],
+      "spare": [],
       "pvpWins": 0,
       "pvpBattles": 0
     },
@@ -2725,6 +4109,7 @@
           ]
         }
       ],
+      "spare": [],
       "pvpWins": 0,
       "pvpBattles": 0
     }

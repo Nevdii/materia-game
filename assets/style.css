@@ -245,6 +245,29 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .orb.red    { --orb-light: #ffc4c8; --orb: #e04650; --orb-dark: #7a1118; }
 .orb.empty  { background: rgba(2, 7, 51, .85); box-shadow: inset 0 0 0 1px var(--edge-inner); }
 
+/* The expandable "Materia." line under Arm.: a different colour (the site's yellow, underlined) so it
+   reads as a link, with a caret. Click opens the player's unequipped materia as a wrapped list. */
+.spare { display: block; }
+.gear-toggle {
+  appearance: none; background: none; border: 0; padding: 0; margin: 0; cursor: pointer; font-family: inherit;
+  color: var(--yellow); text-shadow: inherit;
+}
+.gear-toggle-label { min-width: 2.6em; text-decoration: underline; text-decoration-color: rgba(255, 217, 90, .55); text-underline-offset: 3px; }
+.gear-toggle:hover .gear-toggle-label, .gear-toggle:focus-visible .gear-toggle-label { text-decoration-color: currentColor; }
+.gear-toggle:focus-visible { outline: 2px solid var(--yellow); outline-offset: 3px; border-radius: 4px; }
+.gear-toggle-count { color: var(--muted); font-weight: 700; }
+.gear-toggle-caret { font-size: .8em; }
+.spare-list {
+  display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 6px 0 2px 2px; padding: 8px 10px; max-width: 520px;
+  max-height: 220px; overflow-y: auto; font-size: .8rem; font-weight: 700; line-height: 1.2;
+  background: rgba(2, 7, 51, .6); border: 1px solid var(--edge-inner); border-radius: 10px;
+}
+.spare-list[hidden] { display: none; }
+.spare-item { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.spare-item .orb { width: 12px; height: 12px; }
+.spare-qty { color: var(--label); }
+.spare-empty { color: var(--muted); }
+
 /* Current Boss column: the next boss each player has to beat. */
 .current-boss { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 110px; text-align: center; }
 .current-boss img { width: 72px; height: 54px; object-fit: contain; flex: none; }
@@ -269,6 +292,7 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .gear-name { min-width: 0; }
   .sockets { gap: 6px; }
   .orb { width: 14px; height: 14px; }
+  .spare-list { max-width: 100%; font-size: .74rem; }
   .boss-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .boss-card img { height: 130px; }
 }

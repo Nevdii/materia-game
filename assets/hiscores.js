@@ -9,6 +9,7 @@
   var updated = document.getElementById('hs-updated');
   var search = document.getElementById('hs-search');
   var data = null;
+  var openSpare = {}; // players whose "Materia." list is expanded (kept across searches/refreshes)
 
   function el(tag, className, text) {
     var node = document.createElement(tag);
@@ -48,6 +49,48 @@
     }
     row.appendChild(sockets);
     return row;
+  }
+
+  // The expandable "Materia." line under Wpn./Arm.: a link-coloured button that opens the player's
+  // unequipped materia. Closed by default - the full list would make every row far too tall.
+  function renderSpare(name, spare) {
+    var wrap = el('div', 'spare');
+    var toggle = el('button', 'gear gear-toggle');
+    toggle.type = 'button';
+    var count = spare.reduce(function (sum, m) { return sum + m.qty; }, 0);
+    toggle.appendChild(el('span', 'gear-toggle-label', 'Materia.'));
+    toggle.appendChild(el('span', 'gear-toggle-count', count ? '(' + count + ')' : '(none)'));
+    var caret = el('span', 'gear-toggle-caret', '\u25B8');
+    toggle.appendChild(caret);
+
+    var panel = el('div', 'spare-list');
+    var panelId = 'spare-' + name.replace(/[^a-z0-9]/gi, '_');
+    panel.id = panelId;
+    toggle.setAttribute('aria-controls', panelId);
+    if (spare.length === 0) {
+      panel.appendChild(el('span', 'spare-empty', 'No unequipped materia.'));
+    } else {
+      spare.forEach(function (m) {
+        var chip = el('span', 'spare-item');
+        chip.appendChild(el('span', 'orb ' + m.color));
+        chip.appendChild(el('span', 'spare-name', m.name));
+        if (m.qty > 1) chip.appendChild(el('span', 'spare-qty', '\u00D7' + m.qty));
+        panel.appendChild(chip);
+      });
+    }
+
+    function apply() {
+      var open = !!openSpare[name];
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      caret.textContent = open ? '\u25BE' : '\u25B8';
+      panel.hidden = !open;
+    }
+    toggle.addEventListener('click', function () { openSpare[name] = !openSpare[name]; apply(); });
+    apply();
+
+    wrap.appendChild(toggle);
+    wrap.appendChild(panel);
+    return wrap;
   }
 
   function renderStats() {
@@ -96,6 +139,8 @@
       if (e.loadout && e.loadout.length) {
         var loadout = el('div', 'loadout');
         e.loadout.forEach(function (gear) { loadout.appendChild(renderGear(gear)); });
+        // Older hiscores.json files (before the bot's next export) have no `spare` - then no link.
+        if (e.spare) loadout.appendChild(renderSpare(e.name, e.spare));
         nameCell.appendChild(loadout);
       }
       tr.appendChild(nameCell);
