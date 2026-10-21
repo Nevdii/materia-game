@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T07:01:44.097Z",
+  "updatedAt": "2026-10-21T21:46:09.886Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -549,9 +549,9 @@
       "currentBoss": "hojo",
       "power": 56,
       "materiaCount": 16,
-      "equippedValue": 825,
-      "equippedMin": 825,
-      "equippedMax": 825,
+      "equippedValue": 835,
+      "equippedMin": 835,
+      "equippedMax": 835,
       "pets": [],
       "loadout": [
         {
@@ -1155,9 +1155,9 @@
       "currentBoss": "jenova-life",
       "power": 69,
       "materiaCount": 18,
-      "equippedValue": 685,
-      "equippedMin": 685,
-      "equippedMax": 685,
+      "equippedValue": 695,
+      "equippedMin": 695,
+      "equippedMax": 695,
       "pets": [],
       "loadout": [
         {
