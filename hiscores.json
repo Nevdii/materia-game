@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T21:53:29.304Z",
+  "updatedAt": "2026-10-21T23:08:54.730Z",
   "pvpRange": 50,
   "barMax": 910,
   "bosses": [
@@ -104,6 +104,11 @@
     {
       "key": "hojo",
       "name": "Hojo",
+      "special": true
+    },
+    {
+      "key": "ultimate-weapon",
+      "name": "Ultimate Weapon",
       "special": true
     }
   ],
