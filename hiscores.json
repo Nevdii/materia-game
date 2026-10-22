@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-22T02:10:07.442Z",
+  "updatedAt": "2026-10-22T02:50:43.155Z",
   "pvpRange": 50,
-  "barMax": 910,
+  "barMax": 1100,
   "bosses": [
     {
       "key": "guard-scorpion",
@@ -109,6 +109,11 @@
     {
       "key": "ultimate-weapon",
       "name": "Ultimate Weapon",
+      "special": true
+    },
+    {
+      "key": "jenova-synthesis",
+      "name": "Jenova Synthesis",
       "special": true
     },
     {
