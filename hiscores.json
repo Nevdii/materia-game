@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T22:34:51.112Z",
+  "updatedAt": "2026-10-23T23:06:35.907Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -1487,6 +1487,137 @@
     },
     {
       "rank": 10,
+      "name": "arceoxys",
+      "bossesDefeated": 18,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball",
+        "bottomswell",
+        "jenova-birth",
+        "dyne",
+        "rude",
+        "gi-nattak",
+        "materia-keeper",
+        "palmer",
+        "red-dragon",
+        "demons-gate",
+        "jenova-life"
+      ],
+      "currentBoss": "schizo",
+      "power": 69,
+      "materiaCount": 18,
+      "equippedValue": 695,
+      "equippedMin": 695,
+      "equippedMax": 695,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Butterfly Edge",
+          "slots": [
+            {
+              "name": "Ultima",
+              "color": "green"
+            },
+            {
+              "name": "Odin",
+              "color": "red"
+            },
+            {
+              "name": "Bolt3",
+              "color": "green"
+            },
+            {
+              "name": "4x Cut",
+              "color": "yellow"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Diamond Bangle",
+          "slots": [
+            {
+              "name": "Fire3",
+              "color": "green"
+            },
+            {
+              "name": "Ice3",
+              "color": "green"
+            },
+            {
+              "name": "Bio3",
+              "color": "green"
+            },
+            {
+              "name": "Demi3",
+              "color": "green"
+            },
+            {
+              "name": "Comet2",
+              "color": "green"
+            }
+          ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Quake3",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Enemy Skill",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Mug",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Kjata",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Phoenix",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Ramuh",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 1
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 11,
       "name": "pr0xy0nen7",
       "bossesDefeated": 18,
       "defeated": [
@@ -1622,7 +1753,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "cemorocks",
       "bossesDefeated": 17,
       "defeated": [
@@ -1645,8 +1776,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 81,
-      "materiaCount": 24,
+      "power": 79,
+      "materiaCount": 23,
       "equippedValue": 480,
       "equippedMin": 480,
       "equippedMax": 480,
@@ -1718,11 +1849,6 @@
           "qty": 1
         },
         {
-          "name": "Choco/Mog",
-          "color": "red",
-          "qty": 1
-        },
-        {
           "name": "Ifrit",
           "color": "red",
           "qty": 2
@@ -1755,136 +1881,6 @@
       ],
       "pvpWins": 0,
       "pvpBattles": 1
-    },
-    {
-      "rank": 12,
-      "name": "arceoxys",
-      "bossesDefeated": 17,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball",
-        "bottomswell",
-        "jenova-birth",
-        "dyne",
-        "rude",
-        "gi-nattak",
-        "materia-keeper",
-        "palmer",
-        "red-dragon",
-        "demons-gate"
-      ],
-      "currentBoss": "jenova-life",
-      "power": 69,
-      "materiaCount": 18,
-      "equippedValue": 695,
-      "equippedMin": 695,
-      "equippedMax": 695,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Butterfly Edge",
-          "slots": [
-            {
-              "name": "Ultima",
-              "color": "green"
-            },
-            {
-              "name": "Odin",
-              "color": "red"
-            },
-            {
-              "name": "Bolt3",
-              "color": "green"
-            },
-            {
-              "name": "4x Cut",
-              "color": "yellow"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Diamond Bangle",
-          "slots": [
-            {
-              "name": "Fire3",
-              "color": "green"
-            },
-            {
-              "name": "Ice3",
-              "color": "green"
-            },
-            {
-              "name": "Bio3",
-              "color": "green"
-            },
-            {
-              "name": "Demi3",
-              "color": "green"
-            },
-            {
-              "name": "Comet2",
-              "color": "green"
-            }
-          ]
-        }
-      ],
-      "spare": [
-        {
-          "name": "Quake3",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Deathblow",
-          "color": "yellow",
-          "qty": 1
-        },
-        {
-          "name": "Enemy Skill",
-          "color": "yellow",
-          "qty": 1
-        },
-        {
-          "name": "Mug",
-          "color": "yellow",
-          "qty": 1
-        },
-        {
-          "name": "Ifrit",
-          "color": "red",
-          "qty": 1
-        },
-        {
-          "name": "Kjata",
-          "color": "red",
-          "qty": 1
-        },
-        {
-          "name": "Phoenix",
-          "color": "red",
-          "qty": 1
-        },
-        {
-          "name": "Ramuh",
-          "color": "red",
-          "qty": 1
-        },
-        {
-          "name": "Shiva",
-          "color": "red",
-          "qty": 1
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
     },
     {
       "rank": 13,
@@ -3740,6 +3736,79 @@
     },
     {
       "rank": 35,
+      "name": "iamkyluya",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 18,
+      "materiaCount": 11,
+      "equippedValue": 75,
+      "equippedMin": 75,
+      "equippedMax": 75,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Ifrit",
+              "color": "red"
+            },
+            {
+              "name": "Counter Attack",
+              "color": "purple"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "Demi",
+              "color": "green"
+            }
+          ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 2
+        },
+        {
+          "name": "HP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Long Range",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 2
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 36,
       "name": "a_n_i_v",
       "bossesDefeated": 0,
       "defeated": [],
@@ -3807,7 +3876,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 36,
+      "rank": 37,
       "name": "capitan_jefe",
       "bossesDefeated": 0,
       "defeated": [],
@@ -3865,7 +3934,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 37,
+      "rank": 38,
       "name": "dargkkast",
       "bossesDefeated": 0,
       "defeated": [],
@@ -3914,59 +3983,6 @@
           "name": "Long Range",
           "color": "purple",
           "qty": 1
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 38,
-      "name": "iamkyluya",
-      "bossesDefeated": 0,
-      "defeated": [],
-      "currentBoss": "guard-scorpion",
-      "power": 10,
-      "materiaCount": 6,
-      "equippedValue": 75,
-      "equippedMin": 75,
-      "equippedMax": 75,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Buster Sword",
-          "slots": [
-            {
-              "name": "Ifrit",
-              "color": "red"
-            },
-            {
-              "name": "Demi",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Iron Bangle",
-          "slots": [
-            {
-              "name": "Speed Plus",
-              "color": "purple"
-            }
-          ]
-        }
-      ],
-      "spare": [
-        {
-          "name": "Quake",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Steal",
-          "color": "yellow",
-          "qty": 2
         }
       ],
       "pvpWins": 0,
