@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap">
-  <link rel="stylesheet" href="assets/style.css?v=0.85.2">
+  <link rel="stylesheet" href="assets/style.css?v=0.86.0">
 </head>
 <body>
   <header class="hero">
@@ -413,7 +413,7 @@
 <tr><td>Red</td><td>100 XP</td><td>33 XP</td></tr>
 </tbody>
 </table></div>
-<p>So <code>!salvage Ifrit</code> (Red) returns 33 XP. An upgrade-only tier (Fire2, HP Max, Mug, ...) is worth as many copies of the tier it's merged from as it took to make it - so Fire2 (5 Fire) returns 66 XP and Fire3 (2 Fire2) returns 133. Only copies that aren't in a loadout slot can be salvaged; it never un-equips anything (<code>!unequip</code> first if you want to break down an equipped one). Each name breaks down one copy, so to salvage several in one command separate them with commas and repeat a name for each copy: <code>!salvage Bolt, Bolt, Fire</code> salvages two Bolt and one Fire (up to 20 per command) and answers with a single summary line; anything it can't do (no spare copy, not a materia) is listed as skipped while the rest still goes through.</p>
+<p>So <code>!salvage Ifrit</code> (Red) returns 33 XP. An upgrade-only tier (Fire2, HP Max, Mug, ...) is worth as many copies of the tier it's merged from as it took to make it - so Fire2 (5 Fire) returns 66 XP and Fire3 (2 Fire2) returns 133. Only copies that aren't in a loadout slot can be salvaged; it never un-equips anything (<code>!unequip</code> first if you want to break down an equipped one). Each name breaks down one copy, so to salvage several in one command separate them with commas and repeat a name for each copy: <code>!salvage Bolt, Bolt, Fire</code> salvages two Bolt and one Fire (up to 20 per command) and answers with a single summary line. For several copies of one materia just add a number: <code>!salvage Bolt 4</code> salvages four spare Bolt (<code>!salvage Bolt x4</code> works too). A number that finishes a materia's name wins - <code>!salvage Bolt 3</code> is one Bolt3 - so use the <code>x</code> form (<code>!salvage Bolt x3</code>) for a quantity; anything it can't do (no spare copy, not a materia) is listed as skipped while the rest still goes through.</p>
     </section>
     <section class="guide-section prose" id="g-equip">
       <h2>Equipping materia</h2>
@@ -828,7 +828,7 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=0.85.2"></script>
-  <script src="assets/hiscores.js?v=0.85.2"></script>
+  <script src="assets/site.js?v=0.86.0"></script>
+  <script src="assets/hiscores.js?v=0.86.0"></script>
 </body>
 </html>
