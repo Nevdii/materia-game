@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T04:00:10.638Z",
+  "updatedAt": "2026-10-24T04:10:10.640Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -156,8 +156,8 @@
         "ultimate-weapon"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 119,
-      "materiaCount": 43,
+      "power": 122,
+      "materiaCount": 45,
       "equippedValue": 990,
       "equippedMin": 990,
       "equippedMax": 990,
@@ -239,9 +239,9 @@
           "qty": 3
         },
         {
-          "name": "Bolt2",
+          "name": "Bolt3",
           "color": "green",
-          "qty": 2
+          "qty": 1
         },
         {
           "name": "Comet",
@@ -296,7 +296,7 @@
         {
           "name": "Deathblow",
           "color": "yellow",
-          "qty": 2
+          "qty": 3
         },
         {
           "name": "Sense",
@@ -306,7 +306,7 @@
         {
           "name": "Steal",
           "color": "yellow",
-          "qty": 1
+          "qty": 3
         },
         {
           "name": "Speed Plus",
@@ -365,8 +365,8 @@
         "ultimate-weapon"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 85,
-      "materiaCount": 31,
+      "power": 90,
+      "materiaCount": 33,
       "equippedValue": 930,
       "equippedMin": 930,
       "equippedMax": 930,
@@ -488,6 +488,11 @@
           "qty": 1
         },
         {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 1
+        },
+        {
           "name": "Ifrit",
           "color": "red",
           "qty": 1
@@ -500,7 +505,7 @@
         {
           "name": "Shiva",
           "color": "red",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Titan",
@@ -955,8 +960,8 @@
         "hojo"
       ],
       "currentBoss": "ultimate-weapon",
-      "power": 81,
-      "materiaCount": 20,
+      "power": 83,
+      "materiaCount": 21,
       "equippedValue": 885,
       "equippedMin": 885,
       "equippedMax": 885,
@@ -1027,7 +1032,7 @@
         {
           "name": "Demi",
           "color": "green",
-          "qty": 2
+          "qty": 3
         },
         {
           "name": "Demi2",
@@ -2434,8 +2439,8 @@
         "palmer"
       ],
       "currentBoss": "red-dragon",
-      "power": 67,
-      "materiaCount": 29,
+      "power": 69,
+      "materiaCount": 30,
       "equippedValue": 520,
       "equippedMin": 520,
       "equippedMax": 520,
@@ -2545,6 +2550,11 @@
         {
           "name": "HP Plus",
           "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
           "qty": 1
         }
       ],
@@ -2682,8 +2692,8 @@
         "dyne"
       ],
       "currentBoss": "rude",
-      "power": 84,
-      "materiaCount": 39,
+      "power": 78,
+      "materiaCount": 36,
       "equippedValue": 390,
       "equippedMin": 390,
       "equippedMax": 390,
@@ -2791,7 +2801,7 @@
         {
           "name": "Counter Attack",
           "color": "purple",
-          "qty": 4
+          "qty": 1
         },
         {
           "name": "HP Max",
