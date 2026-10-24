@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T01:13:25.830Z",
+  "updatedAt": "2026-10-24T01:53:25.802Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -3715,8 +3715,8 @@
         "guard-scorpion"
       ],
       "currentBoss": "air-buster",
-      "power": 8,
-      "materiaCount": 4,
+      "power": 9,
+      "materiaCount": 5,
       "equippedValue": 85,
       "equippedMin": 40,
       "equippedMax": 130,
@@ -3748,6 +3748,11 @@
         }
       ],
       "spare": [
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 1
+        },
         {
           "name": "Choco/Mog",
           "color": "red",
