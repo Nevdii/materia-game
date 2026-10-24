@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T03:50:10.640Z",
+  "updatedAt": "2026-10-24T04:00:10.638Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -365,8 +365,8 @@
         "ultimate-weapon"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 103,
-      "materiaCount": 37,
+      "power": 85,
+      "materiaCount": 31,
       "equippedValue": 930,
       "equippedMin": 930,
       "equippedMax": 930,
@@ -490,7 +490,7 @@
         {
           "name": "Ifrit",
           "color": "red",
-          "qty": 3
+          "qty": 1
         },
         {
           "name": "Phoenix",
@@ -500,7 +500,7 @@
         {
           "name": "Shiva",
           "color": "red",
-          "qty": 5
+          "qty": 1
         },
         {
           "name": "Titan",
@@ -544,8 +544,8 @@
         "ultimate-weapon"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 84,
-      "materiaCount": 24,
+      "power": 79,
+      "materiaCount": 20,
       "equippedValue": 1045,
       "equippedMin": 1045,
       "equippedMax": 1045,
@@ -621,26 +621,6 @@
         }
       ],
       "spare": [
-        {
-          "name": "Bio",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Bolt",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Ice",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Quake",
-          "color": "green",
-          "qty": 1
-        },
         {
           "name": "Deathblow",
           "color": "yellow",
@@ -2702,8 +2682,8 @@
         "dyne"
       ],
       "currentBoss": "rude",
-      "power": 100,
-      "materiaCount": 43,
+      "power": 84,
+      "materiaCount": 39,
       "equippedValue": 390,
       "equippedMin": 390,
       "equippedMax": 390,
@@ -2796,7 +2776,7 @@
         {
           "name": "Quake",
           "color": "green",
-          "qty": 1
+          "qty": 3
         },
         {
           "name": "Quake2",
@@ -2807,11 +2787,6 @@
           "name": "Enemy Skill",
           "color": "yellow",
           "qty": 1
-        },
-        {
-          "name": "Chocobo Lure",
-          "color": "purple",
-          "qty": 4
         },
         {
           "name": "Counter Attack",
@@ -2831,11 +2806,6 @@
         {
           "name": "MP Plus",
           "color": "purple",
-          "qty": 2
-        },
-        {
-          "name": "Shiva",
-          "color": "red",
           "qty": 2
         }
       ],
