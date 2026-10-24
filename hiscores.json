@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T05:20:10.599Z",
+  "updatedAt": "2026-10-24T11:36:54.129Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -112,13 +112,13 @@
       "special": true
     },
     {
-      "key": "jenova-synthesis",
-      "name": "Jenova Synthesis",
+      "key": "chocobo-race",
+      "name": "Chocobo Race",
       "special": true
     },
     {
-      "key": "chocobo-race",
-      "name": "Chocobo Race",
+      "key": "jenova-synthesis",
+      "name": "Jenova Synthesis",
       "special": true
     }
   ],
@@ -156,7 +156,7 @@
         "ultimate-weapon",
         "chocobo-race"
       ],
-      "currentBoss": null,
+      "currentBoss": "jenova-synthesis",
       "power": 102,
       "materiaCount": 37,
       "equippedValue": 1025,
@@ -354,7 +354,7 @@
         "ultimate-weapon",
         "chocobo-race"
       ],
-      "currentBoss": null,
+      "currentBoss": "jenova-synthesis",
       "power": 72,
       "materiaCount": 26,
       "equippedValue": 1020,
@@ -502,7 +502,7 @@
         "ultimate-weapon",
         "chocobo-race"
       ],
-      "currentBoss": null,
+      "currentBoss": "jenova-synthesis",
       "power": 65,
       "materiaCount": 20,
       "equippedValue": 960,
@@ -644,7 +644,7 @@
         "hojo",
         "ultimate-weapon"
       ],
-      "currentBoss": "jenova-synthesis",
+      "currentBoss": "chocobo-race",
       "power": 126,
       "materiaCount": 48,
       "equippedValue": 990,
@@ -863,7 +863,7 @@
         "hojo",
         "ultimate-weapon"
       ],
-      "currentBoss": "jenova-synthesis",
+      "currentBoss": "chocobo-race",
       "power": 83,
       "materiaCount": 21,
       "equippedValue": 1045,
@@ -1012,7 +1012,7 @@
         "hojo",
         "chocobo-race"
       ],
-      "currentBoss": null,
+      "currentBoss": "jenova-synthesis",
       "power": 78,
       "materiaCount": 18,
       "equippedValue": 1025,
