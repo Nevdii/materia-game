@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T03:23:06.097Z",
+  "updatedAt": "2026-10-31T03:33:06.100Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -509,11 +509,11 @@
         "chocobo-race"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 79,
-      "materiaCount": 23,
-      "equippedValue": 1075,
-      "equippedMin": 1075,
-      "equippedMax": 1075,
+      "power": 78,
+      "materiaCount": 22,
+      "equippedValue": 1100,
+      "equippedMin": 1100,
+      "equippedMax": 1100,
       "pets": [],
       "loadout": [
         {
@@ -579,15 +579,15 @@
               "color": "red"
             },
             {
+              "name": "Titan",
+              "color": "red"
+            },
+            {
               "name": "HP Max",
               "color": "purple"
             },
             {
               "name": "Ifrit",
-              "color": "red"
-            },
-            {
-              "name": "Shiva",
               "color": "red"
             }
           ]
@@ -602,10 +602,10 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 2
+          "qty": 1
         },
         {
-          "name": "Ifrit",
+          "name": "Shiva",
           "color": "red",
           "qty": 1
         }
@@ -1345,8 +1345,8 @@
         "ultimate-weapon"
       ],
       "currentBoss": "chocobo-race",
-      "power": 120,
-      "materiaCount": 53,
+      "power": 100,
+      "materiaCount": 33,
       "equippedValue": 940,
       "equippedMin": 895,
       "equippedMax": 985,
@@ -1448,16 +1448,6 @@
           "qty": 1
         },
         {
-          "name": "Sense",
-          "color": "yellow",
-          "qty": 9
-        },
-        {
-          "name": "Steal",
-          "color": "yellow",
-          "qty": 11
-        },
-        {
           "name": "Chocobo Lure",
           "color": "purple",
           "qty": 1
@@ -1529,8 +1519,8 @@
         "ultimate-weapon"
       ],
       "currentBoss": "chocobo-race",
-      "power": 85,
-      "materiaCount": 22,
+      "power": 83,
+      "materiaCount": 21,
       "equippedValue": 1045,
       "equippedMin": 1045,
       "equippedMax": 1045,
@@ -1619,11 +1609,6 @@
         {
           "name": "Mug",
           "color": "yellow",
-          "qty": 1
-        },
-        {
-          "name": "Choco/Mog",
-          "color": "red",
           "qty": 1
         },
         {
@@ -2037,7 +2022,7 @@
         "diamond-weapon"
       ],
       "currentBoss": "turks",
-      "power": 91,
+      "power": 93,
       "materiaCount": 30,
       "equippedValue": 730,
       "equippedMin": 730,
@@ -2125,6 +2110,11 @@
           "qty": 1
         },
         {
+          "name": "Master Magic",
+          "color": "green",
+          "qty": 1
+        },
+        {
           "name": "Enemy Skill",
           "color": "yellow",
           "qty": 1
@@ -2147,11 +2137,6 @@
         {
           "name": "Speed Max",
           "color": "purple",
-          "qty": 1
-        },
-        {
-          "name": "Ifrit",
-          "color": "red",
           "qty": 1
         }
       ],
@@ -2187,8 +2172,8 @@
         "diamond-weapon"
       ],
       "currentBoss": "turks",
-      "power": 86,
-      "materiaCount": 24,
+      "power": 62,
+      "materiaCount": 17,
       "equippedValue": 730,
       "equippedMin": 730,
       "equippedMax": 730,
@@ -2280,31 +2265,6 @@
         {
           "name": "Chocobo Lure",
           "color": "purple",
-          "qty": 1
-        },
-        {
-          "name": "HP Max",
-          "color": "purple",
-          "qty": 1
-        },
-        {
-          "name": "Choco/Mog",
-          "color": "red",
-          "qty": 2
-        },
-        {
-          "name": "Kjata",
-          "color": "red",
-          "qty": 1
-        },
-        {
-          "name": "Leviathan",
-          "color": "red",
-          "qty": 2
-        },
-        {
-          "name": "Titan",
-          "color": "red",
           "qty": 1
         }
       ],
@@ -2628,11 +2588,11 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 64,
-      "materiaCount": 42,
-      "equippedValue": 490,
-      "equippedMin": 445,
-      "equippedMax": 535,
+      "power": 82,
+      "materiaCount": 32,
+      "equippedValue": 625,
+      "equippedMin": 625,
+      "equippedMax": 625,
       "pets": [],
       "loadout": [
         {
@@ -2640,19 +2600,19 @@
           "name": "Butterfly Edge",
           "slots": [
             {
+              "name": "Bahamut",
+              "color": "red"
+            },
+            {
+              "name": "Master Command",
+              "color": "yellow"
+            },
+            {
               "name": "Bolt3",
               "color": "green"
             },
             {
               "name": "Fire3",
-              "color": "green"
-            },
-            {
-              "name": "Ice3",
-              "color": "green"
-            },
-            {
-              "name": "Quake3",
               "color": "green"
             }
           ]
@@ -2662,36 +2622,36 @@
           "name": "Diamond Bangle",
           "slots": [
             {
+              "name": "Ice3",
+              "color": "green"
+            },
+            {
+              "name": "Quake3",
+              "color": "green"
+            },
+            {
+              "name": "Phoenix",
+              "color": "red"
+            },
+            {
               "name": "Ramuh",
               "color": "red"
             },
             {
-              "name": "Demi2",
-              "color": "green"
-            },
-            {
-              "name": "Deathblow",
-              "color": "yellow"
-            },
-            {
-              "name": "Ifrit",
+              "name": "Titan",
               "color": "red"
-            },
-            {
-              "name": "Demi",
-              "color": "green"
             }
           ]
         }
       ],
       "spare": [
         {
-          "name": "Bolt",
+          "name": "Demi",
           "color": "green",
-          "qty": 10
+          "qty": 2
         },
         {
-          "name": "Demi",
+          "name": "Demi2",
           "color": "green",
           "qty": 1
         },
@@ -2711,19 +2671,44 @@
           "qty": 4
         },
         {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
           "name": "Double Cut",
           "color": "yellow",
           "qty": 1
         },
         {
-          "name": "Sense",
+          "name": "Mug",
           "color": "yellow",
-          "qty": 8
+          "qty": 1
         },
         {
           "name": "Steal",
           "color": "yellow",
-          "qty": 4
+          "qty": 2
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Ramuh",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 3
+        },
+        {
+          "name": "Titan",
+          "color": "red",
+          "qty": 1
         }
       ],
       "pvpWins": 0,
@@ -3580,9 +3565,9 @@
       "currentBoss": "rufus",
       "power": 35,
       "materiaCount": 18,
-      "equippedValue": 165,
-      "equippedMin": 165,
-      "equippedMax": 165,
+      "equippedValue": 180,
+      "equippedMin": 180,
+      "equippedMax": 180,
       "pets": [],
       "loadout": [
         {
@@ -3604,16 +3589,16 @@
           "name": "Carbon Bangle",
           "slots": [
             {
+              "name": "Ifrit",
+              "color": "red"
+            },
+            {
               "name": "Shiva",
               "color": "red"
             },
             {
               "name": "Choco/Mog",
               "color": "red"
-            },
-            {
-              "name": "Speed Plus",
-              "color": "purple"
             }
           ]
         }
@@ -3647,15 +3632,10 @@
         {
           "name": "Speed Plus",
           "color": "purple",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Choco/Mog",
-          "color": "red",
-          "qty": 1
-        },
-        {
-          "name": "Ifrit",
           "color": "red",
           "qty": 1
         },
@@ -3939,17 +3919,18 @@
     {
       "rank": 28,
       "name": "derekjjackson",
-      "bossesDefeated": 2,
+      "bossesDefeated": 3,
       "defeated": [
         "guard-scorpion",
-        "air-buster"
+        "air-buster",
+        "aps"
       ],
-      "currentBoss": "aps",
+      "currentBoss": "reno",
       "power": 13,
       "materiaCount": 6,
-      "equippedValue": 90,
-      "equippedMin": 90,
-      "equippedMax": 90,
+      "equippedValue": 105,
+      "equippedMin": 105,
+      "equippedMax": 105,
       "pets": [],
       "loadout": [
         {
@@ -3961,19 +3942,20 @@
               "color": "green"
             },
             {
-              "name": "Shiva",
+              "name": "Ifrit",
               "color": "red"
             }
           ]
         },
         {
           "label": "Arm.",
-          "name": "Iron Bangle",
+          "name": "Titan Bangle",
           "slots": [
             {
-              "name": "Choco/Mog",
+              "name": "Shiva",
               "color": "red"
-            }
+            },
+            null
           ]
         }
       ],
@@ -3989,7 +3971,7 @@
           "qty": 1
         },
         {
-          "name": "Ifrit",
+          "name": "Choco/Mog",
           "color": "red",
           "qty": 1
         }
@@ -4006,8 +3988,8 @@
         "air-buster"
       ],
       "currentBoss": "aps",
-      "power": 10,
-      "materiaCount": 6,
+      "power": 9,
+      "materiaCount": 5,
       "equippedValue": 100,
       "equippedMin": 100,
       "equippedMax": 100,
@@ -4043,11 +4025,6 @@
           "name": "Ice",
           "color": "green",
           "qty": 2
-        },
-        {
-          "name": "Cover",
-          "color": "purple",
-          "qty": 1
         }
       ],
       "pvpWins": 0,
@@ -4193,8 +4170,8 @@
         "guard-scorpion"
       ],
       "currentBoss": "air-buster",
-      "power": 12,
-      "materiaCount": 6,
+      "power": 14,
+      "materiaCount": 8,
       "equippedValue": 85,
       "equippedMin": 40,
       "equippedMax": 130,
@@ -4227,9 +4204,14 @@
       ],
       "spare": [
         {
+          "name": "Fire",
+          "color": "green",
+          "qty": 1
+        },
+        {
           "name": "Steal",
           "color": "yellow",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Choco/Mog",
