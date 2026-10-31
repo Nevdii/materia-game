@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T03:43:06.096Z",
+  "updatedAt": "2026-10-31T03:53:06.092Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -1085,8 +1085,8 @@
         "ultimate-weapon"
       ],
       "currentBoss": "chocobo-race",
-      "power": 150,
-      "materiaCount": 66,
+      "power": 147,
+      "materiaCount": 64,
       "equippedValue": 950,
       "equippedMin": 950,
       "equippedMax": 950,
@@ -1195,7 +1195,7 @@
         {
           "name": "Cover",
           "color": "purple",
-          "qty": 8
+          "qty": 9
         },
         {
           "name": "HP Plus",
@@ -1213,9 +1213,9 @@
           "qty": 3
         },
         {
-          "name": "MP Plus",
+          "name": "MP Max",
           "color": "purple",
-          "qty": 4
+          "qty": 1
         },
         {
           "name": "Speed Plus",
@@ -2042,8 +2042,8 @@
         "turks"
       ],
       "currentBoss": "proud-clod",
-      "power": 86,
-      "materiaCount": 26,
+      "power": 91,
+      "materiaCount": 29,
       "equippedValue": 755,
       "equippedMin": 755,
       "equippedMax": 755,
@@ -2132,10 +2132,15 @@
         {
           "name": "Counter Attack",
           "color": "purple",
-          "qty": 1
+          "qty": 3
         },
         {
           "name": "HP Max",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "HP Plus",
           "color": "purple",
           "qty": 1
         },
@@ -4334,8 +4339,8 @@
       "bossesDefeated": 0,
       "defeated": [],
       "currentBoss": "guard-scorpion",
-      "power": 31,
-      "materiaCount": 21,
+      "power": 35,
+      "materiaCount": 23,
       "equippedValue": 115,
       "equippedMin": 115,
       "equippedMax": 115,
@@ -4378,6 +4383,11 @@
           "qty": 1
         },
         {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
           "name": "Fire",
           "color": "green",
           "qty": 4
@@ -4385,7 +4395,7 @@
         {
           "name": "Ice",
           "color": "green",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Quake",
