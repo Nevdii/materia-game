@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T01:03:06.128Z",
+  "updatedAt": "2026-10-31T01:13:06.120Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -1827,7 +1827,7 @@
     {
       "rank": 11,
       "name": "di_zz",
-      "bossesDefeated": 22,
+      "bossesDefeated": 23,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -1850,11 +1850,12 @@
         "schizo",
         "jenova-death",
         "carry-armor",
-        "diamond-weapon"
+        "diamond-weapon",
+        "turks"
       ],
-      "currentBoss": "turks",
-      "power": 119,
-      "materiaCount": 64,
+      "currentBoss": "proud-clod",
+      "power": 91,
+      "materiaCount": 36,
       "equippedValue": 760,
       "equippedMin": 760,
       "equippedMax": 760,
@@ -1942,16 +1943,6 @@
           "name": "Quake",
           "color": "green",
           "qty": 3
-        },
-        {
-          "name": "Sense",
-          "color": "yellow",
-          "qty": 8
-        },
-        {
-          "name": "Steal",
-          "color": "yellow",
-          "qty": 20
         },
         {
           "name": "Chocobo Lure",
@@ -3805,15 +3796,16 @@
     {
       "rank": 27,
       "name": "duece910",
-      "bossesDefeated": 3,
+      "bossesDefeated": 4,
       "defeated": [
         "guard-scorpion",
         "air-buster",
-        "aps"
+        "aps",
+        "reno"
       ],
-      "currentBoss": "reno",
-      "power": 14,
-      "materiaCount": 6,
+      "currentBoss": "sample-h0512",
+      "power": 17,
+      "materiaCount": 8,
       "equippedValue": 135,
       "equippedMin": 135,
       "equippedMax": 135,
@@ -3850,9 +3842,14 @@
       ],
       "spare": [
         {
+          "name": "Fire",
+          "color": "green",
+          "qty": 1
+        },
+        {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 2
+          "qty": 3
         }
       ],
       "pvpWins": 0,
