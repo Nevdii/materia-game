@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T02:23:06.104Z",
+  "updatedAt": "2026-10-31T02:43:06.106Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -158,8 +158,8 @@
         "jenova-synthesis"
       ],
       "currentBoss": null,
-      "power": 95,
-      "materiaCount": 25,
+      "power": 97,
+      "materiaCount": 26,
       "equippedValue": 1130,
       "equippedMin": 1085,
       "equippedMax": 1175,
@@ -251,7 +251,7 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Ifrit",
