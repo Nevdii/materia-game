@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T07:38:46.379Z",
+  "updatedAt": "2026-10-31T01:03:06.128Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -1853,17 +1853,21 @@
         "diamond-weapon"
       ],
       "currentBoss": "turks",
-      "power": 89,
-      "materiaCount": 38,
-      "equippedValue": 715,
-      "equippedMin": 715,
-      "equippedMax": 715,
+      "power": 119,
+      "materiaCount": 64,
+      "equippedValue": 760,
+      "equippedMin": 760,
+      "equippedMax": 760,
       "pets": [],
       "loadout": [
         {
           "label": "Wpn.",
           "name": "Crystal Sword",
           "slots": [
+            {
+              "name": "Master Command",
+              "color": "yellow"
+            },
             {
               "name": "Master Magic",
               "color": "green"
@@ -1879,10 +1883,6 @@
             {
               "name": "Fire3",
               "color": "green"
-            },
-            {
-              "name": "Ice3",
-              "color": "green"
             }
           ]
         },
@@ -1890,6 +1890,10 @@
           "label": "Arm.",
           "name": "Crystal Bangle",
           "slots": [
+            {
+              "name": "Ice3",
+              "color": "green"
+            },
             {
               "name": "Quake3",
               "color": "green"
@@ -1909,10 +1913,6 @@
             {
               "name": "Ramuh",
               "color": "red"
-            },
-            {
-              "name": "Chocobo Lure",
-              "color": "purple"
             }
           ]
         }
@@ -1944,9 +1944,19 @@
           "qty": 3
         },
         {
+          "name": "Sense",
+          "color": "yellow",
+          "qty": 8
+        },
+        {
           "name": "Steal",
           "color": "yellow",
-          "qty": 3
+          "qty": 20
+        },
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 1
         },
         {
           "name": "HP Plus",
@@ -3802,11 +3812,11 @@
         "aps"
       ],
       "currentBoss": "reno",
-      "power": 11,
-      "materiaCount": 4,
-      "equippedValue": 115,
-      "equippedMin": 115,
-      "equippedMax": 115,
+      "power": 14,
+      "materiaCount": 6,
+      "equippedValue": 135,
+      "equippedMin": 135,
+      "equippedMax": 135,
       "pets": [],
       "loadout": [
         {
@@ -3831,7 +3841,10 @@
               "name": "Choco/Mog",
               "color": "red"
             },
-            null
+            {
+              "name": "Sense",
+              "color": "yellow"
+            }
           ]
         }
       ],
@@ -3839,7 +3852,7 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 1
+          "qty": 2
         }
       ],
       "pvpWins": 0,
