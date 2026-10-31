@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T02:13:06.109Z",
+  "updatedAt": "2026-10-31T02:23:06.104Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -158,8 +158,8 @@
         "jenova-synthesis"
       ],
       "currentBoss": null,
-      "power": 80,
-      "materiaCount": 19,
+      "power": 95,
+      "materiaCount": 25,
       "equippedValue": 1130,
       "equippedMin": 1085,
       "equippedMax": 1175,
@@ -246,6 +246,16 @@
         {
           "name": "Master Magic",
           "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 3
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
           "qty": 3
         }
       ],
@@ -1350,8 +1360,8 @@
         "ultimate-weapon"
       ],
       "currentBoss": "chocobo-race",
-      "power": 83,
-      "materiaCount": 21,
+      "power": 85,
+      "materiaCount": 22,
       "equippedValue": 1045,
       "equippedMin": 1045,
       "equippedMax": 1045,
@@ -1440,6 +1450,11 @@
         {
           "name": "Mug",
           "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
           "qty": 1
         },
         {
@@ -3907,8 +3922,8 @@
         "air-buster"
       ],
       "currentBoss": "aps",
-      "power": 10,
-      "materiaCount": 5,
+      "power": 13,
+      "materiaCount": 6,
       "equippedValue": 90,
       "equippedMin": 90,
       "equippedMax": 90,
@@ -3948,6 +3963,11 @@
         {
           "name": "HP Plus",
           "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
           "qty": 1
         }
       ],
