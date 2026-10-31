@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T01:13:06.120Z",
+  "updatedAt": "2026-10-31T01:33:06.108Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -2152,8 +2152,8 @@
         "schizo"
       ],
       "currentBoss": "jenova-death",
-      "power": 46,
-      "materiaCount": 13,
+      "power": 59,
+      "materiaCount": 22,
       "equippedValue": 605,
       "equippedMin": 605,
       "equippedMax": 605,
@@ -2209,6 +2209,26 @@
         }
       ],
       "spare": [
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Enemy Skill",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Sense",
+          "color": "yellow",
+          "qty": 4
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 3
+        },
         {
           "name": "Choco/Mog",
           "color": "red",
