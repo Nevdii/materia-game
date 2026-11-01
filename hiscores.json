@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T03:11:24.310Z",
+  "updatedAt": "2026-11-01T03:21:24.304Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -3758,8 +3758,8 @@
         "rufus"
       ],
       "currentBoss": "motor-ball",
-      "power": 27,
-      "materiaCount": 14,
+      "power": 28,
+      "materiaCount": 15,
       "equippedValue": 170,
       "equippedMin": 170,
       "equippedMax": 170,
@@ -3817,7 +3817,7 @@
         {
           "name": "Quake",
           "color": "green",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "MP Plus",
