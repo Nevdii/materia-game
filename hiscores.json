@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T04:21:24.288Z",
+  "updatedAt": "2026-11-01T04:31:24.284Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -158,8 +158,8 @@
         "jenova-synthesis"
       ],
       "currentBoss": null,
-      "power": 121,
-      "materiaCount": 51,
+      "power": 143,
+      "materiaCount": 66,
       "equippedValue": 1100,
       "equippedMin": 1100,
       "equippedMax": 1100,
@@ -244,6 +244,11 @@
       ],
       "spare": [
         {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 1
+        },
+        {
           "name": "Counter Attack",
           "color": "purple",
           "qty": 3
@@ -251,17 +256,17 @@
         {
           "name": "Cover",
           "color": "purple",
-          "qty": 6
+          "qty": 9
         },
         {
           "name": "HP Plus",
           "color": "purple",
-          "qty": 5
+          "qty": 6
         },
         {
           "name": "Long Range",
           "color": "purple",
-          "qty": 9
+          "qty": 14
         },
         {
           "name": "MP Max",
@@ -271,7 +276,7 @@
         {
           "name": "MP Plus",
           "color": "purple",
-          "qty": 7
+          "qty": 12
         },
         {
           "name": "Speed Max",
@@ -891,8 +896,8 @@
         "chocobo-race"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 106,
-      "materiaCount": 36,
+      "power": 99,
+      "materiaCount": 35,
       "equippedValue": 1175,
       "equippedMin": 1175,
       "equippedMax": 1175,
@@ -989,12 +994,27 @@
         {
           "name": "Bolt2",
           "color": "green",
-          "qty": 2
+          "qty": 1
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 1
         },
         {
           "name": "Fire",
           "color": "green",
-          "qty": 1
+          "qty": 2
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 2
         },
         {
           "name": "Ice2",
@@ -1002,24 +1022,19 @@
           "qty": 1
         },
         {
-          "name": "Master Magic",
+          "name": "Quake",
           "color": "green",
           "qty": 1
         },
         {
-          "name": "Quake",
-          "color": "green",
-          "qty": 4
-        },
-        {
-          "name": "Ultima",
+          "name": "Quake2",
           "color": "green",
           "qty": 1
         },
         {
           "name": "Deathblow",
           "color": "yellow",
-          "qty": 2
+          "qty": 1
         },
         {
           "name": "Double Cut",
@@ -2188,8 +2203,8 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 99,
-      "materiaCount": 31,
+      "power": 98,
+      "materiaCount": 30,
       "equippedValue": 790,
       "equippedMin": 790,
       "equippedMax": 790,
@@ -2281,11 +2296,6 @@
         },
         {
           "name": "Demi2",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Quake",
           "color": "green",
           "qty": 1
         },
@@ -3065,11 +3075,11 @@
         "dyne"
       ],
       "currentBoss": "rude",
-      "power": 62,
-      "materiaCount": 32,
-      "equippedValue": 375,
-      "equippedMin": 330,
-      "equippedMax": 420,
+      "power": 58,
+      "materiaCount": 30,
+      "equippedValue": 445,
+      "equippedMin": 400,
+      "equippedMax": 490,
       "pets": [],
       "loadout": [
         {
@@ -3085,7 +3095,7 @@
               "color": "green"
             },
             {
-              "name": "Ice3",
+              "name": "Fire3",
               "color": "green"
             }
           ]
@@ -3095,10 +3105,13 @@
           "name": "Four Slots",
           "slots": [
             {
+              "name": "Ice3",
+              "color": "green"
+            },
+            {
               "name": "Kjata",
               "color": "red"
             },
-            null,
             {
               "name": "Quake2",
               "color": "green"
@@ -3127,11 +3140,6 @@
           "qty": 4
         },
         {
-          "name": "Fire3",
-          "color": "green",
-          "qty": 1
-        },
-        {
           "name": "Ice",
           "color": "green",
           "qty": 5
@@ -3140,11 +3148,6 @@
           "name": "Quake",
           "color": "green",
           "qty": 4
-        },
-        {
-          "name": "Deathblow",
-          "color": "yellow",
-          "qty": 2
         },
         {
           "name": "Steal",
@@ -3301,11 +3304,11 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 138,
-      "materiaCount": 63,
-      "equippedValue": 355,
-      "equippedMin": 355,
-      "equippedMax": 355,
+      "power": 118,
+      "materiaCount": 53,
+      "equippedValue": 370,
+      "equippedMin": 370,
+      "equippedMax": 370,
       "pets": [],
       "loadout": [
         {
@@ -3339,8 +3342,8 @@
               "color": "red"
             },
             {
-              "name": "Chocobo Lure",
-              "color": "purple"
+              "name": "Fire2",
+              "color": "green"
             }
           ]
         }
@@ -3354,7 +3357,7 @@
         {
           "name": "Bolt",
           "color": "green",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Comet",
@@ -3369,17 +3372,27 @@
         {
           "name": "Fire",
           "color": "green",
-          "qty": 5
+          "qty": 4
         },
         {
           "name": "Ice",
           "color": "green",
-          "qty": 1
+          "qty": 4
         },
         {
           "name": "Quake",
           "color": "green",
-          "qty": 4
+          "qty": 1
+        },
+        {
+          "name": "Quake2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 1
         },
         {
           "name": "Counter Attack",
@@ -3410,11 +3423,6 @@
           "name": "Speed Plus",
           "color": "purple",
           "qty": 3
-        },
-        {
-          "name": "Choco/Mog",
-          "color": "red",
-          "qty": 12
         },
         {
           "name": "Ifrit",
