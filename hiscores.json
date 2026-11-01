@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T02:01:24.349Z",
+  "updatedAt": "2026-11-01T02:11:24.343Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -158,8 +158,8 @@
         "jenova-synthesis"
       ],
       "currentBoss": null,
-      "power": 117,
-      "materiaCount": 49,
+      "power": 111,
+      "materiaCount": 45,
       "equippedValue": 1100,
       "equippedMin": 1100,
       "equippedMax": 1100,
@@ -269,9 +269,14 @@
           "qty": 9
         },
         {
+          "name": "MP Max",
+          "color": "purple",
+          "qty": 1
+        },
+        {
           "name": "MP Plus",
           "color": "purple",
-          "qty": 9
+          "qty": 4
         },
         {
           "name": "Speed Plus",
@@ -289,8 +294,8 @@
           "qty": 1
         }
       ],
-      "pvpWins": 0,
-      "pvpBattles": 0
+      "pvpWins": 1,
+      "pvpBattles": 1
     },
     {
       "rank": 2,
@@ -419,7 +424,7 @@
         }
       ],
       "pvpWins": 1,
-      "pvpBattles": 1
+      "pvpBattles": 2
     },
     {
       "rank": 3,
@@ -678,11 +683,11 @@
         "chocobo-race"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 130,
-      "materiaCount": 47,
-      "equippedValue": 1070,
-      "equippedMin": 1025,
-      "equippedMax": 1115,
+      "power": 121,
+      "materiaCount": 44,
+      "equippedValue": 1085,
+      "equippedMin": 1040,
+      "equippedMax": 1130,
       "pets": [],
       "loadout": [
         {
@@ -748,16 +753,16 @@
               "color": "green"
             },
             {
+              "name": "Bolt2",
+              "color": "green"
+            },
+            {
               "name": "Deathblow",
               "color": "yellow"
             },
             {
               "name": "Chocobo Lure",
               "color": "purple"
-            },
-            {
-              "name": "Comet",
-              "color": "green"
             }
           ]
         }
@@ -771,35 +776,40 @@
         {
           "name": "Bolt",
           "color": "green",
-          "qty": 5
+          "qty": 1
         },
         {
-          "name": "Bolt3",
+          "name": "Comet",
           "color": "green",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Demi",
           "color": "green",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Fire",
           "color": "green",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Fire3",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Ice",
           "color": "green",
           "qty": 2
         },
         {
           "name": "Ice3",
           "color": "green",
-          "qty": 3
+          "qty": 2
         },
         {
-          "name": "Master Magic",
+          "name": "Quake",
           "color": "green",
           "qty": 1
         },
@@ -825,16 +835,6 @@
         },
         {
           "name": "Mug",
-          "color": "yellow",
-          "qty": 1
-        },
-        {
-          "name": "Sense",
-          "color": "yellow",
-          "qty": 1
-        },
-        {
-          "name": "Steal",
           "color": "yellow",
           "qty": 1
         },
