@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T04:41:24.275Z",
+  "updatedAt": "2026-11-01T04:51:24.269Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -3461,126 +3461,6 @@
     },
     {
       "rank": 22,
-      "name": "darkxoa",
-      "bossesDefeated": 9,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball",
-        "bottomswell"
-      ],
-      "currentBoss": "jenova-birth",
-      "power": 63,
-      "materiaCount": 26,
-      "equippedValue": 370,
-      "equippedMin": 370,
-      "equippedMax": 370,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Mythril Saber",
-          "slots": [
-            {
-              "name": "Bahamut",
-              "color": "red"
-            },
-            {
-              "name": "Quake3",
-              "color": "green"
-            },
-            {
-              "name": "Leviathan",
-              "color": "red"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Carbon Bangle",
-          "slots": [
-            {
-              "name": "Phoenix",
-              "color": "red"
-            },
-            {
-              "name": "Ramuh",
-              "color": "red"
-            },
-            {
-              "name": "Comet",
-              "color": "green"
-            }
-          ]
-        }
-      ],
-      "spare": [
-        {
-          "name": "Bio",
-          "color": "green",
-          "qty": 2
-        },
-        {
-          "name": "Bolt",
-          "color": "green",
-          "qty": 2
-        },
-        {
-          "name": "Demi",
-          "color": "green",
-          "qty": 2
-        },
-        {
-          "name": "Fire",
-          "color": "green",
-          "qty": 2
-        },
-        {
-          "name": "Ice",
-          "color": "green",
-          "qty": 2
-        },
-        {
-          "name": "MP Plus",
-          "color": "purple",
-          "qty": 1
-        },
-        {
-          "name": "Speed Plus",
-          "color": "purple",
-          "qty": 1
-        },
-        {
-          "name": "Bahamut",
-          "color": "red",
-          "qty": 1
-        },
-        {
-          "name": "Choco/Mog",
-          "color": "red",
-          "qty": 4
-        },
-        {
-          "name": "Ifrit",
-          "color": "red",
-          "qty": 1
-        },
-        {
-          "name": "Shiva",
-          "color": "red",
-          "qty": 2
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 23,
       "name": "leotrinds",
       "bossesDefeated": 9,
       "defeated": [
@@ -3709,6 +3589,126 @@
           "name": "Choco/Mog",
           "color": "red",
           "qty": 1
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 23,
+      "name": "darkxoa",
+      "bossesDefeated": 9,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball",
+        "bottomswell"
+      ],
+      "currentBoss": "jenova-birth",
+      "power": 59,
+      "materiaCount": 24,
+      "equippedValue": 370,
+      "equippedMin": 370,
+      "equippedMax": 370,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Mythril Saber",
+          "slots": [
+            {
+              "name": "Bahamut",
+              "color": "red"
+            },
+            {
+              "name": "Quake3",
+              "color": "green"
+            },
+            {
+              "name": "Leviathan",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Carbon Bangle",
+          "slots": [
+            {
+              "name": "Phoenix",
+              "color": "red"
+            },
+            {
+              "name": "Ramuh",
+              "color": "red"
+            },
+            {
+              "name": "Comet",
+              "color": "green"
+            }
+          ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Bahamut",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 2
         }
       ],
       "pvpWins": 0,
