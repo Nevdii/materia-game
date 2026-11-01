@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T02:51:24.322Z",
+  "updatedAt": "2026-11-01T03:11:24.310Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -2458,8 +2458,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 99,
-      "materiaCount": 42,
+      "power": 102,
+      "materiaCount": 45,
       "equippedValue": 565,
       "equippedMin": 565,
       "equippedMax": 565,
@@ -2523,7 +2523,7 @@
         {
           "name": "Bolt",
           "color": "green",
-          "qty": 4
+          "qty": 5
         },
         {
           "name": "Bolt2",
@@ -2543,12 +2543,12 @@
         {
           "name": "Fire",
           "color": "green",
-          "qty": 5
+          "qty": 6
         },
         {
           "name": "Ice",
           "color": "green",
-          "qty": 5
+          "qty": 6
         },
         {
           "name": "Quake2",
@@ -3150,8 +3150,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 131,
-      "materiaCount": 58,
+      "power": 133,
+      "materiaCount": 60,
       "equippedValue": 355,
       "equippedMin": 355,
       "equippedMax": 355,
@@ -3211,9 +3211,14 @@
           "qty": 2
         },
         {
+          "name": "Ice",
+          "color": "green",
+          "qty": 1
+        },
+        {
           "name": "Quake",
           "color": "green",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Counter Attack",
@@ -3633,7 +3638,7 @@
     {
       "rank": 24,
       "name": "dj_webb32",
-      "bossesDefeated": 7,
+      "bossesDefeated": 8,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -3641,19 +3646,20 @@
         "reno",
         "sample-h0512",
         "gunner",
-        "rufus"
+        "rufus",
+        "motor-ball"
       ],
-      "currentBoss": "motor-ball",
+      "currentBoss": "bottomswell",
       "power": 43,
       "materiaCount": 23,
-      "equippedValue": 255,
-      "equippedMin": 210,
-      "equippedMax": 300,
+      "equippedValue": 290,
+      "equippedMin": 245,
+      "equippedMax": 335,
       "pets": [],
       "loadout": [
         {
           "label": "Wpn.",
-          "name": "Buster Sword",
+          "name": "Mythril Saber",
           "slots": [
             {
               "name": "Kjata",
@@ -3661,6 +3667,10 @@
             },
             {
               "name": "Bolt2",
+              "color": "green"
+            },
+            {
+              "name": "Fire2",
               "color": "green"
             }
           ]
@@ -3670,16 +3680,16 @@
           "name": "Carbon Bangle",
           "slots": [
             {
-              "name": "Fire2",
-              "color": "green"
-            },
-            {
               "name": "Ice2",
               "color": "green"
             },
             {
               "name": "Deathblow",
               "color": "yellow"
+            },
+            {
+              "name": "Comet",
+              "color": "green"
             }
           ]
         }
@@ -3689,11 +3699,6 @@
           "name": "Bio",
           "color": "green",
           "qty": 2
-        },
-        {
-          "name": "Comet",
-          "color": "green",
-          "qty": 1
         },
         {
           "name": "Demi",
