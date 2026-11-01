@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T02:21:24.341Z",
+  "updatedAt": "2026-11-01T02:41:24.329Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -876,11 +876,11 @@
         "chocobo-race"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 117,
-      "materiaCount": 43,
-      "equippedValue": 1115,
-      "equippedMin": 1070,
-      "equippedMax": 1160,
+      "power": 116,
+      "materiaCount": 46,
+      "equippedValue": 1140,
+      "equippedMin": 1095,
+      "equippedMax": 1185,
       "pets": [],
       "loadout": [
         {
@@ -894,6 +894,10 @@
             {
               "name": "Odin",
               "color": "red"
+            },
+            {
+              "name": "Comet2",
+              "color": "green"
             },
             {
               "name": "Demi3",
@@ -914,10 +918,6 @@
             {
               "name": "Fire3",
               "color": "green"
-            },
-            {
-              "name": "Ice3",
-              "color": "green"
             }
           ]
         },
@@ -925,6 +925,10 @@
           "label": "Arm.",
           "name": "Precious Watch",
           "slots": [
+            {
+              "name": "Ice3",
+              "color": "green"
+            },
             {
               "name": "Quake3",
               "color": "green"
@@ -942,8 +946,8 @@
               "color": "yellow"
             },
             {
-              "name": "Mug",
-              "color": "yellow"
+              "name": "Chocobo Lure",
+              "color": "purple"
             },
             {
               "name": "Bolt2",
@@ -952,10 +956,6 @@
             {
               "name": "Deathblow",
               "color": "yellow"
-            },
-            {
-              "name": "Chocobo Lure",
-              "color": "purple"
             }
           ]
         }
@@ -969,37 +969,27 @@
         {
           "name": "Bolt",
           "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Comet",
-          "color": "green",
-          "qty": 2
+          "qty": 3
         },
         {
           "name": "Fire",
           "color": "green",
-          "qty": 5
-        },
-        {
-          "name": "Fire3",
-          "color": "green",
-          "qty": 1
+          "qty": 7
         },
         {
           "name": "Ice",
           "color": "green",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Ice3",
           "color": "green",
-          "qty": 2
+          "qty": 1
         },
         {
           "name": "Quake",
           "color": "green",
-          "qty": 2
+          "qty": 3
         },
         {
           "name": "Quake3",
@@ -1024,7 +1014,7 @@
         {
           "name": "Mug",
           "color": "yellow",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Speed Plus",
@@ -3165,11 +3155,11 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 126,
-      "materiaCount": 57,
-      "equippedValue": 310,
-      "equippedMin": 310,
-      "equippedMax": 310,
+      "power": 131,
+      "materiaCount": 58,
+      "equippedValue": 355,
+      "equippedMin": 355,
+      "equippedMax": 355,
       "pets": [],
       "loadout": [
         {
@@ -3177,15 +3167,15 @@
           "name": "Mythril Saber",
           "slots": [
             {
+              "name": "Ultima",
+              "color": "green"
+            },
+            {
               "name": "Kjata",
               "color": "red"
             },
             {
               "name": "Leviathan",
-              "color": "red"
-            },
-            {
-              "name": "Phoenix",
               "color": "red"
             }
           ]
@@ -3195,16 +3185,16 @@
           "name": "Carbon Bangle",
           "slots": [
             {
+              "name": "Phoenix",
+              "color": "red"
+            },
+            {
               "name": "Titan",
               "color": "red"
             },
             {
               "name": "Chocobo Lure",
               "color": "purple"
-            },
-            {
-              "name": "Comet",
-              "color": "green"
             }
           ]
         }
@@ -3214,6 +3204,11 @@
           "name": "Bio",
           "color": "green",
           "qty": 2
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
         },
         {
           "name": "Fire",
