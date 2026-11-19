@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T01:10:23.028Z",
+  "updatedAt": "2026-11-19T01:20:23.018Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -1090,8 +1090,8 @@
         "chocobo-race"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 76,
-      "materiaCount": 21,
+      "power": 78,
+      "materiaCount": 23,
       "equippedValue": 1055,
       "equippedMin": 1010,
       "equippedMax": 1100,
@@ -1187,6 +1187,16 @@
         },
         {
           "name": "Mug",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Sense",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Steal",
           "color": "yellow",
           "qty": 1
         },
