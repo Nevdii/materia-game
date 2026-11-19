@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:20:23.069Z",
+  "updatedAt": "2026-11-19T01:10:23.028Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -3070,7 +3070,7 @@
     },
     {
       "rank": 19,
-      "name": "dj_webb32",
+      "name": "drazhar",
       "bossesDefeated": 11,
       "defeated": [
         "guard-scorpion",
@@ -3086,123 +3086,8 @@
         "dyne"
       ],
       "currentBoss": "rude",
-      "power": 58,
-      "materiaCount": 30,
-      "equippedValue": 445,
-      "equippedMin": 400,
-      "equippedMax": 490,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Mythril Saber",
-          "slots": [
-            {
-              "name": "Ultima",
-              "color": "green"
-            },
-            {
-              "name": "Bolt3",
-              "color": "green"
-            },
-            {
-              "name": "Fire3",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Four Slots",
-          "slots": [
-            {
-              "name": "Ice3",
-              "color": "green"
-            },
-            {
-              "name": "Kjata",
-              "color": "red"
-            },
-            {
-              "name": "Quake2",
-              "color": "green"
-            },
-            {
-              "name": "Deathblow",
-              "color": "yellow"
-            }
-          ]
-        }
-      ],
-      "spare": [
-        {
-          "name": "Bio",
-          "color": "green",
-          "qty": 2
-        },
-        {
-          "name": "Comet",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Demi",
-          "color": "green",
-          "qty": 4
-        },
-        {
-          "name": "Ice",
-          "color": "green",
-          "qty": 5
-        },
-        {
-          "name": "Quake",
-          "color": "green",
-          "qty": 4
-        },
-        {
-          "name": "Steal",
-          "color": "yellow",
-          "qty": 4
-        },
-        {
-          "name": "MP Plus",
-          "color": "purple",
-          "qty": 1
-        },
-        {
-          "name": "Ifrit",
-          "color": "red",
-          "qty": 1
-        },
-        {
-          "name": "Shiva",
-          "color": "red",
-          "qty": 1
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 20,
-      "name": "drazhar",
-      "bossesDefeated": 10,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball",
-        "bottomswell",
-        "jenova-birth"
-      ],
-      "currentBoss": "dyne",
-      "power": 118,
-      "materiaCount": 53,
+      "power": 130,
+      "materiaCount": 58,
       "equippedValue": 420,
       "equippedMin": 420,
       "equippedMax": 420,
@@ -3321,6 +3206,11 @@
           "qty": 3
         },
         {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 3
+        },
+        {
           "name": "Ifrit",
           "color": "red",
           "qty": 5
@@ -3338,7 +3228,123 @@
         {
           "name": "Shiva",
           "color": "red",
-          "qty": 6
+          "qty": 8
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 20,
+      "name": "dj_webb32",
+      "bossesDefeated": 11,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball",
+        "bottomswell",
+        "jenova-birth",
+        "dyne"
+      ],
+      "currentBoss": "rude",
+      "power": 58,
+      "materiaCount": 30,
+      "equippedValue": 445,
+      "equippedMin": 400,
+      "equippedMax": 490,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Mythril Saber",
+          "slots": [
+            {
+              "name": "Ultima",
+              "color": "green"
+            },
+            {
+              "name": "Bolt3",
+              "color": "green"
+            },
+            {
+              "name": "Fire3",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Four Slots",
+          "slots": [
+            {
+              "name": "Ice3",
+              "color": "green"
+            },
+            {
+              "name": "Kjata",
+              "color": "red"
+            },
+            {
+              "name": "Quake2",
+              "color": "green"
+            },
+            {
+              "name": "Deathblow",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 5
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 4
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 1
         }
       ],
       "pvpWins": 0,
