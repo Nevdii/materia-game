@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T02:26:57.875Z",
+  "updatedAt": "2026-11-21T02:56:57.847Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -3261,11 +3261,11 @@
         "dyne"
       ],
       "currentBoss": "rude",
-      "power": 58,
-      "materiaCount": 30,
-      "equippedValue": 445,
-      "equippedMin": 400,
-      "equippedMax": 490,
+      "power": 63,
+      "materiaCount": 31,
+      "equippedValue": 485,
+      "equippedMin": 485,
+      "equippedMax": 485,
       "pets": [],
       "loadout": [
         {
@@ -3273,15 +3273,15 @@
           "name": "Mythril Saber",
           "slots": [
             {
+              "name": "Odin",
+              "color": "red"
+            },
+            {
               "name": "Ultima",
               "color": "green"
             },
             {
               "name": "Bolt3",
-              "color": "green"
-            },
-            {
-              "name": "Fire3",
               "color": "green"
             }
           ]
@@ -3290,6 +3290,10 @@
           "label": "Arm.",
           "name": "Four Slots",
           "slots": [
+            {
+              "name": "Fire3",
+              "color": "green"
+            },
             {
               "name": "Ice3",
               "color": "green"
@@ -3301,10 +3305,6 @@
             {
               "name": "Quake2",
               "color": "green"
-            },
-            {
-              "name": "Deathblow",
-              "color": "yellow"
             }
           ]
         }
@@ -3334,6 +3334,11 @@
           "name": "Quake",
           "color": "green",
           "qty": 4
+        },
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
         },
         {
           "name": "Steal",
@@ -3490,11 +3495,11 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 68,
-      "materiaCount": 32,
-      "equippedValue": 425,
-      "equippedMin": 425,
-      "equippedMax": 425,
+      "power": 66,
+      "materiaCount": 29,
+      "equippedValue": 445,
+      "equippedMin": 445,
+      "equippedMax": 445,
       "pets": [],
       "loadout": [
         {
@@ -3524,12 +3529,12 @@
               "color": "green"
             },
             {
-              "name": "Phoenix",
-              "color": "red"
+              "name": "Ice3",
+              "color": "green"
             },
             {
-              "name": "Bolt2",
-              "color": "green"
+              "name": "Phoenix",
+              "color": "red"
             }
           ]
         }
@@ -3542,6 +3547,11 @@
         },
         {
           "name": "Bolt",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Bolt2",
           "color": "green",
           "qty": 1
         },
@@ -3559,16 +3569,6 @@
           "name": "Fire",
           "color": "green",
           "qty": 2
-        },
-        {
-          "name": "Ice",
-          "color": "green",
-          "qty": 4
-        },
-        {
-          "name": "Ice2",
-          "color": "green",
-          "qty": 1
         },
         {
           "name": "Master Magic",
@@ -4375,8 +4375,8 @@
         "reno"
       ],
       "currentBoss": "sample-h0512",
-      "power": 20,
-      "materiaCount": 9,
+      "power": 23,
+      "materiaCount": 10,
       "equippedValue": 135,
       "equippedMin": 135,
       "equippedMax": 135,
@@ -4424,6 +4424,11 @@
         },
         {
           "name": "Ifrit",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
           "color": "red",
           "qty": 1
         }
