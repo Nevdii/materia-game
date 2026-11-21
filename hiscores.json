@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T00:26:57.987Z",
+  "updatedAt": "2026-11-21T00:36:57.983Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -2848,10 +2848,10 @@
       ],
       "currentBoss": "jenova-life",
       "power": 71,
-      "materiaCount": 31,
-      "equippedValue": 535,
-      "equippedMin": 535,
-      "equippedMax": 535,
+      "materiaCount": 28,
+      "equippedValue": 625,
+      "equippedMin": 625,
+      "equippedMax": 625,
       "pets": [],
       "loadout": [
         {
@@ -2881,6 +2881,14 @@
           "name": "Diamond Bangle",
           "slots": [
             {
+              "name": "Ice3",
+              "color": "green"
+            },
+            {
+              "name": "Quake3",
+              "color": "green"
+            },
+            {
               "name": "Leviathan",
               "color": "red"
             },
@@ -2891,12 +2899,7 @@
             {
               "name": "Mug",
               "color": "yellow"
-            },
-            {
-              "name": "Fire2",
-              "color": "green"
-            },
-            null
+            }
           ]
         }
       ],
@@ -2907,6 +2910,11 @@
           "qty": 2
         },
         {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 1
+        },
+        {
           "name": "Comet",
           "color": "green",
           "qty": 1
@@ -2914,30 +2922,15 @@
         {
           "name": "Demi",
           "color": "green",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Fire",
           "color": "green",
-          "qty": 4
+          "qty": 5
         },
         {
-          "name": "Ice",
-          "color": "green",
-          "qty": 4
-        },
-        {
-          "name": "Ice2",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Quake",
-          "color": "green",
-          "qty": 2
-        },
-        {
-          "name": "Quake2",
+          "name": "Fire2",
           "color": "green",
           "qty": 1
         },
@@ -3499,8 +3492,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 68,
-      "materiaCount": 31,
+      "power": 69,
+      "materiaCount": 32,
       "equippedValue": 425,
       "equippedMin": 425,
       "equippedMax": 425,
@@ -3567,7 +3560,7 @@
         {
           "name": "Fire",
           "color": "green",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Ice",
