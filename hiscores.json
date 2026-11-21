@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T00:56:57.959Z",
+  "updatedAt": "2026-11-21T01:06:57.949Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -694,8 +694,8 @@
         "chocobo-race"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 156,
-      "materiaCount": 61,
+      "power": 133,
+      "materiaCount": 49,
       "equippedValue": 1095,
       "equippedMin": 1095,
       "equippedMax": 1095,
@@ -812,7 +812,7 @@
         {
           "name": "Deathblow",
           "color": "yellow",
-          "qty": 2
+          "qty": 3
         },
         {
           "name": "Double Cut",
@@ -820,9 +820,19 @@
           "qty": 1
         },
         {
+          "name": "Enemy Skill",
+          "color": "yellow",
+          "qty": 2
+        },
+        {
+          "name": "Sense",
+          "color": "yellow",
+          "qty": 4
+        },
+        {
           "name": "Steal",
           "color": "yellow",
-          "qty": 11
+          "qty": 5
         },
         {
           "name": "HP Plus",
@@ -838,11 +848,6 @@
           "name": "Speed Plus",
           "color": "purple",
           "qty": 1
-        },
-        {
-          "name": "Choco/Mog",
-          "color": "red",
-          "qty": 8
         },
         {
           "name": "Kjata",
@@ -863,11 +868,6 @@
           "name": "Ramuh",
           "color": "red",
           "qty": 1
-        },
-        {
-          "name": "Shiva",
-          "color": "red",
-          "qty": 5
         },
         {
           "name": "Titan",
@@ -2385,8 +2385,8 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 63,
-      "materiaCount": 24,
+      "power": 75,
+      "materiaCount": 28,
       "equippedValue": 765,
       "equippedMin": 720,
       "equippedMax": 810,
@@ -2465,9 +2465,19 @@
           "qty": 6
         },
         {
-          "name": "Phoenix",
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Kjata",
           "color": "red",
           "qty": 1
+        },
+        {
+          "name": "Phoenix",
+          "color": "red",
+          "qty": 2
         },
         {
           "name": "Titan",
@@ -2842,8 +2852,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 102,
-      "materiaCount": 34,
+      "power": 74,
+      "materiaCount": 24,
       "equippedValue": 665,
       "equippedMin": 665,
       "equippedMax": 665,
@@ -2945,16 +2955,6 @@
           "qty": 1
         },
         {
-          "name": "Choco/Mog",
-          "color": "red",
-          "qty": 4
-        },
-        {
-          "name": "Ifrit",
-          "color": "red",
-          "qty": 2
-        },
-        {
           "name": "Kjata",
           "color": "red",
           "qty": 1
@@ -2963,16 +2963,6 @@
           "name": "Leviathan",
           "color": "red",
           "qty": 1
-        },
-        {
-          "name": "Ramuh",
-          "color": "red",
-          "qty": 2
-        },
-        {
-          "name": "Shiva",
-          "color": "red",
-          "qty": 2
         }
       ],
       "pvpWins": 0,
@@ -3107,8 +3097,8 @@
         "rude"
       ],
       "currentBoss": "gi-nattak",
-      "power": 141,
-      "materiaCount": 62,
+      "power": 140,
+      "materiaCount": 60,
       "equippedValue": 420,
       "equippedMin": 420,
       "equippedMax": 420,
@@ -3164,7 +3154,12 @@
         {
           "name": "Bolt",
           "color": "green",
-          "qty": 4
+          "qty": 1
+        },
+        {
+          "name": "Bolt2",
+          "color": "green",
+          "qty": 1
         },
         {
           "name": "Comet",
@@ -4184,11 +4179,11 @@
         "sample-h0512"
       ],
       "currentBoss": "gunner",
-      "power": 49,
-      "materiaCount": 27,
-      "equippedValue": 190,
-      "equippedMin": 190,
-      "equippedMax": 190,
+      "power": 52,
+      "materiaCount": 28,
+      "equippedValue": 225,
+      "equippedMin": 225,
+      "equippedMax": 225,
       "pets": [],
       "loadout": [
         {
@@ -4217,7 +4212,10 @@
               "name": "Comet",
               "color": "green"
             },
-            null
+            {
+              "name": "Ifrit",
+              "color": "red"
+            }
           ]
         }
       ],
