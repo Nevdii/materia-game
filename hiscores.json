@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T04:26:57.766Z",
+  "updatedAt": "2026-11-21T04:36:57.757Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -1027,9 +1027,9 @@
       "currentBoss": "jenova-synthesis",
       "power": 90,
       "materiaCount": 29,
-      "equippedValue": 1175,
-      "equippedMin": 1175,
-      "equippedMax": 1175,
+      "equippedValue": 1190,
+      "equippedMin": 1190,
+      "equippedMax": 1190,
       "pets": [],
       "loadout": [
         {
@@ -1103,8 +1103,8 @@
               "color": "green"
             },
             {
-              "name": "Chocobo Lure",
-              "color": "purple"
+              "name": "Fire2",
+              "color": "green"
             }
           ]
         }
@@ -1131,11 +1131,6 @@
           "qty": 1
         },
         {
-          "name": "Fire2",
-          "color": "green",
-          "qty": 1
-        },
-        {
           "name": "Ice2",
           "color": "green",
           "qty": 1
@@ -1153,6 +1148,11 @@
         {
           "name": "Steal",
           "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
           "qty": 1
         },
         {
@@ -2640,8 +2640,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 120,
-      "materiaCount": 60,
+      "power": 122,
+      "materiaCount": 62,
       "equippedValue": 565,
       "equippedMin": 565,
       "equippedMax": 565,
@@ -2725,7 +2725,7 @@
         {
           "name": "Fire",
           "color": "green",
-          "qty": 8
+          "qty": 9
         },
         {
           "name": "Ice",
@@ -2735,7 +2735,7 @@
         {
           "name": "Quake",
           "color": "green",
-          "qty": 4
+          "qty": 5
         },
         {
           "name": "Quake2",
@@ -3069,7 +3069,7 @@
     {
       "rank": 19,
       "name": "dj_webb32",
-      "bossesDefeated": 15,
+      "bossesDefeated": 16,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -3085,9 +3085,10 @@
         "rude",
         "gi-nattak",
         "materia-keeper",
-        "palmer"
+        "palmer",
+        "red-dragon"
       ],
-      "currentBoss": "red-dragon",
+      "currentBoss": "demons-gate",
       "power": 63,
       "materiaCount": 23,
       "equippedValue": 585,
@@ -3200,8 +3201,8 @@
         "gi-nattak"
       ],
       "currentBoss": "materia-keeper",
-      "power": 150,
-      "materiaCount": 64,
+      "power": 166,
+      "materiaCount": 70,
       "equippedValue": 500,
       "equippedMin": 500,
       "equippedMax": 500,
@@ -3341,12 +3342,12 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 3
+          "qty": 6
         },
         {
           "name": "Ifrit",
           "color": "red",
-          "qty": 5
+          "qty": 6
         },
         {
           "name": "Kjata",
@@ -3356,12 +3357,12 @@
         {
           "name": "Leviathan",
           "color": "red",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Shiva",
           "color": "red",
-          "qty": 8
+          "qty": 9
         }
       ],
       "pvpWins": 0,
@@ -3498,8 +3499,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 67,
-      "materiaCount": 30,
+      "power": 70,
+      "materiaCount": 32,
       "equippedValue": 445,
       "equippedMin": 445,
       "equippedMax": 445,
@@ -3546,12 +3547,12 @@
         {
           "name": "Bio",
           "color": "green",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Bolt",
           "color": "green",
-          "qty": 2
+          "qty": 3
         },
         {
           "name": "Bolt2",
