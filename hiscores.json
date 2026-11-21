@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T03:26:57.818Z",
+  "updatedAt": "2026-11-21T03:46:57.799Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -3087,8 +3087,8 @@
         "materia-keeper"
       ],
       "currentBoss": "palmer",
-      "power": 68,
-      "materiaCount": 25,
+      "power": 70,
+      "materiaCount": 28,
       "equippedValue": 585,
       "equippedMin": 585,
       "equippedMax": 585,
@@ -3146,6 +3146,11 @@
           "qty": 1
         },
         {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 3
+        },
+        {
           "name": "Comet",
           "color": "green",
           "qty": 2
@@ -3153,17 +3158,22 @@
         {
           "name": "Demi",
           "color": "green",
-          "qty": 5
+          "qty": 1
+        },
+        {
+          "name": "Demi2",
+          "color": "green",
+          "qty": 1
         },
         {
           "name": "Fire",
           "color": "green",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Ice",
           "color": "green",
-          "qty": 1
+          "qty": 3
         },
         {
           "name": "Quake",
