@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T00:16:57.994Z",
+  "updatedAt": "2026-11-21T00:26:57.987Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -3083,7 +3083,7 @@
     {
       "rank": 19,
       "name": "drazhar",
-      "bossesDefeated": 11,
+      "bossesDefeated": 12,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -3095,11 +3095,12 @@
         "motor-ball",
         "bottomswell",
         "jenova-birth",
-        "dyne"
+        "dyne",
+        "rude"
       ],
-      "currentBoss": "rude",
-      "power": 130,
-      "materiaCount": 58,
+      "currentBoss": "gi-nattak",
+      "power": 141,
+      "materiaCount": 62,
       "equippedValue": 420,
       "equippedMin": 420,
       "equippedMax": 420,
@@ -3140,7 +3141,7 @@
               "color": "green"
             },
             {
-              "name": "Quake2",
+              "name": "Ice2",
               "color": "green"
             }
           ]
@@ -3150,12 +3151,12 @@
         {
           "name": "Bio",
           "color": "green",
-          "qty": 2
+          "qty": 3
         },
         {
           "name": "Bolt",
           "color": "green",
-          "qty": 2
+          "qty": 4
         },
         {
           "name": "Comet",
@@ -3165,20 +3166,25 @@
         {
           "name": "Demi",
           "color": "green",
-          "qty": 2
+          "qty": 6
         },
         {
-          "name": "Fire",
+          "name": "Fire2",
           "color": "green",
-          "qty": 4
+          "qty": 1
         },
         {
           "name": "Ice",
           "color": "green",
-          "qty": 4
+          "qty": 2
         },
         {
           "name": "Quake",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Quake2",
           "color": "green",
           "qty": 1
         },
@@ -3493,8 +3499,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 63,
-      "materiaCount": 30,
+      "power": 68,
+      "materiaCount": 31,
       "equippedValue": 425,
       "equippedMin": 425,
       "equippedMax": 425,
@@ -3570,6 +3576,11 @@
         },
         {
           "name": "Ice2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Master Magic",
           "color": "green",
           "qty": 1
         },
