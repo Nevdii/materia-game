@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T03:46:57.799Z",
+  "updatedAt": "2026-11-21T04:16:57.774Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -3069,7 +3069,7 @@
     {
       "rank": 19,
       "name": "dj_webb32",
-      "bossesDefeated": 14,
+      "bossesDefeated": 15,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -3084,11 +3084,12 @@
         "dyne",
         "rude",
         "gi-nattak",
-        "materia-keeper"
+        "materia-keeper",
+        "palmer"
       ],
-      "currentBoss": "palmer",
-      "power": 70,
-      "materiaCount": 28,
+      "currentBoss": "red-dragon",
+      "power": 67,
+      "materiaCount": 24,
       "equippedValue": 585,
       "equippedMin": 585,
       "equippedMax": 585,
@@ -3143,12 +3144,7 @@
         {
           "name": "Bio",
           "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Bolt",
-          "color": "green",
-          "qty": 3
+          "qty": 2
         },
         {
           "name": "Comet",
@@ -3158,7 +3154,7 @@
         {
           "name": "Demi",
           "color": "green",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Demi2",
@@ -3166,24 +3162,9 @@
           "qty": 1
         },
         {
-          "name": "Fire",
-          "color": "green",
-          "qty": 2
-        },
-        {
-          "name": "Ice",
-          "color": "green",
-          "qty": 3
-        },
-        {
           "name": "Quake",
           "color": "green",
-          "qty": 3
-        },
-        {
-          "name": "Quake2",
-          "color": "green",
-          "qty": 1
+          "qty": 6
         },
         {
           "name": "Ultima",
@@ -4684,6 +4665,128 @@
     },
     {
       "rank": 36,
+      "name": "a_n_i_v",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 47,
+      "materiaCount": 29,
+      "equippedValue": 10,
+      "equippedMin": 10,
+      "equippedMax": 10,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "HP Plus",
+              "color": "purple"
+            },
+            null
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            null
+          ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Fire",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Ice",
+          "color": "green",
+          "qty": 4
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Sense",
+          "color": "yellow",
+          "qty": 2
+        },
+        {
+          "name": "Steal",
+          "color": "yellow",
+          "qty": 1
+        },
+        {
+          "name": "Chocobo Lure",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Counter Attack",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Cover",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "Long Range",
+          "color": "purple",
+          "qty": 1
+        },
+        {
+          "name": "MP Plus",
+          "color": "purple",
+          "qty": 2
+        },
+        {
+          "name": "Speed Plus",
+          "color": "purple",
+          "qty": 3
+        },
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Kjata",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 1
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 37,
       "name": "azuremen",
       "bossesDefeated": 0,
       "defeated": [],
@@ -4751,7 +4854,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 37,
+      "rank": 38,
       "name": "drinnar",
       "bossesDefeated": 0,
       "defeated": [],
@@ -4808,7 +4911,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 38,
+      "rank": 39,
       "name": "iamkyluya",
       "bossesDefeated": 0,
       "defeated": [],
@@ -4881,7 +4984,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 39,
+      "rank": 40,
       "name": "capitan_jefe",
       "bossesDefeated": 0,
       "defeated": [],
@@ -4939,7 +5042,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 40,
+      "rank": 41,
       "name": "dargkkast",
       "bossesDefeated": 0,
       "defeated": [],
@@ -4992,7 +5095,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 41,
+      "rank": 42,
       "name": "mrockstar20",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5034,7 +5137,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 42,
+      "rank": 43,
       "name": "natterleaf",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5073,7 +5176,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 43,
+      "rank": 44,
       "name": "technowaffle36",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5112,7 +5215,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 44,
+      "rank": 45,
       "name": "molluskio",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5148,7 +5251,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 45,
+      "rank": 46,
       "name": "cadjin",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5184,7 +5287,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 46,
+      "rank": 47,
       "name": "cruelbeanz",
       "bossesDefeated": 0,
       "defeated": [],
