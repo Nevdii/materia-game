@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T01:16:57.939Z",
+  "updatedAt": "2026-11-21T01:26:57.930Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -2481,7 +2481,7 @@
     {
       "rank": 15,
       "name": "caffeinedaydream",
-      "bossesDefeated": 18,
+      "bossesDefeated": 19,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -2500,14 +2500,15 @@
         "palmer",
         "red-dragon",
         "demons-gate",
-        "jenova-life"
+        "jenova-life",
+        "schizo"
       ],
-      "currentBoss": "schizo",
+      "currentBoss": "jenova-death",
       "power": 74,
       "materiaCount": 24,
-      "equippedValue": 665,
-      "equippedMin": 665,
-      "equippedMax": 665,
+      "equippedValue": 640,
+      "equippedMin": 640,
+      "equippedMax": 640,
       "pets": [],
       "loadout": [
         {
@@ -2553,8 +2554,8 @@
               "color": "green"
             },
             {
-              "name": "Kjata",
-              "color": "red"
+              "name": "Chocobo Lure",
+              "color": "purple"
             }
           ]
         }
@@ -2596,11 +2597,6 @@
           "qty": 1
         },
         {
-          "name": "Chocobo Lure",
-          "color": "purple",
-          "qty": 1
-        },
-        {
           "name": "HP Plus",
           "color": "purple",
           "qty": 1
@@ -2608,7 +2604,7 @@
         {
           "name": "Kjata",
           "color": "red",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Leviathan",
