@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T03:06:57.838Z",
+  "updatedAt": "2026-11-21T03:16:57.828Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -3068,6 +3068,118 @@
     },
     {
       "rank": 19,
+      "name": "dj_webb32",
+      "bossesDefeated": 13,
+      "defeated": [
+        "guard-scorpion",
+        "air-buster",
+        "aps",
+        "reno",
+        "sample-h0512",
+        "gunner",
+        "rufus",
+        "motor-ball",
+        "bottomswell",
+        "jenova-birth",
+        "dyne",
+        "rude",
+        "gi-nattak"
+      ],
+      "currentBoss": "materia-keeper",
+      "power": 65,
+      "materiaCount": 27,
+      "equippedValue": 570,
+      "equippedMin": 570,
+      "equippedMax": 570,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Butterfly Edge",
+          "slots": [
+            {
+              "name": "Odin",
+              "color": "red"
+            },
+            {
+              "name": "Master Magic",
+              "color": "green"
+            },
+            {
+              "name": "Ultima",
+              "color": "green"
+            },
+            {
+              "name": "Bolt3",
+              "color": "green"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Four Slots",
+          "slots": [
+            {
+              "name": "Fire3",
+              "color": "green"
+            },
+            {
+              "name": "Ice3",
+              "color": "green"
+            },
+            {
+              "name": "Kjata",
+              "color": "red"
+            },
+            {
+              "name": "Mug",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Bio",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Bio2",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Bolt",
+          "color": "green",
+          "qty": 3
+        },
+        {
+          "name": "Comet",
+          "color": "green",
+          "qty": 2
+        },
+        {
+          "name": "Demi",
+          "color": "green",
+          "qty": 5
+        },
+        {
+          "name": "Quake",
+          "color": "green",
+          "qty": 5
+        },
+        {
+          "name": "Quake2",
+          "color": "green",
+          "qty": 2
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 20,
       "name": "drazhar",
       "bossesDefeated": 12,
       "defeated": [
@@ -3085,11 +3197,11 @@
         "rude"
       ],
       "currentBoss": "gi-nattak",
-      "power": 140,
-      "materiaCount": 60,
-      "equippedValue": 420,
-      "equippedMin": 420,
-      "equippedMax": 420,
+      "power": 150,
+      "materiaCount": 64,
+      "equippedValue": 450,
+      "equippedMin": 450,
+      "equippedMax": 450,
       "pets": [],
       "loadout": [
         {
@@ -3097,15 +3209,15 @@
           "name": "Mythril Saber",
           "slots": [
             {
+              "name": "Master Magic",
+              "color": "green"
+            },
+            {
               "name": "Ultima",
               "color": "green"
             },
             {
               "name": "Kjata",
-              "color": "red"
-            },
-            {
-              "name": "Leviathan",
               "color": "red"
             }
           ]
@@ -3115,6 +3227,10 @@
           "name": "Four Slots",
           "slots": [
             {
+              "name": "Leviathan",
+              "color": "red"
+            },
+            {
               "name": "Phoenix",
               "color": "red"
             },
@@ -3123,11 +3239,7 @@
               "color": "red"
             },
             {
-              "name": "Fire2",
-              "color": "green"
-            },
-            {
-              "name": "Ice2",
+              "name": "Bolt2",
               "color": "green"
             }
           ]
@@ -3145,14 +3257,9 @@
           "qty": 1
         },
         {
-          "name": "Bolt2",
-          "color": "green",
-          "qty": 1
-        },
-        {
           "name": "Comet",
           "color": "green",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Demi",
@@ -3160,9 +3267,14 @@
           "qty": 6
         },
         {
-          "name": "Fire2",
+          "name": "Fire",
           "color": "green",
           "qty": 1
+        },
+        {
+          "name": "Fire2",
+          "color": "green",
+          "qty": 2
         },
         {
           "name": "Ice",
@@ -3170,9 +3282,14 @@
           "qty": 2
         },
         {
+          "name": "Ice2",
+          "color": "green",
+          "qty": 1
+        },
+        {
           "name": "Quake",
           "color": "green",
-          "qty": 2
+          "qty": 3
         },
         {
           "name": "Quake2",
@@ -3238,113 +3355,6 @@
           "name": "Shiva",
           "color": "red",
           "qty": 8
-        }
-      ],
-      "pvpWins": 0,
-      "pvpBattles": 0
-    },
-    {
-      "rank": 20,
-      "name": "dj_webb32",
-      "bossesDefeated": 12,
-      "defeated": [
-        "guard-scorpion",
-        "air-buster",
-        "aps",
-        "reno",
-        "sample-h0512",
-        "gunner",
-        "rufus",
-        "motor-ball",
-        "bottomswell",
-        "jenova-birth",
-        "dyne",
-        "rude"
-      ],
-      "currentBoss": "gi-nattak",
-      "power": 60,
-      "materiaCount": 22,
-      "equippedValue": 515,
-      "equippedMin": 515,
-      "equippedMax": 515,
-      "pets": [],
-      "loadout": [
-        {
-          "label": "Wpn.",
-          "name": "Mythril Saber",
-          "slots": [
-            {
-              "name": "Odin",
-              "color": "red"
-            },
-            {
-              "name": "Master Magic",
-              "color": "green"
-            },
-            {
-              "name": "Ultima",
-              "color": "green"
-            }
-          ]
-        },
-        {
-          "label": "Arm.",
-          "name": "Four Slots",
-          "slots": [
-            {
-              "name": "Bolt3",
-              "color": "green"
-            },
-            {
-              "name": "Fire3",
-              "color": "green"
-            },
-            {
-              "name": "Ice3",
-              "color": "green"
-            },
-            {
-              "name": "Kjata",
-              "color": "red"
-            }
-          ]
-        }
-      ],
-      "spare": [
-        {
-          "name": "Bio",
-          "color": "green",
-          "qty": 3
-        },
-        {
-          "name": "Comet",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Demi",
-          "color": "green",
-          "qty": 4
-        },
-        {
-          "name": "Ice2",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Quake2",
-          "color": "green",
-          "qty": 2
-        },
-        {
-          "name": "Deathblow",
-          "color": "yellow",
-          "qty": 3
-        },
-        {
-          "name": "Mug",
-          "color": "yellow",
-          "qty": 1
         }
       ],
       "pvpWins": 0,
