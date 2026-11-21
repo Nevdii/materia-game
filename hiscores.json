@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T04:16:57.774Z",
+  "updatedAt": "2026-11-21T04:26:57.766Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -3088,8 +3088,8 @@
         "palmer"
       ],
       "currentBoss": "red-dragon",
-      "power": 67,
-      "materiaCount": 24,
+      "power": 63,
+      "materiaCount": 23,
       "equippedValue": 585,
       "equippedMin": 585,
       "equippedMax": 585,
@@ -3174,11 +3174,6 @@
         {
           "name": "Mug",
           "color": "yellow",
-          "qty": 1
-        },
-        {
-          "name": "Kjata",
-          "color": "red",
           "qty": 1
         }
       ],
