@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T02:13:45.862Z",
+  "updatedAt": "2026-11-22T02:23:45.853Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -158,17 +158,21 @@
         "jenova-synthesis"
       ],
       "currentBoss": null,
-      "power": 207,
-      "materiaCount": 108,
-      "equippedValue": 1100,
-      "equippedMin": 1100,
-      "equippedMax": 1100,
+      "power": 261,
+      "materiaCount": 127,
+      "equippedValue": 1220,
+      "equippedMin": 1220,
+      "equippedMax": 1220,
       "pets": [],
       "loadout": [
         {
           "label": "Wpn.",
           "name": "Ultima Weapon",
           "slots": [
+            {
+              "name": "Knights of the Round",
+              "color": "red"
+            },
             {
               "name": "Bahamut",
               "color": "red"
@@ -196,10 +200,6 @@
             {
               "name": "Bolt3",
               "color": "green"
-            },
-            {
-              "name": "Fire3",
-              "color": "green"
             }
           ]
         },
@@ -207,6 +207,10 @@
           "label": "Arm.",
           "name": "Precious Watch",
           "slots": [
+            {
+              "name": "Fire3",
+              "color": "green"
+            },
             {
               "name": "Ice3",
               "color": "green"
@@ -220,6 +224,10 @@
               "color": "red"
             },
             {
+              "name": "Leviathan",
+              "color": "red"
+            },
+            {
               "name": "Phoenix",
               "color": "red"
             },
@@ -230,14 +238,6 @@
             {
               "name": "Titan",
               "color": "red"
-            },
-            {
-              "name": "Chocobo Lure",
-              "color": "purple"
-            },
-            {
-              "name": "HP Max",
-              "color": "purple"
             }
           ]
         }
@@ -261,7 +261,7 @@
         {
           "name": "Chocobo Lure",
           "color": "purple",
-          "qty": 4
+          "qty": 5
         },
         {
           "name": "Counter Attack",
@@ -272,6 +272,11 @@
           "name": "Cover",
           "color": "purple",
           "qty": 14
+        },
+        {
+          "name": "HP Max",
+          "color": "purple",
+          "qty": 1
         },
         {
           "name": "HP Plus",
@@ -311,15 +316,25 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 1
+          "qty": 10
         },
         {
           "name": "Ifrit",
+          "color": "red",
+          "qty": 5
+        },
+        {
+          "name": "Kjata",
           "color": "red",
           "qty": 1
         },
         {
           "name": "Shiva",
+          "color": "red",
+          "qty": 3
+        },
+        {
+          "name": "Titan",
           "color": "red",
           "qty": 1
         }
@@ -847,8 +862,8 @@
         "chocobo-race"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 129,
-      "materiaCount": 45,
+      "power": 115,
+      "materiaCount": 34,
       "equippedValue": 1095,
       "equippedMin": 1095,
       "equippedMax": 1095,
@@ -953,11 +968,6 @@
           "qty": 1
         },
         {
-          "name": "Deathblow",
-          "color": "yellow",
-          "qty": 3
-        },
-        {
           "name": "Double Cut",
           "color": "yellow",
           "qty": 1
@@ -968,19 +978,9 @@
           "qty": 2
         },
         {
-          "name": "Sense",
-          "color": "yellow",
-          "qty": 2
-        },
-        {
           "name": "Steal",
           "color": "yellow",
-          "qty": 5
-        },
-        {
-          "name": "HP Plus",
-          "color": "purple",
-          "qty": 2
+          "qty": 1
         },
         {
           "name": "MP Plus",
@@ -2016,8 +2016,8 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 169,
-      "materiaCount": 66,
+      "power": 279,
+      "materiaCount": 106,
       "equippedValue": 805,
       "equippedMin": 805,
       "equippedMax": 805,
@@ -2178,27 +2178,42 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 7
+          "qty": 27
         },
         {
           "name": "Ifrit",
           "color": "red",
-          "qty": 7
+          "qty": 14
+        },
+        {
+          "name": "Kjata",
+          "color": "red",
+          "qty": 2
         },
         {
           "name": "Leviathan",
+          "color": "red",
+          "qty": 6
+        },
+        {
+          "name": "Phoenix",
           "color": "red",
           "qty": 1
         },
         {
           "name": "Ramuh",
           "color": "red",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Shiva",
           "color": "red",
-          "qty": 2
+          "qty": 5
+        },
+        {
+          "name": "Titan",
+          "color": "red",
+          "qty": 1
         }
       ],
       "pvpWins": 0,
@@ -3444,8 +3459,8 @@
         "rude"
       ],
       "currentBoss": "gi-nattak",
-      "power": 82,
-      "materiaCount": 34,
+      "power": 250,
+      "materiaCount": 94,
       "equippedValue": 535,
       "equippedMin": 535,
       "equippedMax": 535,
@@ -3551,7 +3566,12 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 1
+          "qty": 29
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 9
         },
         {
           "name": "Kjata",
@@ -3559,14 +3579,34 @@
           "qty": 1
         },
         {
+          "name": "Leviathan",
+          "color": "red",
+          "qty": 2
+        },
+        {
+          "name": "Odin",
+          "color": "red",
+          "qty": 2
+        },
+        {
           "name": "Phoenix",
           "color": "red",
-          "qty": 1
+          "qty": 3
         },
         {
           "name": "Ramuh",
           "color": "red",
-          "qty": 2
+          "qty": 4
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 9
+        },
+        {
+          "name": "Titan",
+          "color": "red",
+          "qty": 6
         }
       ],
       "pvpWins": 0,
