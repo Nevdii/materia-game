@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T02:43:45.833Z",
+  "updatedAt": "2026-11-22T02:53:45.823Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -158,11 +158,11 @@
         "jenova-synthesis"
       ],
       "currentBoss": null,
-      "power": 500,
-      "materiaCount": 307,
-      "equippedValue": 1260,
-      "equippedMin": 1260,
-      "equippedMax": 1260,
+      "power": 438,
+      "materiaCount": 259,
+      "equippedValue": 1280,
+      "equippedMin": 1280,
+      "equippedMax": 1280,
       "pets": [],
       "loadout": [
         {
@@ -182,6 +182,10 @@
               "color": "red"
             },
             {
+              "name": "4x Cut",
+              "color": "yellow"
+            },
+            {
               "name": "Bio3",
               "color": "green"
             },
@@ -196,10 +200,6 @@
             {
               "name": "Master Command",
               "color": "yellow"
-            },
-            {
-              "name": "Master Magic",
-              "color": "green"
             }
           ]
         },
@@ -207,6 +207,10 @@
           "label": "Arm.",
           "name": "Precious Watch",
           "slots": [
+            {
+              "name": "Master Magic",
+              "color": "green"
+            },
             {
               "name": "Ultima",
               "color": "green"
@@ -234,20 +238,11 @@
             {
               "name": "Leviathan",
               "color": "red"
-            },
-            {
-              "name": "Phoenix",
-              "color": "red"
             }
           ]
         }
       ],
       "spare": [
-        {
-          "name": "Bio",
-          "color": "green",
-          "qty": 4
-        },
         {
           "name": "Bolt",
           "color": "green",
@@ -266,12 +261,7 @@
         {
           "name": "Fire",
           "color": "green",
-          "qty": 30
-        },
-        {
-          "name": "Ice",
-          "color": "green",
-          "qty": 15
+          "qty": 10
         },
         {
           "name": "Master Magic",
@@ -281,7 +271,7 @@
         {
           "name": "Quake",
           "color": "green",
-          "qty": 26
+          "qty": 6
         },
         {
           "name": "Ultima",
@@ -291,17 +281,12 @@
         {
           "name": "Deathblow",
           "color": "yellow",
-          "qty": 6
-        },
-        {
-          "name": "Double Cut",
-          "color": "yellow",
-          "qty": 2
+          "qty": 8
         },
         {
           "name": "Enemy Skill",
           "color": "yellow",
-          "qty": 2
+          "qty": 4
         },
         {
           "name": "Master Command",
@@ -311,12 +296,12 @@
         {
           "name": "Sense",
           "color": "yellow",
-          "qty": 55
+          "qty": 77
         },
         {
           "name": "Steal",
           "color": "yellow",
-          "qty": 46
+          "qty": 45
         },
         {
           "name": "Chocobo Lure",
@@ -364,11 +349,6 @@
           "qty": 2
         },
         {
-          "name": "Choco/Mog",
-          "color": "red",
-          "qty": 10
-        },
-        {
           "name": "Ifrit",
           "color": "red",
           "qty": 5
@@ -379,14 +359,14 @@
           "qty": 1
         },
         {
-          "name": "Ramuh",
+          "name": "Phoenix",
           "color": "red",
           "qty": 1
         },
         {
-          "name": "Shiva",
+          "name": "Ramuh",
           "color": "red",
-          "qty": 3
+          "qty": 1
         },
         {
           "name": "Titan",
@@ -917,8 +897,8 @@
         "chocobo-race"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 125,
-      "materiaCount": 44,
+      "power": 128,
+      "materiaCount": 47,
       "equippedValue": 1095,
       "equippedMin": 1095,
       "equippedMax": 1095,
@@ -1035,12 +1015,12 @@
         {
           "name": "Sense",
           "color": "yellow",
-          "qty": 4
+          "qty": 5
         },
         {
           "name": "Steal",
           "color": "yellow",
-          "qty": 7
+          "qty": 9
         },
         {
           "name": "MP Plus",
@@ -3354,7 +3334,7 @@
     {
       "rank": 20,
       "name": "leotrinds",
-      "bossesDefeated": 14,
+      "bossesDefeated": 15,
       "defeated": [
         "guard-scorpion",
         "air-buster",
@@ -3369,11 +3349,12 @@
         "dyne",
         "rude",
         "gi-nattak",
-        "materia-keeper"
+        "materia-keeper",
+        "palmer"
       ],
-      "currentBoss": "palmer",
-      "power": 255,
-      "materiaCount": 103,
+      "currentBoss": "red-dragon",
+      "power": 143,
+      "materiaCount": 62,
       "equippedValue": 620,
       "equippedMin": 620,
       "equippedMax": 620,
@@ -3503,17 +3484,17 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 19
+          "qty": 1
         },
         {
           "name": "Ifrit",
           "color": "red",
-          "qty": 9
+          "qty": 1
         },
         {
           "name": "Kjata",
           "color": "red",
-          "qty": 3
+          "qty": 1
         },
         {
           "name": "Leviathan",
@@ -3533,17 +3514,17 @@
         {
           "name": "Ramuh",
           "color": "red",
-          "qty": 4
+          "qty": 1
         },
         {
           "name": "Shiva",
           "color": "red",
-          "qty": 9
+          "qty": 1
         },
         {
           "name": "Titan",
           "color": "red",
-          "qty": 3
+          "qty": 1
         }
       ],
       "pvpWins": 0,
@@ -4435,8 +4416,8 @@
         "reno"
       ],
       "currentBoss": "sample-h0512",
-      "power": 112,
-      "materiaCount": 42,
+      "power": 150,
+      "materiaCount": 52,
       "equippedValue": 215,
       "equippedMin": 215,
       "equippedMax": 215,
@@ -4485,7 +4466,7 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 17
+          "qty": 18
         },
         {
           "name": "Ifrit",
@@ -4495,22 +4476,32 @@
         {
           "name": "Kjata",
           "color": "red",
-          "qty": 1
+          "qty": 3
         },
         {
-          "name": "Phoenix",
+          "name": "Odin",
           "color": "red",
           "qty": 2
         },
         {
+          "name": "Phoenix",
+          "color": "red",
+          "qty": 3
+        },
+        {
           "name": "Ramuh",
           "color": "red",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Shiva",
           "color": "red",
-          "qty": 11
+          "qty": 13
+        },
+        {
+          "name": "Titan",
+          "color": "red",
+          "qty": 1
         }
       ],
       "pvpWins": 0,
@@ -4841,8 +4832,8 @@
       "bossesDefeated": 0,
       "defeated": [],
       "currentBoss": "guard-scorpion",
-      "power": 51,
-      "materiaCount": 32,
+      "power": 56,
+      "materiaCount": 36,
       "equippedValue": 20,
       "equippedMin": 20,
       "equippedMax": 20,
@@ -4874,12 +4865,12 @@
         {
           "name": "Bio",
           "color": "green",
-          "qty": 2
+          "qty": 3
         },
         {
           "name": "Bolt",
           "color": "green",
-          "qty": 2
+          "qty": 4
         },
         {
           "name": "Comet",
@@ -4894,7 +4885,7 @@
         {
           "name": "Fire",
           "color": "green",
-          "qty": 4
+          "qty": 5
         },
         {
           "name": "Ice",
