@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T01:33:45.899Z",
+  "updatedAt": "2026-11-22T01:53:45.881Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -576,8 +576,8 @@
         "jenova-synthesis"
       ],
       "currentBoss": null,
-      "power": 88,
-      "materiaCount": 21,
+      "power": 106,
+      "materiaCount": 27,
       "equippedValue": 1130,
       "equippedMin": 1085,
       "equippedMax": 1175,
@@ -667,7 +667,27 @@
           "qty": 3
         },
         {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 3
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
+        },
+        {
           "name": "Kjata",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Leviathan",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Odin",
           "color": "red",
           "qty": 1
         },
@@ -2381,11 +2401,11 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 75,
-      "materiaCount": 28,
-      "equippedValue": 765,
-      "equippedMin": 720,
-      "equippedMax": 810,
+      "power": 86,
+      "materiaCount": 32,
+      "equippedValue": 780,
+      "equippedMin": 780,
+      "equippedMax": 780,
       "pets": [],
       "loadout": [
         {
@@ -2431,6 +2451,10 @@
               "color": "red"
             },
             {
+              "name": "Ramuh",
+              "color": "red"
+            },
+            {
               "name": "Titan",
               "color": "red"
             },
@@ -2441,15 +2465,16 @@
             {
               "name": "Demi2",
               "color": "green"
-            },
-            {
-              "name": "Deathblow",
-              "color": "yellow"
             }
           ]
         }
       ],
       "spare": [
+        {
+          "name": "Deathblow",
+          "color": "yellow",
+          "qty": 1
+        },
         {
           "name": "Sense",
           "color": "yellow",
@@ -2463,7 +2488,12 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 2
+          "qty": 4
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
         },
         {
           "name": "Kjata",
@@ -4849,6 +4879,64 @@
     },
     {
       "rank": 38,
+      "name": "cjizzleee",
+      "bossesDefeated": 0,
+      "defeated": [],
+      "currentBoss": "guard-scorpion",
+      "power": 24,
+      "materiaCount": 8,
+      "equippedValue": 130,
+      "equippedMin": 130,
+      "equippedMax": 130,
+      "pets": [],
+      "loadout": [
+        {
+          "label": "Wpn.",
+          "name": "Buster Sword",
+          "slots": [
+            {
+              "name": "Leviathan",
+              "color": "red"
+            },
+            {
+              "name": "Ifrit",
+              "color": "red"
+            }
+          ]
+        },
+        {
+          "label": "Arm.",
+          "name": "Iron Bangle",
+          "slots": [
+            {
+              "name": "Shiva",
+              "color": "red"
+            }
+          ]
+        }
+      ],
+      "spare": [
+        {
+          "name": "Choco/Mog",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Ifrit",
+          "color": "red",
+          "qty": 1
+        },
+        {
+          "name": "Shiva",
+          "color": "red",
+          "qty": 3
+        }
+      ],
+      "pvpWins": 0,
+      "pvpBattles": 0
+    },
+    {
+      "rank": 39,
       "name": "azuremen",
       "bossesDefeated": 0,
       "defeated": [],
@@ -4916,7 +5004,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 39,
+      "rank": 40,
       "name": "drinnar",
       "bossesDefeated": 0,
       "defeated": [],
@@ -4973,7 +5061,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 40,
+      "rank": 41,
       "name": "iamkyluya",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5046,7 +5134,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 41,
+      "rank": 42,
       "name": "capitan_jefe",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5104,7 +5192,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 42,
+      "rank": 43,
       "name": "dargkkast",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5157,7 +5245,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 43,
+      "rank": 44,
       "name": "mrockstar20",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5199,7 +5287,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 44,
+      "rank": 45,
       "name": "technowaffle36",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5238,7 +5326,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 45,
+      "rank": 46,
       "name": "molluskio",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5274,7 +5362,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 46,
+      "rank": 47,
       "name": "cadjin",
       "bossesDefeated": 0,
       "defeated": [],
@@ -5310,7 +5398,7 @@
       "pvpBattles": 0
     },
     {
-      "rank": 47,
+      "rank": 48,
       "name": "cruelbeanz",
       "bossesDefeated": 0,
       "defeated": [],
