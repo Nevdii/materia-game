@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T01:23:45.908Z",
+  "updatedAt": "2026-11-22T01:33:45.899Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -1045,8 +1045,8 @@
         "chocobo-race"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 101,
-      "materiaCount": 32,
+      "power": 89,
+      "materiaCount": 25,
       "equippedValue": 1225,
       "equippedMin": 1225,
       "equippedMax": 1225,
@@ -1136,16 +1136,6 @@
           "qty": 3
         },
         {
-          "name": "Bolt",
-          "color": "green",
-          "qty": 1
-        },
-        {
-          "name": "Bolt2",
-          "color": "green",
-          "qty": 1
-        },
-        {
           "name": "Comet",
           "color": "green",
           "qty": 1
@@ -1171,24 +1161,9 @@
           "qty": 1
         },
         {
-          "name": "Deathblow",
-          "color": "yellow",
-          "qty": 2
-        },
-        {
-          "name": "Steal",
-          "color": "yellow",
-          "qty": 1
-        },
-        {
           "name": "Chocobo Lure",
           "color": "purple",
           "qty": 1
-        },
-        {
-          "name": "Speed Plus",
-          "color": "purple",
-          "qty": 2
         }
       ],
       "pvpWins": 0,
