@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T01:13:45.917Z",
+  "updatedAt": "2026-11-22T01:23:45.908Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -1045,11 +1045,11 @@
         "chocobo-race"
       ],
       "currentBoss": "jenova-synthesis",
-      "power": 90,
-      "materiaCount": 29,
-      "equippedValue": 1190,
-      "equippedMin": 1190,
-      "equippedMax": 1190,
+      "power": 101,
+      "materiaCount": 32,
+      "equippedValue": 1225,
+      "equippedMin": 1225,
+      "equippedMax": 1225,
       "pets": [],
       "loadout": [
         {
@@ -1077,15 +1077,15 @@
               "color": "green"
             },
             {
+              "name": "Master Command",
+              "color": "yellow"
+            },
+            {
               "name": "Master Magic",
               "color": "green"
             },
             {
               "name": "Ultima",
-              "color": "green"
-            },
-            {
-              "name": "Bolt3",
               "color": "green"
             }
           ]
@@ -1094,6 +1094,10 @@
           "label": "Arm.",
           "name": "Precious Watch",
           "slots": [
+            {
+              "name": "Bolt3",
+              "color": "green"
+            },
             {
               "name": "Fire3",
               "color": "green"
@@ -1119,12 +1123,8 @@
               "color": "yellow"
             },
             {
-              "name": "Bolt2",
-              "color": "green"
-            },
-            {
-              "name": "Fire2",
-              "color": "green"
+              "name": "Enemy Skill",
+              "color": "yellow"
             }
           ]
         }
@@ -1141,12 +1141,22 @@
           "qty": 1
         },
         {
+          "name": "Bolt2",
+          "color": "green",
+          "qty": 1
+        },
+        {
           "name": "Comet",
           "color": "green",
           "qty": 1
         },
         {
           "name": "Demi",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Fire2",
           "color": "green",
           "qty": 1
         },
@@ -1163,7 +1173,7 @@
         {
           "name": "Deathblow",
           "color": "yellow",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Steal",
