@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T04:56:57.737Z",
+  "updatedAt": "2026-11-22T00:43:45.950Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -800,8 +800,8 @@
         }
       ],
       "spare": [],
-      "pvpWins": 1,
-      "pvpBattles": 1
+      "pvpWins": 2,
+      "pvpBattles": 2
     },
     {
       "rank": 5,
@@ -1182,7 +1182,7 @@
         }
       ],
       "pvpWins": 0,
-      "pvpBattles": 0
+      "pvpBattles": 1
     },
     {
       "rank": 7,
@@ -3531,8 +3531,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 71,
-      "materiaCount": 33,
+      "power": 72,
+      "materiaCount": 34,
       "equippedValue": 445,
       "equippedMin": 445,
       "equippedMax": 445,
@@ -3584,7 +3584,7 @@
         {
           "name": "Bolt",
           "color": "green",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Bolt2",
