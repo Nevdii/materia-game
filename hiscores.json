@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T00:43:45.950Z",
+  "updatedAt": "2026-11-22T00:53:45.938Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -4416,8 +4416,8 @@
         "reno"
       ],
       "currentBoss": "sample-h0512",
-      "power": 26,
-      "materiaCount": 11,
+      "power": 29,
+      "materiaCount": 12,
       "equippedValue": 165,
       "equippedMin": 165,
       "equippedMax": 165,
@@ -4471,7 +4471,7 @@
         {
           "name": "Shiva",
           "color": "red",
-          "qty": 1
+          "qty": 2
         }
       ],
       "pvpWins": 0,
@@ -4740,9 +4740,9 @@
       "currentBoss": "guard-scorpion",
       "power": 47,
       "materiaCount": 29,
-      "equippedValue": 10,
-      "equippedMin": 10,
-      "equippedMax": 10,
+      "equippedValue": 20,
+      "equippedMin": 20,
+      "equippedMax": 20,
       "pets": [],
       "loadout": [
         {
@@ -4753,7 +4753,10 @@
               "name": "HP Plus",
               "color": "purple"
             },
-            null
+            {
+              "name": "Ice",
+              "color": "green"
+            }
           ]
         },
         {
@@ -4788,7 +4791,7 @@
         {
           "name": "Ice",
           "color": "green",
-          "qty": 4
+          "qty": 3
         },
         {
           "name": "Quake",
