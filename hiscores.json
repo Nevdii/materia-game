@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T01:53:45.881Z",
+  "updatedAt": "2026-11-22T02:03:45.871Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -576,8 +576,8 @@
         "jenova-synthesis"
       ],
       "currentBoss": null,
-      "power": 106,
-      "materiaCount": 27,
+      "power": 97,
+      "materiaCount": 23,
       "equippedValue": 1130,
       "equippedMin": 1085,
       "equippedMax": 1175,
@@ -665,16 +665,6 @@
           "name": "Master Magic",
           "color": "green",
           "qty": 3
-        },
-        {
-          "name": "Choco/Mog",
-          "color": "red",
-          "qty": 3
-        },
-        {
-          "name": "Ifrit",
-          "color": "red",
-          "qty": 1
         },
         {
           "name": "Kjata",
@@ -2011,8 +2001,8 @@
         "proud-clod"
       ],
       "currentBoss": "hojo",
-      "power": 146,
-      "materiaCount": 57,
+      "power": 169,
+      "materiaCount": 66,
       "equippedValue": 805,
       "equippedMin": 805,
       "equippedMax": 805,
@@ -2173,12 +2163,17 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 2
+          "qty": 7
         },
         {
           "name": "Ifrit",
           "color": "red",
-          "qty": 5
+          "qty": 7
+        },
+        {
+          "name": "Leviathan",
+          "color": "red",
+          "qty": 1
         },
         {
           "name": "Ramuh",
@@ -2188,7 +2183,7 @@
         {
           "name": "Shiva",
           "color": "red",
-          "qty": 1
+          "qty": 2
         }
       ],
       "pvpWins": 0,
