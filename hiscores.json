@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T00:53:45.938Z",
+  "updatedAt": "2026-11-22T01:13:45.917Z",
   "pvpRange": 50,
   "barMax": 1100,
   "bosses": [
@@ -2845,8 +2845,8 @@
         "demons-gate"
       ],
       "currentBoss": "jenova-life",
-      "power": 103,
-      "materiaCount": 39,
+      "power": 105,
+      "materiaCount": 40,
       "equippedValue": 625,
       "equippedMin": 625,
       "equippedMax": 625,
@@ -2950,7 +2950,7 @@
         {
           "name": "Choco/Mog",
           "color": "red",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Ifrit",
@@ -3531,8 +3531,8 @@
         "bottomswell"
       ],
       "currentBoss": "jenova-birth",
-      "power": 72,
-      "materiaCount": 34,
+      "power": 73,
+      "materiaCount": 35,
       "equippedValue": 445,
       "equippedMin": 445,
       "equippedMax": 445,
@@ -3614,7 +3614,7 @@
         {
           "name": "Quake",
           "color": "green",
-          "qty": 3
+          "qty": 4
         },
         {
           "name": "Quake2",
@@ -4738,8 +4738,8 @@
       "bossesDefeated": 0,
       "defeated": [],
       "currentBoss": "guard-scorpion",
-      "power": 47,
-      "materiaCount": 29,
+      "power": 51,
+      "materiaCount": 32,
       "equippedValue": 20,
       "equippedMin": 20,
       "equippedMax": 20,
@@ -4776,10 +4776,15 @@
         {
           "name": "Bolt",
           "color": "green",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Comet",
+          "color": "green",
+          "qty": 1
+        },
+        {
+          "name": "Demi",
           "color": "green",
           "qty": 1
         },
@@ -4796,7 +4801,7 @@
         {
           "name": "Quake",
           "color": "green",
-          "qty": 1
+          "qty": 2
         },
         {
           "name": "Sense",
